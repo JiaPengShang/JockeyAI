@@ -1,0 +1,35 @@
+
+ADVANCED THREE-WAY ANALYSIS INSIGHTS
+===================================
+
+STRONGEST CROSS-DOMAIN CORRELATIONS:
+• Food-Work: Entries ↔ Entries: 0.917
+• Food-Work: Count ↔ Entries: 0.915
+• Food-Work: Types ↔ Entries: 0.894
+• Food-Work: Count ↔ Count: 0.869
+• Food-Work: Count ↔ Diversity: 0.865
+• Food-Work: Ratio ↔ Entries: 0.860
+• Food-Work: Count ↔ Entries: 0.851
+• Food-Work: Count ↔ Entries: 0.845
+• Food-Work: Count ↔ Count: 0.842
+• Food-Work: Count ↔ Diversity: 0.841
+
+KEY FINDINGS:
+1. Food-Work Synchronization: Strong correlation (0.917) indicates coordinated tracking behavior
+2. Multi-dimensional Relationships: 3D analysis reveals complex interdependencies
+3. Temporal Patterns: Rolling correlations show evolving relationships over time
+4. Statistical Validation: Manual regression and PCA confirm robust patterns
+
+ACTIONABLE INSIGHTS:
+• Leverage strong Food-Work correlation for integrated lifestyle optimization
+• Monitor temporal correlation changes for early pattern detection
+• Use multi-dimensional approach for holistic health assessment
+• Continue systematic tracking across all three domains
+
+VISUALIZATION OUTPUTS:
+- 3D scatter plots showing multi-dimensional relationships
+- Correlation network analysis with node positioning
+- Statistical validation through manual regression analysis
+- Rolling correlation analysis for temporal patterns
+- Manual PCA-like dimensionality reduction
+- Advanced correlation matrices with significance testing

@@ -1,0 +1,38 @@
+
+COMPREHENSIVE DATASET STRUCTURE ANALYSIS
+=======================================
+
+OVERVIEW:
+- Total datasets: 3
+- Food dataset: 45 rows × 16 columns
+- Sleep dataset: 115 rows × 17 columns  
+- Work dataset: 54 rows × 16 columns
+
+FOOD DATASET STRUCTURE:
+- Format: Wide format with longitudinal data
+- Test sessions: 14 test sessions (excluding Unnamed:0 and Name columns)
+- Data organization: Metadata in first 3 rows, actual data starts row 4
+- Time span: Multiple test sessions from 2023 to 2025
+- Content: Daily food intake across different meals and snacks
+
+SLEEP DATASET STRUCTURE:
+- Columns: 17
+- Rows: 115
+- Column names: ['Unnamed: 0', 'Week', 'Name', 'Chung Kwok Lun (Jim)', 'Chung Kwok Lun (Jim).1', 'Chung Kwok Lun (Jim).2', 'Chung Kwok Lun (Jim).3', 'Chung Kwok Lun (Jim).4', 'Chung Kwok Lun (Jim).5', 'Chung Kwok Lun (Jim).6', 'Chung Kwok Lun (Jim).7', 'Chung Kwok Lun (Jim).8', 'Chung Kwok Lun (Jim).9', 'Chung Kwok Lun (Jim).10', 'Chung Kwok Lun (Jim).11', 'Chung Kwok Lun (Jim).12', 'Chung Kwok Lun (Jim).13']
+
+WORK DATASET STRUCTURE:  
+- Columns: 16
+- Rows: 54
+- Column names: ['Unnamed: 0', 'Name', 'Chung Kwok Lun (Jim)', 'Chung Kwok Lun (Jim).1', 'Chung Kwok Lun (Jim).2', 'Chung Kwok Lun (Jim).3', 'Chung Kwok Lun (Jim).4', 'Chung Kwok Lun (Jim).5', 'Chung Kwok Lun (Jim).6', 'Chung Kwok Lun (Jim).7', 'Chung Kwok Lun (Jim).8', 'Chung Kwok Lun (Jim).9', 'Chung Kwok Lun (Jim).10', 'Chung Kwok Lun (Jim).11', 'Chung Kwok Lun (Jim).12', 'Chung Kwok Lun (Jim).13']
+
+DATA QUALITY OVERVIEW:
+- Food dataset missing values: 147 total
+- Sleep dataset missing values: 263 total
+- Work dataset missing values: 574 total
+
+NEXT STEPS:
+1. Clean and restructure food data from wide to long format
+2. Parse dates and extract temporal patterns
+3. Analyze sleep patterns and metrics
+4. Examine work-related data and productivity measures
+5. Identify correlations between food, sleep, and work patterns
