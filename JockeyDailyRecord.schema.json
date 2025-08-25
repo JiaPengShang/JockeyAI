@@ -1,0 +1,416 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.org/JockeyDailyRecord.schema.json",
+  "title": "JockeyDailyRecord",
+  "description": "Schema for a single participant's daily record (food, sleep, workload) with provenance.",
+  "type": "object",
+  "required": [
+    "participant_id",
+    "record_date",
+    "workload",
+    "sleep",
+    "meals",
+    "provenance"
+  ],
+  "properties": {
+    "participant_id": {
+      "type": "string",
+      "description": "Anonymized participant ID, e.g., J001"
+    },
+    "record_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "YYYY-MM-DD"
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "wave_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "6-week collection batch identifier"
+    },
+    "is_race_day": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workload": {
+      "type": "object",
+      "required": [
+        "trackwork_count",
+        "races_count",
+        "falls_count"
+      ],
+      "properties": {
+        "trackwork_count": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "races_count": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "falls_count": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "distance_km": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "sleep": {
+      "type": "object",
+      "required": [
+        "bedtime",
+        "wakeup_time",
+        "sleep_latency_min",
+        "quality_code",
+        "morning_feel"
+      ],
+      "properties": {
+        "bedtime": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "wakeup_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sleep_latency_min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "quality_code": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "VG",
+            "G",
+            "A",
+            "P",
+            "UNK",
+            null
+          ]
+        },
+        "morning_feel": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Ref",
+            "Tired",
+            "Grog",
+            "Alert",
+            "UNK",
+            null
+          ]
+        },
+        "night_awakenings": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "naps_min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "caffeine": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "alcohol_drinks": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "exercise_min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "mood": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Pos",
+            "Neg",
+            "Neu",
+            "UNK",
+            null
+          ]
+        },
+        "pre_bed_activities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "meals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "meal_type",
+          "items"
+        ],
+        "properties": {
+          "meal_type": {
+            "type": "string",
+            "enum": [
+              "breakfast",
+              "lunch",
+              "dinner",
+              "snack",
+              "beverage",
+              "other"
+            ]
+          },
+          "time": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "HH:MM (optional)"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "raw_name"
+              ],
+              "properties": {
+                "raw_name": {
+                  "type": "string"
+                },
+                "canonical_food": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "food_group": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "processing_level": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "enum": [
+                    "unprocessed",
+                    "minimally",
+                    "processed",
+                    "ultra_processed",
+                    null
+                  ]
+                },
+                "convenience_flag": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                },
+                "color_tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "portion_qty": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "portion_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "est_energy_kcal": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "est_macros_g": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "carb": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "protein": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "fat": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    }
+                  }
+                },
+                "notes": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "daily_totals": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "energy_kcal": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "carb_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "protein_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fat_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "plate_color_diversity": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "convenience_ratio": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "diet_quality_score": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "food_diary",
+                  "work_diary",
+                  "sleep_diary",
+                  "ocr"
+                ]
+              },
+              "source_id": {
+                "type": "string"
+              },
+              "page": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "evidence_span": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "ocr_confidence": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
