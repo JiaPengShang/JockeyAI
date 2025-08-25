@@ -60,6 +60,47 @@ class NutritionVisualizer:
         
         return fig
     
+    def create_food_category_pie_chart(self, food_categories):
+        """创建食物类别饼图"""
+        if not food_categories:
+            # 创建空图表
+            fig = go.Figure()
+            fig.add_annotation(
+                text="暂无食物数据",
+                xref="paper", yref="paper",
+                x=0.5, y=0.5, showarrow=False,
+                font=dict(size=16)
+            )
+            fig.update_layout(
+                title="食物类别分布",
+                height=400
+            )
+            return fig
+        
+        labels = list(food_categories.keys())
+        values = list(food_categories.values())
+        
+        # 为每个类别分配颜色
+        colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#FFB347', '#98D8C8']
+        
+        fig = go.Figure(data=[go.Pie(
+            labels=labels,
+            values=values,
+            hole=0.3,
+            marker_colors=colors[:len(labels)],
+            textinfo='label+percent+value',
+            textposition='inside'
+        )])
+        
+        fig.update_layout(
+            title="食物类别分布饼图",
+            showlegend=True,
+            height=400,
+            margin=dict(t=50, b=50, l=50, r=50)
+        )
+        
+        return fig
+    
     def create_nutrition_comparison_chart(self, actual_data, target_data):
         """创建营养目标对比图"""
         nutrients = list(actual_data.keys())

@@ -4,7 +4,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenAI API Configuration
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+# 如果没有设置环境变量，使用默认值（需要用户更新）
+if not OPENAI_API_KEY:
+    OPENAI_API_KEY = "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"
 
 # Food Classification Configuration
 FOOD_CATEGORIES = {

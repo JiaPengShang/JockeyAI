@@ -14,6 +14,7 @@ from ocr_processor import OCRProcessor
 from food_classifier import FoodClassifier
 from nutrition_analyzer import NutritionAnalyzer
 from visualization import NutritionVisualizer
+from pdf_processor import PDFProcessor
 
 # Helpers
 def safe_parse_json(possibly_json_str: str):
@@ -50,7 +51,8 @@ def init_components():
         "ocr": OCRProcessor(),
         "classifier": FoodClassifier(),
         "analyzer": NutritionAnalyzer(),
-        "visualizer": NutritionVisualizer()
+        "visualizer": NutritionVisualizer(),
+        "pdf_processor": PDFProcessor()
     }
 
 # Custom CSS styles
@@ -113,7 +115,7 @@ def main():
         # Function selection
         page = st.selectbox(
             "Select Function",
-            ["📷 Image Recognition", "💬 Text Analysis", "📊 Nutrition Analysis", "📈 Trend Analysis", "⚙️ Settings"]
+            ["📄 PDF Analysis", "📷 Image Recognition", "💬 Text Analysis", "📊 Nutrition Analysis", "📈 Trend Analysis", "⚙️ Settings"]
         )
         
         st.markdown("---")
@@ -147,7 +149,9 @@ def main():
             st.error("Obese")
     
     # Main content area
-    if page == "📷 Image Recognition":
+    if page == "📄 PDF Analysis":
+        show_pdf_analysis(components)
+    elif page == "📷 Image Recognition":
         show_image_recognition(components)
     elif page == "💬 Text Analysis":
         show_text_analysis(components)
@@ -264,6 +268,231 @@ def show_text_analysis(components):
         else:
             st.warning("Please enter some text to analyze")
 
+def show_pdf_analysis(components):
+    """PDF analysis page"""
+    st.markdown('<h1 class="main-header">📄 PDF Analysis</h1>', unsafe_allow_html=True)
+    
+    st.markdown("""
+    ### 📋 功能说明
+    上传包含食物信息的PDF文件，系统将：
+    - 🔍 识别PDF中所有页面的文字内容
+    - 🍽️ 提取所有食物数据并进行分类
+    - 📊 生成食物类别分布饼图
+    - 💡 提供个性化饮食建议报告
+    """)
+    
+    # File upload
+    uploaded_file = st.file_uploader(
+        "上传PDF文件",
+        type=['pdf'],
+        help="支持多页面PDF文件，包含食物信息、营养标签等"
+    )
+    
+    if uploaded_file is not None:
+        # Display file info
+        file_size_mb = uploaded_file.size / (1024 * 1024)
+        st.success(f"✅ 文件上传成功: {uploaded_file.name}")
+        st.info(f"📄 文件大小: {file_size_mb:.1f} MB")
+        
+        # 性能提示
+        if file_size_mb > 10:
+            st.warning("⚠️ 文件较大，处理时间可能较长，请耐心等待...")
+        elif file_size_mb > 5:
+            st.info("💡 文件较大，预计处理时间：2-5分钟")
+        else:
+            st.info("💡 预计处理时间：30秒-2分钟")
+        
+        # Language selection
+        language = st.selectbox(
+            "选择识别语言",
+            ["中文", "English"],
+            index=0
+        )
+        
+        # 处理选项
+        col1, col2 = st.columns(2)
+        with col1:
+            processing_mode = st.selectbox(
+                "处理模式",
+                ["标准模式", "快速模式"],
+                index=0,
+                help="快速模式：降低图像质量以提高处理速度"
+            )
+        with col2:
+            if file_size_mb > 5:
+                st.info("💡 大文件建议使用快速模式")
+        
+        # Process button
+        if st.button("开始分析PDF", type="primary"):
+            try:
+                # 创建进度条
+                progress_bar = st.progress(0)
+                status_text = st.empty()
+                
+                def update_progress(message, progress):
+                    progress_bar.progress(progress)
+                    status_text.text(message)
+                
+                # Process PDF with progress
+                pdf_lang = "zh" if language == "中文" else "en"
+                fast_mode = processing_mode == "快速模式"
+                pdf_result = components["pdf_processor"].process_pdf_content(
+                    uploaded_file, 
+                    language=pdf_lang,
+                    progress_callback=update_progress,
+                    fast_mode=fast_mode
+                )
+                
+                # 清除进度条
+                progress_bar.empty()
+                status_text.empty()
+                
+                # Display results
+                st.success(f"✅ PDF处理完成！共处理 {pdf_result['total_pages']} 页")
+                
+                # Create tabs for different sections
+                tab1, tab2, tab3, tab4, tab5 = st.tabs([
+                    "📄 页面内容", "🍽️ 食物数据", "📊 营养分析", "🥧 类别分布", "💡 饮食建议"
+                ])
+                
+                with tab1:
+                        st.subheader("📄 提取的文字内容")
+                        st.text_area(
+                            "所有页面的文字内容",
+                            value=pdf_result['all_text'],
+                            height=300,
+                            disabled=True
+                        )
+                        
+                        # Show page-by-page results
+                        st.subheader("📄 分页详情")
+                        for page_result in pdf_result['page_results']:
+                            with st.expander(f"第 {page_result['page_number']} 页"):
+                                st.text_area(
+                                    f"第 {page_result['page_number']} 页文字",
+                                    value=page_result['text'],
+                                    height=150,
+                                    disabled=True
+                                )
+                
+                with tab2:
+                    st.subheader("🍽️ 识别的食物")
+                    if pdf_result['all_foods']:
+                        # Show food count
+                        st.success(f"📊 共识别到 {len(pdf_result['all_foods'])} 种食物")
+                        
+                        # Create DataFrame for better display
+                        foods_df = pd.DataFrame(pdf_result['all_foods'])
+                        st.dataframe(foods_df, use_container_width=True)
+                        
+                        # 显示食物详情
+                        st.subheader("🍽️ 食物详情")
+                        for i, food in enumerate(pdf_result['all_foods'], 1):
+                            with st.expander(f"{i}. {food.get('name', '未知食物')}"):
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    st.write(f"**类别**: {food.get('category', '未知')}")
+                                    st.write(f"**数量**: {food.get('quantity', '未知')}")
+                                with col2:
+                                    st.write(f"**热量**: {food.get('calories', 0)} kcal")
+                                    st.write(f"**蛋白质**: {food.get('protein', 0)} g")
+                                    st.write(f"**碳水化合物**: {food.get('carbs', 0)} g")
+                                    st.write(f"**脂肪**: {food.get('fat', 0)} g")
+                    else:
+                        st.warning("⚠️ 未识别到任何食物信息")
+                        st.info("💡 这可能是因为：")
+                        st.write("  • PDF中没有清晰的食物信息")
+                        st.write("  • 文字识别不准确")
+                        st.write("  • 需要调整识别语言设置")
+                
+                with tab3:
+                    st.subheader("📊 营养分析")
+                    total_nutrition = pdf_result['total_nutrition']
+                    
+                    # Display nutrition metrics
+                    col1, col2, col3, col4 = st.columns(4)
+                    with col1:
+                        st.metric("总热量", f"{total_nutrition['calories']:.1f} kcal")
+                    with col2:
+                        st.metric("蛋白质", f"{total_nutrition['protein']:.1f} g")
+                    with col3:
+                        st.metric("碳水化合物", f"{total_nutrition['carbs']:.1f} g")
+                    with col4:
+                        st.metric("脂肪", f"{total_nutrition['fat']:.1f} g")
+                    
+                    # Nutrition breakdown chart
+                    if components["visualizer"]:
+                        nutrition_data = {
+                            "蛋白质": total_nutrition['protein'] * 4,  # 4 kcal/g
+                            "碳水化合物": total_nutrition['carbs'] * 4,  # 4 kcal/g
+                            "脂肪": total_nutrition['fat'] * 9  # 9 kcal/g
+                        }
+                        fig = components["visualizer"].create_nutrition_pie_chart(nutrition_data)
+                        st.plotly_chart(fig, use_container_width=True)
+                
+                with tab4:
+                    st.subheader("🥧 食物类别分布")
+                    food_categories = pdf_result['food_categories']
+                    
+                    # 显示调试信息
+                    st.info(f"📊 检测到 {len(food_categories)} 个食物类别")
+                    
+                    if food_categories:
+                        # Display category counts
+                        st.write("📈 各类别食物数量:")
+                        for category, count in food_categories.items():
+                            st.write(f"  • {category}: {count} 种")
+                        
+                        # Create pie chart
+                        if components["visualizer"]:
+                            try:
+                                fig = components["visualizer"].create_food_category_pie_chart(food_categories)
+                                st.plotly_chart(fig, use_container_width=True)
+                                st.success("✅ 饼图生成成功！")
+                            except Exception as e:
+                                st.error(f"❌ 饼图生成失败: {str(e)}")
+                                # 显示原始数据
+                                st.write("原始数据:", food_categories)
+                    else:
+                        st.warning("⚠️ 暂无食物类别数据")
+                        st.info("💡 这可能是因为没有识别到食物信息，请检查PDF内容")
+                
+                with tab5:
+                    st.subheader("💡 饮食建议报告")
+                    dietary_advice = pdf_result['dietary_advice']
+                    
+                    # Display advice in a nice format
+                    st.markdown("""
+                    <div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; border-left: 4px solid #007bff;">
+                    """, unsafe_allow_html=True)
+                    
+                    # Split advice into lines and format
+                    advice_lines = dietary_advice.split('\n')
+                    for line in advice_lines:
+                        if line.strip():
+                            if line.startswith('📊') or line.startswith('🍽️') or line.startswith('📈') or line.startswith('💡'):
+                                st.markdown(f"**{line}**")
+                            elif line.startswith('⚠️'):
+                                st.markdown(f"<span style='color: #ff6b35;'>{line}</span>", unsafe_allow_html=True)
+                            elif line.startswith('✅'):
+                                st.markdown(f"<span style='color: #28a745;'>{line}</span>", unsafe_allow_html=True)
+                            else:
+                                st.markdown(line)
+                    
+                    st.markdown("</div>", unsafe_allow_html=True)
+                    
+                    # Export option
+                    st.download_button(
+                        label="📥 下载分析报告",
+                        data=dietary_advice,
+                        file_name=f"nutrition_analysis_report_{uploaded_file.name.replace('.pdf', '')}.txt",
+                        mime="text/plain"
+                    )
+            
+            except Exception as e:
+                st.error(f"❌ PDF处理失败: {str(e)}")
+                st.info("💡 请确保PDF文件包含清晰的食物信息或营养标签")
+
 def show_nutrition_analysis(components, target_type):
     """Nutrition analysis page"""
     st.markdown('<h1 class="main-header">📊 Nutrition Analysis</h1>', unsafe_allow_html=True)
@@ -339,17 +568,71 @@ def show_settings():
     
     # API settings
     st.write("**OpenAI API Configuration**")
+    
+    # 从配置文件读取当前API密钥
+    from config import OPENAI_API_KEY
+    current_api_key = OPENAI_API_KEY if OPENAI_API_KEY != "your_openai_api_key_here" else ""
+    
     api_key = st.text_input("OpenAI API Key", type="password", 
-                           value="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")
+                           value=current_api_key,
+                           help="输入您的OpenAI API密钥以启用OCR功能")
+    
+    # API密钥验证
+    if st.button("验证API密钥"):
+        if api_key and api_key.startswith("sk-"):
+            try:
+                import openai
+                client = openai.OpenAI(api_key=api_key)
+                # 尝试调用API验证密钥
+                client.models.list()
+                st.success("✅ API密钥验证成功！")
+                
+                # 保存到配置文件
+                if st.button("保存API密钥"):
+                    try:
+                        # 更新配置文件
+                        with open('config.py', 'r', encoding='utf-8') as f:
+                            content = f.read()
+                        
+                        # 替换API密钥
+                        if 'OPENAI_API_KEY = "your_openai_api_key_here"' in content:
+                            content = content.replace('OPENAI_API_KEY = "your_openai_api_key_here"', f'OPENAI_API_KEY = "{api_key}"')
+                        elif 'OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")' in content:
+                            # 如果使用环境变量，直接设置默认值
+                            content = content.replace('if not OPENAI_API_KEY:\n    OPENAI_API_KEY = "your_openai_api_key_here"', 
+                                                    f'if not OPENAI_API_KEY:\n    OPENAI_API_KEY = "{api_key}"')
+                        
+                        with open('config.py', 'w', encoding='utf-8') as f:
+                            f.write(content)
+                        
+                        st.success("✅ API密钥已保存到配置文件！")
+                        st.info("请重启应用程序以使更改生效。")
+                        
+                    except Exception as e:
+                        st.error(f"保存配置文件时出错：{str(e)}")
+                        
+            except Exception as e:
+                error_msg = str(e)
+                if "invalid_api_key" in error_msg.lower() or "401" in error_msg:
+                    st.error("❌ API密钥无效或已过期")
+                elif "quota" in error_msg.lower() or "billing" in error_msg.lower():
+                    st.error("❌ API配额已用完或账户余额不足")
+                else:
+                    st.error(f"❌ API密钥验证失败：{error_msg}")
+        else:
+            st.error("❌ 请输入有效的API密钥（应以'sk-'开头）")
     
     # Display settings
     st.write("**Display Settings**")
     theme = st.selectbox("Theme", ["Light", "Dark"])
     language = st.selectbox("Language", ["English", "Chinese"])
     
-    # Save settings
-    if st.button("Save Settings"):
-        st.success("Settings saved successfully!")
+    # 显示当前状态
+    st.write("**当前状态**")
+    if current_api_key and current_api_key.startswith("sk-"):
+        st.success("✅ API密钥已配置")
+    else:
+        st.warning("⚠️ API密钥未配置，OCR功能将不可用")
 
 if __name__ == "__main__":
     main()
