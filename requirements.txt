@@ -16,3 +16,4 @@ streamlit-option-menu>=0.3.0
 streamlit-aggrid>=0.3.0
 streamlit-plotly-events>=0.0.6
 PyMuPDF>=1.26.0
+ocrmypdf>=16.0.0

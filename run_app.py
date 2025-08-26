@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-骑师营养AI应用启动脚本
+Jockey Nutrition AI - launcher script
 """
 
 import subprocess
@@ -8,19 +8,19 @@ import sys
 import os
 
 def install_requirements():
-    """安装依赖包"""
-    print("正在安装依赖包...")
+    """Install Python dependencies"""
+    print("Installing dependencies...")
     try:
         subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-        print("✅ 依赖包安装完成")
+        print("✅ Dependencies installed")
     except subprocess.CalledProcessError as e:
-        print(f"❌ 依赖包安装失败: {e}")
+        print(f"❌ Failed to install dependencies: {e}")
         return False
     return True
 
 def run_app():
-    """运行应用"""
-    print("正在启动骑师营养AI应用...")
+    """Run the app"""
+    print("Starting Jockey Nutrition AI app...")
     try:
         # 设置环境变量
         os.environ["STREAMLIT_SERVER_PORT"] = "8501"
@@ -33,25 +33,25 @@ def run_app():
             "--server.address", "localhost"
         ])
     except KeyboardInterrupt:
-        print("\n应用已停止")
+        print("\nApp stopped")
     except Exception as e:
-        print(f"❌ 应用启动失败: {e}")
+        print(f"❌ Failed to start app: {e}")
 
 def main():
-    """主函数"""
-    print("🏇 骑师营养AI - 启动脚本")
+    """Main entry"""
+    print("🏇 Jockey Nutrition AI - Launcher")
     print("=" * 50)
     
-    # 检查Python版本
+    # Check Python version
     if sys.version_info < (3, 8):
-        print("❌ 需要Python 3.8或更高版本")
+        print("❌ Python 3.8+ required")
         return
     
-    # 安装依赖
+    # Install dependencies
     if not install_requirements():
         return
     
-    # 运行应用
+    # Run app
     run_app()
 
 if __name__ == "__main__":

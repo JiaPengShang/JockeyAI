@@ -9,7 +9,7 @@ from ocr_processor import OCRProcessor
 
 
 class DiaryExtractor:
-    def __init__(self, dpi: int = 200, language: str = "zh"):
+    def __init__(self, dpi: int = 200, language: str = "en"):
         self.dpi = dpi
         self.language = language
         self.ocr = OCRProcessor()
@@ -26,16 +26,26 @@ class DiaryExtractor:
         doc.close()
         return images
 
-    def _llm_clean_and_structure(self, raw_text: str) -> Dict[str, Any]:
-        prompt = (
-            "你是一名数据清洗与信息抽取助手。请对下列日记OCR文本进行纠错、去噪、实体标准化，\n"
-            "抽取结构化字段并仅以JSON对象输出，不要包含多余文字或代码块。\n\n"
-            "要求：\n"
-            "- 修正常见OCR错误（断词、标点、错别字）。\n"
-            "- 识别日期、时间、餐次（如早餐/午餐/晚餐/加餐）、食品与数量、单位、补充备注。\n"
-            "- 对无法确定的数值给出null并保留原文本到notes。\n"
-            "- 仅输出一个JSON对象，键必须符合下述模式。\n\n"
-            "JSON模式：\n"
+    def _ensure_landscape(self, image: Image.Image) -> Image.Image:
+        """Rotate counterclockwise 90 degrees if the image is portrait (height > width)."""
+        try:
+            if image.height > image.width:
+                return image.rotate(90, expand=True)
+            return image
+        except Exception:
+            return image
+
+    def _llm_clean_and_structure(self, raw_text: str, image: Image.Image) -> Dict[str, Any]:
+        """Send both OCR text and the original page image to the model for correction and structuring."""
+        prompt_text = (
+            "You are a data cleaning and extraction assistant. Clean the OCR text using the page image as reference: fix OCR errors, denoise, standardize entities, and extract structured fields.\n"
+            "Output ONLY one JSON object, no extra text or code fences.\n\n"
+            "Requirements:\n"
+            "- Prefer the OCR text, but verify with the image for numbers, units, and table alignment.\n"
+            "- Identify date, time, meal_type (breakfast|lunch|dinner|snack|other), and items with quantity, unit, and notes.\n"
+            "- Use null for unknown values and keep ambiguous raw text in notes.\n"
+            "- Keys must follow the schema below.\n\n"
+            "JSON schema:\n"
             "{\n"
             "  \"entries\": [\n"
             "    {\n"
@@ -54,18 +64,25 @@ class DiaryExtractor:
             "    }\n"
             "  ]\n"
             "}\n\n"
-            f"待处理文本：\n{raw_text}"
+            f"OCR_TEXT:\n{raw_text}\n\nUse the attached page image to correct errors."
         )
 
-        # 复用 OCRProcessor 中的 OpenAI 客户端
+        # Reuse OpenAI client from OCRProcessor
         client = self.ocr.client
         model = self.ocr.primary_vision_model
+        base64_image = self.ocr.encode_pil_image(image)
         try:
             response = client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "你是严谨的数据工程助手，只输出合法的JSON。"},
-                    {"role": "user", "content": prompt},
+                    {"role": "system", "content": "You are a rigorous data engineering assistant. Output valid JSON only."},
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt_text},
+                            {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{base64_image}"}},
+                        ],
+                    },
                 ],
                 max_tokens=2000,
             )
@@ -73,8 +90,14 @@ class DiaryExtractor:
             response = client.chat.completions.create(
                 model=self.ocr.fallback_vision_model,
                 messages=[
-                    {"role": "system", "content": "你是严谨的数据工程助手，只输出合法的JSON。"},
-                    {"role": "user", "content": prompt},
+                    {"role": "system", "content": "You are a rigorous data engineering assistant. Output valid JSON only."},
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt_text},
+                            {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{base64_image}"}},
+                        ],
+                    },
                 ],
                 max_tokens=2000,
             )
@@ -97,8 +120,10 @@ class DiaryExtractor:
         page_results: List[Dict[str, Any]] = []
 
         for idx, img in enumerate(images, start=1):
-            raw = self.ocr.extract_text_from_image(img, language=self.language)
-            structured = self._llm_clean_and_structure(raw)
+            corrected_img = self._ensure_landscape(img)
+            # Prefer ocrmypdf for OCR if available
+            raw = self.ocr.extract_text_from_image(corrected_img, language=self.language, prefer_ocrmypdf=True)
+            structured = self._llm_clean_and_structure(raw, corrected_img)
             page_results.append({
                 "page": idx,
                 "raw_text": raw,
@@ -121,7 +146,7 @@ class DiaryExtractor:
         }
 
 
-def export_diary_to_json(pdf_path: str, output_json_path: str, dpi: int = 200, language: str = "zh") -> str:
+def export_diary_to_json(pdf_path: str, output_json_path: str, dpi: int = 200, language: str = "en") -> str:
     extractor = DiaryExtractor(dpi=dpi, language=language)
     result = extractor.extract_from_pdf(pdf_path)
     with open(output_json_path, "w", encoding="utf-8") as f:
@@ -135,7 +160,7 @@ if __name__ == "__main__":
     parser.add_argument("pdf", help="Path to PDF, e.g., JockeyDiaries230725.pdf")
     parser.add_argument("--out", default=None, help="Output JSON path, default same name with .json suffix")
     parser.add_argument("--dpi", type=int, default=200, help="Render DPI for PDF pages")
-    parser.add_argument("--lang", default="zh", help="OCR/LLM language, default zh")
+    parser.add_argument("--lang", default="en", help="OCR/LLM language, default en")
     args = parser.parse_args()
 
     pdf_path = args.pdf

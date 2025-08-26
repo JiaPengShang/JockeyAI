@@ -11,7 +11,7 @@ class NutritionAnalyzer:
         self.nutrition_targets = NUTRITION_TARGETS
     
     def analyze_meal(self, foods_data):
-        """分析一餐的营养成分"""
+        """Analyze nutrition for a meal"""
         total_nutrition = {
             "calories": 0,
             "protein": 0,
@@ -23,20 +23,20 @@ class NutritionAnalyzer:
         analyzed_foods = []
         
         for food in foods_data:
-            # 获取食物分类
+            # Get classification
             classification = self.food_classifier.classify_food(food["name"])
             
-            # 获取营养信息
+            # Get nutrition info
             nutrition = self.food_classifier.get_nutrition_info(
                 food["name"], 
                 food.get("quantity", 100)
             )
             
-            # 添加到总营养
+            # Accumulate totals
             for key in total_nutrition:
                 total_nutrition[key] += nutrition.get(key, 0)
             
-            # 保存分析结果
+            # Save analyzed item
             analyzed_food = {
                 "name": food["name"],
                 "quantity": food.get("quantity", 100),
@@ -51,16 +51,16 @@ class NutritionAnalyzer:
             "total_nutrition": total_nutrition
         }
     
-    def compare_with_targets(self, nutrition_data, target_type="体重管理"):
-        """与目标营养进行比较"""
-        targets = self.nutrition_targets.get(target_type, self.nutrition_targets["体重管理"])
+    def compare_with_targets(self, nutrition_data, target_type="Weight Management"):
+        """Compare nutrition with targets"""
+        targets = self.nutrition_targets.get(target_type, self.nutrition_targets["Weight Management"])
         
         comparison = {}
         for nutrient, target_info in targets.items():
             if nutrient in nutrition_data:
                 actual = nutrition_data[nutrient]
-                target = target_info["目标"]
-                unit = target_info["单位"]
+                target = target_info["target"]
+                unit = target_info["unit"]
                 
                 percentage = (actual / target) * 100 if target > 0 else 0
                 
@@ -69,31 +69,31 @@ class NutritionAnalyzer:
                     "target": target,
                     "unit": unit,
                     "percentage": percentage,
-                    "status": "正常" if 80 <= percentage <= 120 else "不足" if percentage < 80 else "过量"
+                    "status": "normal" if 80 <= percentage <= 120 else "insufficient" if percentage < 80 else "excessive"
                 }
         
         return comparison
     
-    def generate_recommendations(self, analysis_result, target_type="体重管理"):
-        """生成营养建议"""
+    def generate_recommendations(self, analysis_result, target_type="Weight Management"):
+        """Generate nutrition recommendations"""
         comparison = self.compare_with_targets(analysis_result["total_nutrition"], target_type)
         
         recommendations = []
         
-        # 分析每个营养素
+        # Analyze nutrients
         for nutrient, data in comparison.items():
-            if data["status"] == "不足":
-                recommendations.append(f"建议增加{nutrient}的摄入，当前摄入{data['actual']:.1f}{data['unit']}，目标{data['target']}{data['unit']}")
-            elif data["status"] == "过量":
-                recommendations.append(f"建议减少{nutrient}的摄入，当前摄入{data['actual']:.1f}{data['unit']}，目标{data['target']}{data['unit']}")
+            if data["status"] == "insufficient":
+                recommendations.append(f"Increase {nutrient} intake. Current {data['actual']:.1f}{data['unit']}, target {data['target']}{data['unit']}")
+            elif data["status"] == "excessive":
+                recommendations.append(f"Reduce {nutrient} intake. Current {data['actual']:.1f}{data['unit']}, target {data['target']}{data['unit']}")
         
-        # 骑师特殊建议
+        # Jockey-specific suggestions
         jockey_recommendations = [
-            "骑师需要保持轻量级，建议控制总卡路里摄入",
-            "蛋白质摄入对肌肉维护很重要，建议适量增加",
-            "比赛前避免高脂肪食物，以免影响表现",
-            "保持充足的水分摄入，特别是在比赛期间",
-            "建议分餐进食，避免一次性大量进食"
+            "Maintain lightweight; control total calorie intake.",
+            "Adequate protein supports muscle maintenance.",
+            "Avoid high-fat foods before events.",
+            "Stay well hydrated, especially around events.",
+            "Prefer smaller, more frequent meals."
         ]
         
         return {
@@ -103,11 +103,11 @@ class NutritionAnalyzer:
         }
     
     def analyze_trends(self, daily_records, days=7):
-        """分析营养趋势"""
+        """Analyze nutrition trends"""
         if len(daily_records) < 2:
-            return {"message": "数据不足，无法分析趋势"}
+            return {"message": "Not enough data to analyze trends"}
         
-        # 计算每日营养摄入
+        # Aggregate daily nutrition
         daily_nutrition = []
         for record in daily_records[-days:]:
             total = {"date": record["date"]}
@@ -117,21 +117,21 @@ class NutritionAnalyzer:
                     total[key] = total.get(key, 0) + nutrition.get(key, 0)
             daily_nutrition.append(total)
         
-        # 计算趋势
+        # Compute trends
         trends = {}
         for nutrient in ["calories", "protein", "carbs", "fat", "fiber"]:
             values = [day[nutrient] for day in daily_nutrition]
             if len(values) > 1:
-                # 简单线性回归计算趋势
+                # Simple linear trend
                 x = np.arange(len(values))
                 slope = np.polyfit(x, values, 1)[0]
                 
                 if slope > 0:
-                    trend = "上升"
+                    trend = "up"
                 elif slope < 0:
-                    trend = "下降"
+                    trend = "down"
                 else:
-                    trend = "稳定"
+                    trend = "flat"
                 
                 trends[nutrient] = {
                     "trend": trend,
@@ -146,30 +146,30 @@ class NutritionAnalyzer:
         }
     
     def calculate_bmi_recommendations(self, weight, height, activity_level="moderate"):
-        """计算BMI和体重管理建议"""
+        """Calculate BMI and weight management suggestions"""
         height_m = height / 100  # 转换为米
         bmi = weight / (height_m ** 2)
         
-        # BMI分类
+        # BMI category
         if bmi < 18.5:
-            bmi_category = "体重不足"
-            recommendation = "建议适当增加体重，但要注意保持健康"
+            bmi_category = "Underweight"
+            recommendation = "Consider gradual weight gain while staying healthy"
         elif bmi < 24:
-            bmi_category = "正常体重"
-            recommendation = "保持当前体重，继续健康饮食"
+            bmi_category = "Normal"
+            recommendation = "Maintain weight and keep healthy diet"
         elif bmi < 28:
-            bmi_category = "超重"
-            recommendation = "建议适当减重，控制卡路里摄入"
+            bmi_category = "Overweight"
+            recommendation = "Consider weight loss and control calorie intake"
         else:
-            bmi_category = "肥胖"
-            recommendation = "建议减重，咨询专业营养师"
+            bmi_category = "Obese"
+            recommendation = "Weight loss recommended; consider consulting a dietitian"
         
-        # 骑师特殊建议
+        # Jockey-specific tips
         jockey_weight_recommendations = [
-            "骑师需要保持轻量级，建议BMI控制在18.5-22之间",
-            "避免快速减重，以免影响健康和表现",
-            "通过合理饮食和运动控制体重",
-            "定期监测体重变化"
+            "Jockeys should maintain BMI ~18.5–22 when safe.",
+            "Avoid rapid weight loss to prevent health/performance issues.",
+            "Control weight via diet and exercise.",
+            "Monitor weight regularly."
         ]
         
         return {
