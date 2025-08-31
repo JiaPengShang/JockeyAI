@@ -1,0 +1,13 @@
+streamlit
+pytesseract
+paddlepaddle
+paddleocr
+opencv-python
+Pillow
+pandas
+numpy
+plotly
+altair
+PyPDF2
+python-docx
+openpyxl
