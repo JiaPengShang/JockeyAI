@@ -42,22 +42,18 @@ class DiaryExtractor:
             "Output ONLY one JSON object, no extra text or code fences.\n\n"
             "Requirements:\n"
             "- Prefer the OCR text, but verify with the image for numbers, units, and table alignment.\n"
-            "- Identify date, time, meal_type (breakfast|lunch|dinner|snack|other), and items with quantity, unit, and notes.\n"
+            "- Identify weekdays, meal_type (breakfast|lunch|dinner|snack|other), and items with quantity, unit, and notes.\n"
             "- Use null for unknown values and keep ambiguous raw text in notes.\n"
             "- Keys must follow the schema below.\n\n"
             "JSON schema:\n"
             "{\n"
             "  \"entries\": [\n"
             "    {\n"
-            "      \"date\": \"YYYY-MM-DD\",\n"
-            "      \"time\": \"HH:MM\" | null,\n"
-            "      \"meal_type\": \"breakfast|lunch|dinner|snack|other\",\n"
+            "      \"weekdays\": \"Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\",\n"
+            "      \"meal_type\": \"breakfast|lunch|dinner|snack|\",\n"
             "      \"items\": [\n"
             "        {\n"
-            "          \"name\": \"string\",\n"
-            "          \"quantity\": \"string\" | null,\n"
-            "          \"unit\": \"string\" | null,\n"
-            "          \"notes\": \"string\" | null\n"
+            "          \"name\": \"string\",\n"     
             "        }\n"
             "      ],\n"
             "      \"notes\": \"string\" | null\n"
@@ -157,10 +153,11 @@ def export_diary_to_json(pdf_path: str, output_json_path: str, dpi: int = 200, l
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Extract diary PDF to structured JSON.")
-    parser.add_argument("pdf", help="Path to PDF, e.g., JockeyDiaries230725.pdf")
+
     parser.add_argument("--out", default=None, help="Output JSON path, default same name with .json suffix")
     parser.add_argument("--dpi", type=int, default=200, help="Render DPI for PDF pages")
     parser.add_argument("--lang", default="en", help="OCR/LLM language, default en")
+    parser.add_argument("pdf", default="JockeyDiaries230725.pdf", help="Path to PDF, e.g., JockeyDiaries230725.pdf")
     args = parser.parse_args()
 
     pdf_path = args.pdf

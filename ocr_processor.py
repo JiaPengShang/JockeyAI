@@ -4,7 +4,6 @@ import os
 import shutil
 import subprocess
 import tempfile
-import requests
 from PIL import Image
 import fitz  # PyMuPDF
 import openai
@@ -132,7 +131,7 @@ class OCRProcessor:
             if language.lower() == "en":
                 prompt = (
                     "Please carefully read and extract ALL text content from this image. "
-                    "Focus on identifying food names, nutrition facts, ingredients, quantities, and any nutritional information. "
+                    "Focus on identifying food names and Focus on identifying food names and days of the week.. "
                     "Be thorough and accurate in your transcription. "
                     "Answer in English and use the following format:\n\n"
                     "Food Names:\nNutrition Facts:\nIngredients:\nQuantities/Weights:\nOther Information:"
@@ -263,8 +262,7 @@ class OCRProcessor:
                         {
                             "role": "system",
                             "content": (
-                                "You are a nutrition analyst. Identify foods, quantities, and macronutrients. "
-                                "Respond with JSON only."
+                                "你是营养专家.根据ocr结果和原pdf进行数据纠错和数据清洗.生成为json文件"
                             ),
                         },
                         {"role": "user", "content": prompt_user},
@@ -278,8 +276,8 @@ class OCRProcessor:
                         {
                             "role": "system",
                             "content": (
-                                "You are a nutrition analyst. Identify foods, quantities, and macronutrients. "
-                                "Respond with JSON only."
+                                "你是营养专家.根据ocr结果和原pdf进行数据纠错和数据清洗.生成为json文件"
+
                             ),
                         },
                         {"role": "user", "content": prompt_user},
