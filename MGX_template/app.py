@@ -1,11 +1,10 @@
 """
-Main Streamlit application for AI-driven OCR and visualization system
+Main Streamlit application for an AI-driven OCR and visualization system
 """
 
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-import os
 
 # Import custom modules
 from config import ocr_config, data_config, ui_config
@@ -247,7 +246,6 @@ def show_upload_page():
 
 def process_file(uploaded_file):
     """Process a single uploaded file"""
-    
     try:
         # Validate file
         if not validate_file_format(uploaded_file.name, data_config.supported_formats):

@@ -8,13 +8,48 @@ from typing import Dict, List
 @dataclass
 class OCRConfig:
     """OCR engine configuration"""
+    # Tesseract configuration
     tesseract_cmd: str = "tesseract"
     tesseract_config: str = "--oem 3 --psm 6"
-    """paddle ocr engine configuration"""
+    
+    # PaddleOCR configuration
     paddle_use_angle_cls: bool = True
     paddle_use_gpu: bool = False
-    target_accuracy: float = 0.85
     
+    # Engine activation settings (for ablation studies)
+    enable_tesseract: bool = True
+    enable_paddle: bool = True
+    
+    # Processing settings
+    target_accuracy: float = 0.85
+    enable_preprocessing: bool = True
+    combine_results: bool = True
+    
+    # Ablation study settings
+    ablation_mode: bool = False
+    selected_engines: List[str] = None
+    
+    def __post_init__(self):
+        if self.selected_engines is None:
+            self.selected_engines = []
+    
+    def get_active_engines(self) -> List[str]:
+        """Get list of currently active OCR engines"""
+        active_engines = []
+        if self.enable_tesseract:
+            active_engines.append("tesseract")
+        if self.enable_paddle:
+            active_engines.append("paddle")
+        return active_engines
+    
+    def set_ablation_engines(self, engines: List[str]):
+        """Set engines for ablation study"""
+        self.ablation_mode = True
+        self.selected_engines = engines
+        # Disable engines not in ablation study
+        self.enable_tesseract = "tesseract" in engines
+        self.enable_paddle = "paddle" in engines
+
 @dataclass
 class DataConfig:
     """Data processing configuration"""

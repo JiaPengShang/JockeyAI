@@ -138,7 +138,7 @@ class OCRProcessor:
     def _process_with_paddle(self, image: np.ndarray) -> Optional[OCRResult]:
         """Process image with PaddleOCR"""
         try:
-            results = self.paddle_ocr.ocr(image )
+            results = self.paddle_ocr.ocr(image)
 
             # Robust validation of PaddleOCR results
             if not results:
