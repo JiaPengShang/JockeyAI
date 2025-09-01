@@ -12,6 +12,8 @@ from ocr_processor import ocr_processor
 from data_processor import data_processor
 from visualizer import visualizer
 from exception_handler import exception_handler
+from ocr_engines import engine_manager
+from ocr_config_manager import config_manager
 from utils import (
     get_material3_css, validate_file_format, get_file_size_mb,
     display_material_card, display_metric_card, show_processing_status,
@@ -63,14 +65,15 @@ def main():
         st.markdown("### 📊 System Status")
         
         # OCR engines status
-        tesseract_status = "🟢 Available" if ocr_processor.tesseract_available else "🔴 Not Available"
-        paddle_status = "🟢 Available" if ocr_processor.paddle_ocr else "🔴 Not Available"
+        engine_status = engine_manager.get_engine_status()
+        
+        st.markdown("**OCR Engines:**")
+        for engine_name, status in engine_status.items():
+            status_icon = "🟢" if status['available'] else "🔴"
+            active_icon = "✅" if status['active'] else "❌"
+            st.markdown(f"- {status['engine_name']}: {status_icon} Available {active_icon} Active")
         
         st.markdown(f"""
-        **OCR Engines:**
-        - Tesseract: {tesseract_status}
-        - PaddleOCR: {paddle_status}
-        
         **Data Entries:** {len(st.session_state.processed_data)}
         
         **Target Accuracy:** ≥{ocr_config.target_accuracy:.0%}
@@ -108,20 +111,173 @@ def show_home_page():
             This system helps trainee jockeys digitize handwritten forms and visualize training data.
             
             **Key Features:**
-            - 🔍 Dual OCR engine support (TesseractOCR + PaddleOCR)
+            - 🔍 Hot-swappable OCR engines (TesseractOCR + PaddleOCR)
+            - 🔬 Ablation study support for research
             - 📊 Interactive data visualizations
             - 📋 Structured data export (CSV/JSON)
             - 🎨 Material3 design interface
             - ⚡ Real-time processing with error recovery
             
             **Getting Started:**
-            1. Upload your handwritten forms or scanned documents
-            2. Let the AI extract structured data
-            3. Explore interactive visualizations
-            4. Export data for further analysis
+            1. Configure OCR engines for your experiment
+            2. Upload your handwritten forms or scanned documents
+            3. Let the AI extract structured data
+            4. Explore interactive visualizations
+            5. Export data for further analysis
             """,
             "🏠"
         )
+        
+        # OCR Engine Configuration Section
+        st.markdown("### 🔧 OCR Engine Configuration")
+        
+        # Get current engine status
+        engine_status = engine_manager.get_engine_status()
+        available_engines = engine_manager.get_available_engines()
+        active_engines = engine_manager.get_active_engines()
+        
+        # Engine selection for ablation studies
+        st.markdown("**Select OCR Engines for Processing:**")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # Tesseract configuration
+            if "tesseract" in engine_status:
+                tesseract_enabled = st.checkbox(
+                    "🔍 TesseractOCR",
+                    value="tesseract" in active_engines,
+                    disabled=not engine_status["tesseract"]["available"],
+                    help="Enable TesseractOCR engine for text extraction"
+                )
+                
+                if tesseract_enabled and "tesseract" not in active_engines:
+                    engine_manager.enable_engine("tesseract")
+                elif not tesseract_enabled and "tesseract" in active_engines:
+                    engine_manager.disable_engine("tesseract")
+        
+        with col2:
+            # PaddleOCR configuration
+            if "paddle" in engine_status:
+                paddle_enabled = st.checkbox(
+                    "🚀 PaddleOCR",
+                    value="paddle" in active_engines,
+                    disabled=not engine_status["paddle"]["available"],
+                    help="Enable PaddleOCR engine for text extraction"
+                )
+                
+                if paddle_enabled and "paddle" not in active_engines:
+                    engine_manager.enable_engine("paddle")
+                elif not paddle_enabled and "paddle" in active_engines:
+                    engine_manager.disable_engine("paddle")
+        
+        # Ablation study presets
+        st.markdown("**🔬 Ablation Study Presets:**")
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            if st.button("🧪 Tesseract Only", help="Run ablation study with only TesseractOCR"):
+                engine_manager.set_active_engines(["tesseract"])
+                st.success("✅ Set to TesseractOCR only")
+                st.rerun()
+        
+        with col2:
+            if st.button("🧪 PaddleOCR Only", help="Run ablation study with only PaddleOCR"):
+                engine_manager.set_active_engines(["paddle"])
+                st.success("✅ Set to PaddleOCR only")
+                st.rerun()
+        
+        with col3:
+            if st.button("🧪 Both Engines", help="Run with both OCR engines"):
+                engine_manager.set_active_engines(["tesseract", "paddle"])
+                st.success("✅ Set to both engines")
+                st.rerun()
+        
+        # Current configuration display
+        st.markdown("**📊 Current Configuration:**")
+        current_active = engine_manager.get_active_engines()
+        if current_active:
+            st.info(f"Active engines: {', '.join(current_active)}")
+        else:
+            st.warning("⚠️ No engines are currently active!")
+        
+        # Reset button
+        if st.button("🔄 Reset to Default"):
+            engine_manager.reset_to_default()
+            st.success("✅ Reset to default configuration")
+            st.rerun()
+        
+        # Experiment Configuration Management
+        st.markdown("### 🧪 Experiment Configuration Management")
+        
+        # Preset configurations
+        st.markdown("**📋 Preset Configurations:**")
+        preset_configs = config_manager.get_preset_configs()
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            for preset_id, preset in list(preset_configs.items())[:2]:
+                if st.button(f"📋 {preset['name']}", key=f"preset_{preset_id}"):
+                    engine_manager.set_active_engines(preset['active_engines'])
+                    ocr_config.enable_preprocessing = preset['enable_preprocessing']
+                    ocr_config.combine_results = preset['combine_results']
+                    st.success(f"✅ Loaded {preset['name']}")
+                    st.rerun()
+        
+        with col2:
+            for preset_id, preset in list(preset_configs.items())[2:]:
+                if st.button(f"📋 {preset['name']}", key=f"preset_{preset_id}"):
+                    engine_manager.set_active_engines(preset['active_engines'])
+                    ocr_config.enable_preprocessing = preset['enable_preprocessing']
+                    ocr_config.combine_results = preset['combine_results']
+                    st.success(f"✅ Loaded {preset['name']}")
+                    st.rerun()
+        
+        # Save current configuration
+        st.markdown("**💾 Save Current Configuration:**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            experiment_name = st.text_input("Experiment Name", placeholder="e.g., Tesseract Only Test")
+        
+        with col2:
+            experiment_desc = st.text_input("Description", placeholder="Brief description of the experiment")
+        
+        if st.button("💾 Save Configuration") and experiment_name:
+            exp_id = config_manager.save_current_config(experiment_name, experiment_desc)
+            st.success(f"✅ Configuration saved as experiment: {exp_id}")
+        
+        # Load saved experiments
+        st.markdown("**📂 Saved Experiments:**")
+        saved_experiments = config_manager.list_experiments()
+        
+        if saved_experiments:
+            for exp in saved_experiments:
+                with st.expander(f"📁 {exp['name']} ({exp['id']})"):
+                    st.markdown(f"**Description:** {exp['description']}")
+                    st.markdown(f"**Engines:** {', '.join(exp['active_engines'])}")
+                    st.markdown(f"**Created:** {exp['created_at']}")
+                    
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        if st.button("📂 Load", key=f"load_{exp['id']}"):
+                            if config_manager.load_experiment(exp['id']):
+                                st.success("✅ Experiment loaded successfully!")
+                                st.rerun()
+                            else:
+                                st.error("❌ Failed to load experiment")
+                    
+                    with col2:
+                        if st.button("🗑️ Delete", key=f"delete_{exp['id']}"):
+                            if config_manager.delete_experiment(exp['id']):
+                                st.success("✅ Experiment deleted successfully!")
+                                st.rerun()
+                            else:
+                                st.error("❌ Failed to delete experiment")
+        else:
+            st.info("📂 No saved experiments yet. Save your first configuration above!")
     
     with col2:
         # Quick stats
@@ -313,7 +469,13 @@ def process_file(uploaded_file):
                         st.markdown("**Processing Info:**")
                         confidence_display = format_confidence_score(structured_data.get('confidence_score', 0))
                         st.markdown(f"**Confidence:** {confidence_display}")
-                        st.markdown(f"**Engines Used:** {len(ocr_results)} OCR engine(s)")
+                        
+                        # Show engines used
+                        engines_used = structured_data.get('engines_used', [])
+                        if engines_used:
+                            st.markdown(f"**Engines Used:** {', '.join(engines_used)}")
+                        else:
+                            st.markdown(f"**Engines Used:** {len(ocr_results)} OCR engine(s)")
                         
                         # Raw text preview
                         raw_text = structured_data.get('raw_text', '')
@@ -539,6 +701,10 @@ def show_settings_page():
     with st.expander("🔍 OCR Configuration", expanded=True):
         st.markdown("**OCR Engine Settings:**")
         
+        # Get current engine status
+        engine_status = engine_manager.get_engine_status()
+        active_engines = engine_manager.get_active_engines()
+        
         target_accuracy = st.slider(
             "Target Accuracy Threshold",
             0.5, 1.0, ocr_config.target_accuracy, 0.05,
@@ -547,13 +713,41 @@ def show_settings_page():
         
         use_preprocessing = st.checkbox(
             "Enable Image Preprocessing",
-            value=True,
+            value=ocr_config.enable_preprocessing,
             help="Apply denoising and threshold processing for better OCR results"
         )
         
+        combine_results = st.checkbox(
+            "Combine Multiple Engine Results",
+            value=ocr_config.combine_results,
+            help="Combine results from multiple OCR engines when confidence is similar"
+        )
+        
         st.markdown("**Current Engine Status:**")
-        st.markdown(f"- Tesseract: {'✅ Available' if ocr_processor.tesseract_available else '❌ Not Available'}")
-        st.markdown(f"- PaddleOCR: {'✅ Available' if ocr_processor.paddle_ocr else '❌ Not Available'}")
+        for engine_name, status in engine_status.items():
+            status_icon = "✅" if status['available'] else "❌"
+            active_icon = "🟢" if status['active'] else "⚪"
+            st.markdown(f"- {status['engine_name']}: {status_icon} Available {active_icon} Active")
+        
+        # Engine configuration
+        st.markdown("**Engine Configuration:**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            if "tesseract" in engine_status:
+                tesseract_config = st.text_input(
+                    "Tesseract Config",
+                    value=ocr_config.tesseract_config,
+                    help="Tesseract configuration parameters"
+                )
+        
+        with col2:
+            if "paddle" in engine_status:
+                paddle_gpu = st.checkbox(
+                    "PaddleOCR GPU",
+                    value=ocr_config.paddle_use_gpu,
+                    help="Use GPU for PaddleOCR processing"
+                )
     
     # Data Configuration
     with st.expander("💾 Data Configuration"):

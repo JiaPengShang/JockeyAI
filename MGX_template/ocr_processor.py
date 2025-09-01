@@ -1,11 +1,9 @@
 """
-OCR processing module with TesseractOCR and PaddleOCR integration
+OCR processing module with hot-swappable OCR engines for ablation studies
 """
 import cv2
 import numpy as np
 from PIL import Image
-import pytesseract
-from paddleocr import PaddleOCR
 import io
 from typing import Dict, List, Tuple, Optional, Union
 import re
@@ -13,48 +11,17 @@ from dataclasses import dataclass
 
 from config import ocr_config
 from exception_handler import exception_handler, ExceptionLevel
-
-
-@dataclass
-class OCRResult:
-    """OCR processing result container"""
-    text: str
-    confidence: float
-    engine: str
-    bounding_boxes: List[Tuple[int, int, int, int]] = None
-    structured_data: Dict = None
+from ocr_engines import engine_manager, OCRResult
 
 
 class OCRProcessor:
-    """Dual OCR engine processor with TesseractOCR and PaddleOCR"""
+    """Hot-swappable OCR processor with ablation study support"""
 
     def __init__(self):
-        self.tesseract_available = self._check_tesseract()
-        self.paddle_ocr = self._init_paddle_ocr()
-
-    def _check_tesseract(self) -> bool:
-        """Check if Tesseract is available"""
-        try:
-            pytesseract.get_tesseract_version()
-            return True
-        except Exception as e:
-            exception_handler.logger.warning(f"Tesseract not available: {e}")
-            return False
-
-    def _init_paddle_ocr(self) -> Optional[PaddleOCR]:
-        """Initialize PaddleOCR engine"""
-        try:
-            return PaddleOCR(
-                use_angle_cls=ocr_config.paddle_use_angle_cls,
-                lang='en',
-                device='gpu'
-            )
-        except Exception as e:
-            exception_handler.logger.warning(f"PaddleOCR initialization failed: {e}")
-            return None
+        self.engine_manager = engine_manager
 
     def process_file(self, file_content: bytes, filename: str) -> List[OCRResult]:
-        """Process uploaded file and extract text using both OCR engines"""
+        """Process uploaded file and extract text using active OCR engines"""
         try:
             # Convert file to images
             images = self._file_to_images(file_content, filename)
@@ -63,17 +30,10 @@ class OCRProcessor:
             for i, image in enumerate(images):
                 page_results = []
 
-                # Process with Tesseract if available
-                if self.tesseract_available:
-                    tesseract_result = self._process_with_tesseract(image)
-                    if tesseract_result:
-                        page_results.append(tesseract_result)
-
-                # Process with PaddleOCR if available
-                if self.paddle_ocr:
-                    paddle_result = self._process_with_paddle(image)
-                    if paddle_result:
-                        page_results.append(paddle_result)
+                # Process with all active engines
+                engine_results = self.engine_manager.process_image(image)
+                if engine_results:
+                    page_results.extend(engine_results)
 
                 # Combine results for this page
                 if page_results:
@@ -111,116 +71,14 @@ class OCRProcessor:
         exception_handler.logger.info("PDF processing requires additional setup. Please convert PDF to images.")
         return []
 
-    def _process_with_tesseract(self, image: np.ndarray) -> Optional[OCRResult]:
-        """Process image with TesseractOCR"""
-        try:
-            # Preprocess image
-            processed_image = self._preprocess_image(image)
-
-            # Extract text and confidence
-            text = pytesseract.image_to_string(processed_image, config=ocr_config.tesseract_config)
-
-            # Get confidence scores
-            data = pytesseract.image_to_data(processed_image, output_type=pytesseract.Output.DICT)
-            confidences = [int(conf) for conf in data['conf'] if int(conf) > 0]
-            avg_confidence = sum(confidences) / len(confidences) if confidences else 0
-
-            return OCRResult(
-                text=text.strip(),
-                confidence=avg_confidence / 100.0,  # Convert to 0-1 scale
-                engine="Tesseract"
-            )
-
-        except Exception as e:
-            exception_handler.logger.warning(f"Tesseract processing failed: {e}")
-            return None
-
-    def _process_with_paddle(self, image: np.ndarray) -> Optional[OCRResult]:
-        """Process image with PaddleOCR"""
-        try:
-            results = self.paddle_ocr.ocr(image)
-
-            # Robust validation of PaddleOCR results
-            if not results:
-                exception_handler.logger.warning("PaddleOCR returned None results")
-                return None
-
-            # Handle case where results is a list but empty or contains None
-            if not isinstance(results, list) or len(results) == 0:
-                exception_handler.logger.warning("PaddleOCR returned empty or invalid results")
-                return None
-
-            # Get the first page results
-            page_results = results[0]
-            if not page_results:
-                exception_handler.logger.warning("PaddleOCR returned None for page results")
-                return None
-
-            # Extract text and confidence with robust validation
-            texts = ["test"]
-            confidences = []
-
-            for line in page_results:
-                # Validate line structure
-                if not line or len(line) < 2:
-                    continue
-
-                # line should be [bbox, (text, confidence)]
-                text_info = line[1] if len(line) > 1 else None
-                if not text_info or len(text_info) < 2:
-                    continue
-
-                # Extract text and confidence safely
-                try:
-                    text = str(text_info[0]) if text_info[0] is not None else ""
-                    confidence = float(text_info[1]) if text_info[1] is not None else 0.0
-
-                    if text.strip():  # Only add non-empty text
-                        texts.append(text.strip())
-                        confidences.append(confidence)
-
-                except (IndexError, ValueError, TypeError) as e:
-                    exception_handler.logger.warning(f"Error parsing PaddleOCR line: {e}")
-                    continue
-
-            # Check if we extracted any valid text
-            if not texts:
-                exception_handler.logger.warning("No valid text extracted from PaddleOCR results")
-                return None
-
-            combined_text = '\n'.join(texts)
-            avg_confidence = sum(confidences) / len(confidences) if confidences else 0.0
-
-            return OCRResult(
-                text=combined_text,
-                confidence=avg_confidence,
-                engine="PaddleOCR"
-            )
-
-        except Exception as e:
-            exception_handler.logger.warning(f"PaddleOCR processing failed: {e}")
-            return None
-
-    def _preprocess_image(self, image: np.ndarray) -> np.ndarray:
-        """Preprocess image for better OCR results"""
-        # Convert to grayscale
-        if len(image.shape) == 3:
-            gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-        else:
-            gray = image
-
-        # Apply denoising
-        denoised = cv2.fastNlMeansDenoising(gray)
-
-        # Apply threshold
-        _, thresh = cv2.threshold(denoised, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-
-        return thresh
-
     def _combine_results(self, results: List[OCRResult], page_num: int) -> OCRResult:
         """Combine results from multiple OCR engines"""
         if len(results) == 1:
             return results[0]
+
+        if not ocr_config.combine_results:
+            # Return the result with highest confidence
+            return max(results, key=lambda r: r.confidence)
 
         # Choose result with higher confidence
         best_result = max(results, key=lambda r: r.confidence)
@@ -248,18 +106,22 @@ class OCRProcessor:
             'training_load': '',
             'sleep_data': '',
             'raw_text': '',
-            'confidence_score': 0.0
+            'confidence_score': 0.0,
+            'engines_used': []
         }
         
         all_text = ""
         total_confidence = 0.0
+        engines_used = []
         
         for result in ocr_results:
             all_text += result.text + "\n"
             total_confidence += result.confidence
+            engines_used.append(result.engine)
         
         structured_data['raw_text'] = all_text
         structured_data['confidence_score'] = total_confidence / len(ocr_results) if ocr_results else 0.0
+        structured_data['engines_used'] = list(set(engines_used))  # Remove duplicates
         
         # Extract specific fields using regex patterns
         structured_data.update(self._extract_fields(all_text))
@@ -299,6 +161,26 @@ class OCRProcessor:
         fields['diet_content'] = diet_lines
         
         return fields
+
+    def get_engine_status(self) -> Dict[str, Dict]:
+        """Get current engine status"""
+        return self.engine_manager.get_engine_status()
+
+    def set_active_engines(self, engine_names: List[str]):
+        """Set which engines are active for processing"""
+        self.engine_manager.set_active_engines(engine_names)
+
+    def enable_engine(self, engine_name: str) -> bool:
+        """Enable a specific engine"""
+        return self.engine_manager.enable_engine(engine_name)
+
+    def disable_engine(self, engine_name: str) -> bool:
+        """Disable a specific engine"""
+        return self.engine_manager.disable_engine(engine_name)
+
+    def reset_engines(self):
+        """Reset to default engine configuration"""
+        self.engine_manager.reset_to_default()
 
 
 # Global OCR processor instance
