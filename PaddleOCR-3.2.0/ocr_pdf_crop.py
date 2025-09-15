@@ -1,7 +1,6 @@
 import argparse
 from PIL import Image
 from paddleocr import PaddleOCR
-from tools.infer.utility import draw_ocr
 
 
 def to_poly4(p):
