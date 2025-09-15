@@ -48,28 +48,35 @@ def chatgpt_refine(
         for item in ocr_items
     ]
 
+    # System message for document understanding and OCR correction
     sys_msg = system_tip or (
-        "你是一个OCR后处理助手。现在你会同时看到原始图片和OCR结果（含坐标）。"
-        "请你：1) 合理纠错不确定文本；2) 在可能时恢复表格结构；3) 输出尽量干净的结果。"
+        "你是一个文档理解助手。你会同时看到原始图片与OCR结果（含多边形坐标）。"
+        "任务：1) 针对每个OCR条目进行纠错，要求符合自然语言并找出与其他文字联系，这十分重要！！！，给出纠正文本与置信度；"
+        "2) 若图中存在表格，请恢复为结构化表格；"
+        "3) 所有结论需可回溯到OCR条目索引（evidence）。\n"
         "输出规范：\n"
-        "- 若识别到表格，请先给出简洁CSV（仅一个表，不要加解释性文字）。\n"
-        "- 若无表格，则输出纠正后的纯文本（不加前后缀）。\n"
-        "- 另外，请在最后一行以JSON单独给出：{\"corrected_texts\":[...]}，"
-        "数组元素按OCR输入顺序给出模型修订后的每段文本。"
+        "- 上方正文：若有表格，可以输出一个CSV（可选）；若无表格，可输出简要文本（可选）。\n"
+        "- 最后一行必须是单独一行JSON对象，结构如下：\n"
+        "{"
+        "  \"items\": ["
+        "    {\"index\": <int>, \"orig\": \"原文\", \"corr\": \"校准文\", \"changed\": <bool>,"
+        "     \"ocr_score\": <float|null>, \"corr_conf\": <float|null>, \"box\": [[x,y],...]} ],"
+        "  \"tables\": ["
+        "    {\"name\":\"Table-1\",\"columns\":[...],\"rows\":[[...],[...]],"
+        "     \"cell_box_ids\": [[[idxs_of_cell_1_1],[...]], [[...], ...]] }"
+        "  ]"
+        "}\n"
+        "- JSON 之外不要再输出解释性注释。"
     )
 
+    # Build multimodal user message per spec
     user_msgs = [
         {
             "type": "text",
-            "text": (
-                    "Result:：\n"
-                    + json.dumps(ocr_payload, ensure_ascii=False)
-            ),
+            "text": "以下是OCR结果（含坐标、多边形四点或矩形四点），请严格按规范输出。OCR_ITEMS_JSON:\n"
+                    + json.dumps(ocr_payload, ensure_ascii=False),
         },
-        {
-            "type": "image_url",
-            "image_url": {"url": image_data_url},
-        },
+        {"type": "image_url", "image_url": {"url": image_data_url}},
     ]
 
     payload = {
