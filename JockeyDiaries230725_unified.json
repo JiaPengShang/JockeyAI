@@ -1,0 +1,3272 @@
+{
+  "source_pdf": "JockeyDiaries230725.pdf",
+  "page_count": 34,
+  "category_summary": {
+    "food_diary": 9,
+    "riding_diary": 9,
+    "sleep_diary_night": 8,
+    "sleep_diary_morning": 8
+  },
+  "pages": [
+    {
+      "page": 1,
+      "category": "food_diary",
+      "raw_text": "食物名称：香蕉\n营养成分：无\n数量/重量：无\n\n食物名称：黄油鸡\n营养成分：无\n数量/重量：无\n\n食物名称：营养谷物\n营养成分：无\n数量/重量：无\n\n食物名称：意大利面\n营养成分：无\n数量/重量：无\n\n食物名称：KFC\n营养成分：无\n数量/重量：无\n\n食物名称：披萨\n营养成分：无\n数量/重量：无\n\n食物名称：汤\n营养成分：无\n数量/重量：无\n\n食物名称：烤肉串\n营养成分：无\n数量/重量：无\n\n食物名称：肉丸土豆泥\n营养成分：无\n数量/重量：无\n\n食物名称：面条自助餐\n营养成分：无\n数量/重量：无",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "香蕉",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "黄油鸡",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "营养谷物",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "意大利面",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "KFC",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "披萨",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "汤",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [
+              {
+                "text": "烤肉串",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "肉丸土豆泥",
+                "conf": 1
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 2,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "8",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "8",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "7",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "8",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "9",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "Used",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "Used",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "TV"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Amber",
+          "date": "YYYY-MM-DD|string",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 4,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 5,
+      "category": "food_diary",
+      "raw_text": "食物名称：\n- 吐司\n- 酸奶\n- 牛排沙拉\n- 砂锅卷\n- 麦片棒\n- 鸡肉\n- 印度餐\n- 汉堡\n- 两个咸派\n- 奇亚布丁\n- 糖果\n\n营养成分：\n- 未提供具体营养成分信息\n\n数量/重量：\n- 未提供具体数量/重量信息\n\n其他信息：\n- 本文档为个人饮食日志，记录了从星期一到星期日的饮食情况。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "吐司",
+                "conf": 0
+              }
+            ],
+            "snack": [
+              {
+                "text": "酸奶",
+                "conf": 0
+              }
+            ],
+            "lunch": [
+              {
+                "text": "牛排沙拉",
+                "conf": 0
+              }
+            ],
+            "dinner": [
+              {
+                "text": "砂锅卷",
+                "conf": 0
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "麦片棒",
+                "conf": 0
+              }
+            ],
+            "snack": [
+              {
+                "text": "鸡肉",
+                "conf": 0
+              }
+            ],
+            "lunch": [
+              {
+                "text": "印度餐",
+                "conf": 0
+              }
+            ],
+            "dinner": [
+              {
+                "text": "汉堡",
+                "conf": 0
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "两个咸派",
+                "conf": 0
+              }
+            ],
+            "snack": [
+              {
+                "text": "奇亚布丁",
+                "conf": 0
+              }
+            ],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": "本文档为个人饮食日志，记录了从星期一到星期日的饮食情况。",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 6,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "7",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "4",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "1",
+            "Falls": "0",
+            "Trackwork": "1",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "7",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "7",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 7,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "2",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "Phone, TV"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "45",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "1",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": ""
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Crystal",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 8,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:30",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "20:30",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "11:00",
+            "WakeUpTime": "09:00",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "",
+            "WakeUpTime": "09:00",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 9,
+      "category": "food_diary",
+      "raw_text": "食物名称：香蕉  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：奶酪和饼干  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：奶酪吐司  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：牛排和蔬菜  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：便当  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：炒菜  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：寿司  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：猪肉肚煮  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：披萨  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：饺子  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：烧烤  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n食物名称：汤  \n营养成分：未列出  \n数量/重量：未列出  \n其他信息：无  \n\n该记录中包含的食物和相关信息如上。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [
+              {
+                "text": "牛排和蔬菜",
+                "conf": 0
+              }
+            ],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "奶酪和饼干",
+                "conf": 0
+              }
+            ],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "香蕉",
+                "conf": 0
+              }
+            ],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [
+              {
+                "text": "便当",
+                "conf": 0
+              }
+            ],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "寿司",
+                "conf": 0
+              }
+            ],
+            "lunch": [
+              {
+                "text": "披萨",
+                "conf": 0
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 10,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 11,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0 minutes",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "",
+          "date": "",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 12,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 13,
+      "category": "food_diary",
+      "raw_text": "食物名称：\n- Nutri grain + Banana\n- Apple\n- Mash + meatballs\n- Pumpkin Soup\n- Mushroom Pasta\n- Butter Chicken\n- Crumpets + Chicken\n- Scrambled eggs + potato\n- Pizza\n\n营养成分：\n（未提供具体营养成分信息）\n\n数量/重量：\n（未提供具体数量/重量信息）\n\n其他信息：\n- 这是一个食物日志，记录了一周的饮食安排。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "Apple",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Mash + meatballs",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Pumpkin Soup",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Mushroom Pasta",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Butter Chicken",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Crumpets + Chicken",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Scrambled eggs + potato",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": "这是一个食物日志，记录了一周的饮食安排。",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 14,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "8",
+            "Gallops": "4",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "1",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "5",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 15,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Jatesh Mudhoo",
+          "date": "2025-07-23",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 16,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "20",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "1",
+            "DifficultyFactors": "temperature"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "08:00",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 17,
+      "category": "food_diary",
+      "raw_text": "食物名称：咖啡  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n\n食物名称：饼干  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n\n食物名称：咖喱  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n\n食物名称：面条  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n\n食物名称：面包蛋  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n\n其他信息：记录的是一周的饮食日志，包括早餐、午餐、晚餐和零食。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": "记录的是一周的饮食日志，包括早餐、午餐、晚餐和零食。",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 18,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "2",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "2",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": "1"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "4",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 19,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Showering, Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg",
+            "PreBedActivities": "Showering, Phone, Eating"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "1",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "Phone, Showering, Eating"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Eating, Phone"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg",
+            "PreBedActivities": "Phone, Showering"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Sima",
+          "date": "2015-07-25",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 20,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "45",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "23:30",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "50",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "35",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "21:30",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "25",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "23:45",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "45",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "00:45",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "60",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "21:45",
+            "WakeUpTime": "07:00",
+            "SleepLatencyMins": "25",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref / Tir / Grog / Al",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 21,
+      "category": "food_diary",
+      "raw_text": "食物名称：\n- Pie\n- Pringles\n- Kentucky Fried Chicken\n- Muffin\n- Chicken sandwich\n- Apple\n- Protein Bar\n- Muesli\n- Burger\n- Chicken sandwich on toast\n- Pizza\n- Kransky Roll\n- New York sandwich\n- McDonald's\n- Cereal\n- Doritos\n- Grilled chicken\n\n营养成分：\n无具体营养成分信息提供。\n\n数量/重量：\n无具体数量/重量信息提供。\n\n其他信息：\n- Notes: \n  - 需要吃得更健康。\n  - 希望减少外卖。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Pie",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "Pringles",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Kentucky Fried Chicken",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Muffin",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Chicken sandwich",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "Apple",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Protein Bar",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Muesli",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Burger",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "Chicken sandwich on toast",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Kransky Roll",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "New York sandwich",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "McDonald's",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Cereal",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Doritos",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Grilled chicken",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": "需要吃得更健康。希望减少外卖。",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 22,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "10",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "10",
+            "Gallops": "3",
+            "Jumpouts": "",
+            "Trials": "1",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "7",
+            "Gallops": "",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "11",
+            "Falls": "",
+            "Trackwork": "11",
+            "Gallops": "6",
+            "Jumpouts": "1",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "8",
+            "Falls": "",
+            "Trackwork": "8",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "12",
+            "Falls": "",
+            "Trackwork": "12",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 23,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, eating"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg",
+            "PreBedActivities": "phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neu",
+            "PreBedActivities": "TV"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "15",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "showering"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "20",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg",
+            "PreBedActivities": "spending time with partner"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neu",
+            "PreBedActivities": "eating"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "computer"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Lucy",
+          "date": "2023-10-09",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 24,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "AM",
+            "WakeUpTime": "AM",
+            "SleepLatencyMins": "",
+            "SleepQuality": "VG / G / A / B / VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 25,
+      "category": "food_diary",
+      "raw_text": "食物名称：巧克力  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期一的零食  \n\n食物名称：三明治  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期一的午餐  \n\n食物名称：印度菜  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期一的晚餐  \n\n食物名称：寿司  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期二的午餐  \n\n食物名称：薯片  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期二的零食  \n\n食物名称：炖菜  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期二的晚餐  \n\n食物名称：猪肉包  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期三的零食  \n\n食物名称：三明治  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期三的午餐  \n\n食物名称：果昔碗  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期三的零食  \n\n食物名称：麦当劳  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期三的晚餐  \n\n食物名称：汉堡  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期五的午餐  \n\n食物名称：薯片  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期五的零食  \n\n食物名称：装载薯角  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期五的晚餐  \n\n食物名称：意大利面  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期四的午餐  \n\n食物名称：巧克力  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期四的零食  \n\n食物名称：意大利面  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期四的晚餐  \n\n食物名称：三明治  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期六的午餐  \n\n食物名称：果昔  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期六的零食  \n\n食物名称：鸡汉堡  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期六的晚餐  \n\n食物名称：意大利面  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期日的午餐  \n\n食物名称：面条  \n营养成分：未注明  \n数量/重量：未注明  \n其他信息：星期日的晚餐  ",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "巧克力",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "三明治",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "印度菜",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "薯片",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "寿司",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "炖菜",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "猪肉包",
+                "conf": 1
+              },
+              {
+                "text": "果昔碗",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "三明治",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "麦当劳",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "巧克力",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "意大利面",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "意大利面",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "薯片",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "汉堡",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "装载薯角",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "果昔",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "三明治",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "鸡汉堡",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "意大利面",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "面条",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 26,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "11",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "6",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "8",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "1",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "8",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 27,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Elle",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 28,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "",
+            "WakeUpTime": "",
+            "SleepLatencyMins": "",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
+            "NightAwakenings": "",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 29,
+      "category": "food_diary",
+      "raw_text": "食物名称：\n- Coffee\n- Salad bowl\n- Chocolate cupcake\n- Chocolate chips cookies\n- Fish pie\n- Sausage sandwich\n- Smoothie bowl\n- McDonald's\n- Sausage roll\n\n营养成分：\n未提供具体营养成分信息。\n\n数量/重量：\n- 2 pieces of chocolate\n\n其他信息：\n- 记录为“我的饮食日记”，包含星期一到星期日的饮食安排。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Salad bowl",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Fish pie",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "Chocolate chips cookies",
+                "conf": 1
+              }
+            ],
+            "lunch": [],
+            "dinner": [
+              {
+                "text": "Sausage sandwich",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Smoothie bowl",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "McDonald's",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Sausage roll",
+                "conf": 1
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          }
+        },
+        "notes": "记录为“我的饮食日记”，包含星期一到星期日的饮食安排。",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 30,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "6",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": "gym"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 31,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "60",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "phone, phone, phone, phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "phone, phone, phone, phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "phone, phone, phone, phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neu",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": ""
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "",
+            "CaffeineEveningDrinks": "",
+            "ExerciseDuration": "",
+            "MedicationsOrDrugsUsed": "",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": ""
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Tami",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 32,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "1",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "1",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Grog",
+            "NightAwakenings": "0",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "10:00",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "11:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": ""
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "10:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 33,
+      "category": "food_diary",
+      "raw_text": "食物名称：Vogels w/ Peanut Butter  \n营养成分：未知  \n数量/重量：未知  \n其他信息：早餐，星期一  \n\n食物名称：Ham Wrap  \n营养成分：未知  \n数量/重量：未知  \n其他信息：午餐，星期一  \n\n食物名称：Smoked Salmon Salad  \n营养成分：未知  \n数量/重量：未知  \n其他信息：晚餐，星期一  \n\n食物名称：Scrambled Eggs  \n营养成分：未知  \n数量/重量：未知  \n其他信息：早餐，星期三  \n\n食物名称：Fruit  \n营养成分：未知  \n数量/重量：未知  \n其他信息：午餐，星期三  \n\n食物名称：Honey Soy Chicken & Rice  \n营养成分：未知  \n数量/重量：未知  \n其他信息：晚餐，星期四  \n\n食物名称：Omelette  \n营养成分：未知  \n数量/重量：未知  \n其他信息：午餐，星期五  \n\n食物名称：French Toast  \n营养成分：未知  \n数量/重量：未知  \n其他信息：早餐，星期日  \n\n食物名称：Pizza  \n营养成分：未知  \n数量/重量：未知  \n其他信息：晚餐，星期日  \n\n食物名称：Muesli Bar  \n营养成分：未知  \n数量/重量：未知  \n其他信息：星期二、星期四、星期六的早餐  \n\n食物名称：Fruit (星期二、星期四) / Lollies (星期二) / Pasta Salad (星期六) / Chicken Burgers (星期六)  \n营养成分：未知  \n数量/重量：未知  \n其他信息：相应的午餐和小吃。",
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Vogels w/ Peanut Butter",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Ham Wrap",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Smoked Salmon Salad",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar",
+                "conf": 1
+              }
+            ],
+            "snack": [
+              {
+                "text": "Lollies",
+                "conf": 1
+              }
+            ],
+            "lunch": [],
+            "dinner": [],
+            "snack2": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Scrambled Eggs",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Fruit",
+                "conf": 1
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Omelette",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Honey Soy Chicken & Rice",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Omelette",
+                "conf": 1
+              }
+            ],
+            "dinner": [],
+            "snack2": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Pasta Salad",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Chicken Burgers",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "French Toast",
+                "conf": 1
+              }
+            ],
+            "snack": [],
+            "lunch": [],
+            "dinner": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 34,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "5",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": "Gym."
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "5",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": "Mechanical Horse"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "6",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "",
+            "Falls": "",
+            "Trackwork": "Trackwork",
+            "Gallops": "",
+            "Jumpouts": "",
+            "Trials": "",
+            "Races": "",
+            "Other eg. gym/run": ""
+          }
+        ]
+      }
+    }
+  ]
+}

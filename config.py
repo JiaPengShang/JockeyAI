@@ -3,12 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# OpenAI API Configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-# 如果没有设置环境变量，使用默认值（需要用户更新）
-if not OPENAI_API_KEY:
-    OPENAI_API_KEY = "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"
+# OpenAI API Configuration (read from environment)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # Food Classification Configuration
 FOOD_CATEGORIES = {

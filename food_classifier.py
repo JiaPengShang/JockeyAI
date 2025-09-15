@@ -17,24 +17,24 @@ class FoodClassifier:
         self.model_trained = False
     
     def prepare_training_data(self):
-        """Prepare training data"""
+        """准备训练数据"""
         training_data = []
         training_labels = []
         
-        # Add samples for each category
+        # 为每个分类添加训练数据
         for category, foods in FOOD_CATEGORIES.items():
             for food in foods:
                 training_data.append(food)
                 training_labels.append(category)
         
-        # Additional samples (English)
+        # 添加一些额外的训练数据
         additional_data = {
-            "Protein": ["chicken breast", "steak", "salmon", "tuna", "shrimp", "crab", "shellfish", "lean meat", "turkey"],
-            "Carbohydrates": ["white rice", "brown rice", "pasta", "steamed bun", "dumpling", "noodles", "porridge", "corn porridge"],
-            "Fat": ["peanut oil", "canola oil", "sesame oil", "lard", "mutton fat", "duck fat", "goose fat"],
-            "Vitamins": ["apple", "banana", "grape", "strawberry", "blueberry", "kiwi", "mango", "pineapple"],
-            "Minerals": ["calcium tablets", "iron tablets", "zinc tablets", "magnesium", "potassium", "sodium", "phosphorus"],
-            "Fiber": ["oatmeal", "buckwheat", "quinoa", "millet", "black rice", "purple rice", "job's tears"]
+            "蛋白质": ["鸡胸肉", "牛排", "三文鱼", "金枪鱼", "虾", "蟹", "贝类", "瘦肉", "火鸡肉"],
+            "碳水化合物": ["白米饭", "糙米", "意大利面", "馒头", "包子", "饺子", "面条", "粥", "玉米粥"],
+            "脂肪": ["花生油", "菜籽油", "芝麻油", "猪油", "羊油", "鸭油", "鹅油"],
+            "维生素": ["苹果", "香蕉", "葡萄", "草莓", "蓝莓", "猕猴桃", "芒果", "菠萝"],
+            "矿物质": ["钙片", "铁片", "锌片", "镁片", "钾片", "钠片", "磷片"],
+            "纤维": ["燕麦片", "荞麦", "藜麦", "小米", "黑米", "紫米", "薏米"]
         }
         
         for category, foods in additional_data.items():
@@ -45,39 +45,39 @@ class FoodClassifier:
         return training_data, training_labels
     
     def train_model(self):
-        """Train classifier"""
-        print("Preparing training data...")
+        """训练分类模型"""
+        print("正在准备训练数据...")
         training_data, training_labels = self.prepare_training_data()
         
-        print("Vectorizing text...")
+        print("正在向量化文本...")
         X = self.vectorizer.fit_transform(training_data)
         
-        print("Training model...")
+        print("正在训练模型...")
         self.classifier.fit(X, training_labels)
         
-        # Evaluate
+        # 评估模型
         y_pred = self.classifier.predict(X)
         accuracy = accuracy_score(training_labels, y_pred)
-        print(f"Model trained, accuracy: {accuracy:.2f}")
+        print(f"模型训练完成，准确率: {accuracy:.2f}")
         
         self.model_trained = True
         
-        # Save model
+        # 保存模型
         self.save_model()
     
     def classify_food(self, food_name):
-        """Classify a single food"""
+        """分类单个食物"""
         if not self.model_trained:
             self.train_model()
         
-        # Vectorize input
+        # 向量化输入
         X = self.vectorizer.transform([food_name])
         
-        # Predict
+        # 预测
         prediction = self.classifier.predict(X)[0]
         probabilities = self.classifier.predict_proba(X)[0]
         
-        # Confidence
+        # 获取置信度
         confidence = max(probabilities)
         
         return {
@@ -88,7 +88,7 @@ class FoodClassifier:
         }
     
     def classify_multiple_foods(self, food_list):
-        """Classify multiple foods"""
+        """分类多个食物"""
         results = []
         for food in food_list:
             result = self.classify_food(food)
@@ -96,7 +96,7 @@ class FoodClassifier:
         return results
     
     def save_model(self):
-        """Save model"""
+        """保存模型"""
         model_data = {
             "vectorizer": self.vectorizer,
             "classifier": self.classifier,
@@ -104,10 +104,10 @@ class FoodClassifier:
         }
         with open("food_classifier_model.pkl", "wb") as f:
             pickle.dump(model_data, f)
-        print("Model saved")
+        print("模型已保存")
     
     def load_model(self):
-        """Load model"""
+        """加载模型"""
         try:
             with open("food_classifier_model.pkl", "rb") as f:
                 model_data = pickle.load(f)
@@ -116,28 +116,28 @@ class FoodClassifier:
             self.classifier = model_data["classifier"]
             self.categories = model_data["categories"]
             self.model_trained = True
-            print("Model loaded")
+            print("模型加载成功")
             return True
         except FileNotFoundError:
-            print("Model file not found, retraining...")
+            print("模型文件不存在，将重新训练")
             return False
     
     def get_nutrition_info(self, food_name, quantity=100):
-        """Get nutrition info (mock database)"""
+        """获取食物的营养信息（模拟数据）"""
         nutrition_database = {
-            "chicken": {"calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "fiber": 0},
-            "beef": {"calories": 250, "protein": 26, "carbs": 0, "fat": 15, "fiber": 0},
-            "fish": {"calories": 120, "protein": 22, "carbs": 0, "fat": 4, "fiber": 0},
-            "egg": {"calories": 155, "protein": 13, "carbs": 1.1, "fat": 11, "fiber": 0},
-            "rice": {"calories": 130, "protein": 2.7, "carbs": 28, "fat": 0.3, "fiber": 0.4},
-            "bread": {"calories": 265, "protein": 9, "carbs": 49, "fat": 3.2, "fiber": 2.7},
-            "milk": {"calories": 42, "protein": 3.4, "carbs": 5, "fat": 1, "fiber": 0},
-            "apple": {"calories": 52, "protein": 0.3, "carbs": 14, "fat": 0.2, "fiber": 2.4},
-            "banana": {"calories": 89, "protein": 1.1, "carbs": 23, "fat": 0.3, "fiber": 2.6},
-            "carrot": {"calories": 41, "protein": 0.9, "carbs": 10, "fat": 0.2, "fiber": 2.8}
+            "鸡肉": {"calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "fiber": 0},
+            "牛肉": {"calories": 250, "protein": 26, "carbs": 0, "fat": 15, "fiber": 0},
+            "鱼肉": {"calories": 120, "protein": 22, "carbs": 0, "fat": 4, "fiber": 0},
+            "鸡蛋": {"calories": 155, "protein": 13, "carbs": 1.1, "fat": 11, "fiber": 0},
+            "米饭": {"calories": 130, "protein": 2.7, "carbs": 28, "fat": 0.3, "fiber": 0.4},
+            "面包": {"calories": 265, "protein": 9, "carbs": 49, "fat": 3.2, "fiber": 2.7},
+            "牛奶": {"calories": 42, "protein": 3.4, "carbs": 5, "fat": 1, "fiber": 0},
+            "苹果": {"calories": 52, "protein": 0.3, "carbs": 14, "fat": 0.2, "fiber": 2.4},
+            "香蕉": {"calories": 89, "protein": 1.1, "carbs": 23, "fat": 0.3, "fiber": 2.6},
+            "胡萝卜": {"calories": 41, "protein": 0.9, "carbs": 10, "fat": 0.2, "fiber": 2.8}
         }
         
-        # Find best match
+        # 查找最匹配的食物
         best_match = None
         best_score = 0
         
@@ -150,13 +150,13 @@ class FoodClassifier:
         
         if best_match and best_score > 0.3:
             nutrition = nutrition_database[best_match].copy()
-            # Scale by quantity
+            # 根据数量调整营养值
             ratio = quantity / 100
             for key in nutrition:
                 nutrition[key] = round(nutrition[key] * ratio, 2)
             return nutrition
         else:
-            # Default nutrition
+            # 返回默认营养信息
             return {
                 "calories": 100,
                 "protein": 5,

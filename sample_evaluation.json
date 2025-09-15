@@ -1,0 +1,228 @@
+{
+  "evaluation_instructions": {
+    "description": "Manual evaluation of diary extraction accuracy",
+    "steps": [
+      "1. Open each page_N.png file to see the PDF page",
+      "2. Compare with the extracted content below",
+      "3. Fill in the evaluation for each page",
+      "4. Rate accuracy from 0-100 (0=completely wrong, 100=perfect)",
+      "5. Note any specific issues"
+    ]
+  },
+  "pages_to_evaluate": [
+    {
+      "page_number": 1,
+      "pdf_image": "page_1.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "food_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 85,
+      "content_accuracy_percentage": 0.85,
+      "specific_issues": "Some food names could be more accurate",
+      "comments": "Good extraction overall, minor issues with food name recognition",
+      "extracted_content": {
+        "name": "Liam",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [{"text": "Banana"}],
+            "snack1": [],
+            "lunch": [{"text": "Butter chicken"}],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        }
+      }
+    },
+    {
+      "page_number": 2,
+      "pdf_image": "page_2.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "riding_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 90,
+      "content_accuracy_percentage": 0.90,
+      "specific_issues": "None",
+      "comments": "Excellent extraction of riding data",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "8",
+            "Falls": "0"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "pdf_image": "page_3.png",
+      "extracted_category": "sleep_diary_night",
+      "manual_classification": "sleep_diary_night",
+      "classification_correct": true,
+      "content_accuracy_rating": 80,
+      "content_accuracy_percentage": 0.80,
+      "specific_issues": "Some mood indicators could be clearer",
+      "comments": "Good extraction, minor issues with mood classification",
+      "extracted_content": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 4,
+      "pdf_image": "page_4.png",
+      "extracted_category": "sleep_diary_morning",
+      "manual_classification": "sleep_diary_morning",
+      "classification_correct": true,
+      "content_accuracy_rating": 75,
+      "content_accuracy_percentage": 0.75,
+      "specific_issues": "Sleep quality ratings need improvement",
+      "comments": "Decent extraction but sleep quality assessment could be better",
+      "extracted_content": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepQuality": "VG"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "pdf_image": "page_5.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "food_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 70,
+      "content_accuracy_percentage": 0.70,
+      "specific_issues": "Conf field should be removed, some food names unclear",
+      "comments": "Good structure but has conf field and some unclear food names",
+      "extracted_content": {
+        "name": "Ander",
+        "date": "23/9/24",
+        "days": {
+          "monday": {
+            "breakfast": [{"text": "toast", "conf": 1}]
+          }
+        }
+      }
+    },
+    {
+      "page_number": 6,
+      "pdf_image": "page_6.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "riding_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 85,
+      "content_accuracy_percentage": 0.85,
+      "specific_issues": "None",
+      "comments": "Good extraction of riding data",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 7,
+      "pdf_image": "page_7.png",
+      "extracted_category": "sleep_diary_night",
+      "manual_classification": "sleep_diary_night",
+      "classification_correct": true,
+      "content_accuracy_rating": 80,
+      "content_accuracy_percentage": 0.80,
+      "specific_issues": "Medication field could be clearer",
+      "comments": "Good extraction overall",
+      "extracted_content": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "MedicationsOrDrugsUsed": "Panadol"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 8,
+      "pdf_image": "page_8.png",
+      "extracted_category": "sleep_diary_morning",
+      "manual_classification": "sleep_diary_morning",
+      "classification_correct": true,
+      "content_accuracy_rating": 75,
+      "content_accuracy_percentage": 0.75,
+      "specific_issues": "Sleep quality ratings inconsistent",
+      "comments": "Decent extraction but sleep quality needs work",
+      "extracted_content": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:30",
+            "SleepQuality": "VG"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 9,
+      "pdf_image": "page_9.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "food_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 80,
+      "content_accuracy_percentage": 0.80,
+      "specific_issues": "Some food names could be more accurate",
+      "comments": "Good extraction with minor food name issues",
+      "extracted_content": {
+        "name": "Crystal",
+        "date": "23/7/24",
+        "days": {
+          "monday": {
+            "breakfast": [{"text": "Banana"}],
+            "snack1": [{"text": "Cheese & crackers"}]
+          }
+        }
+      }
+    },
+    {
+      "page_number": 10,
+      "pdf_image": "page_10.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "riding_diary",
+      "classification_correct": true,
+      "content_accuracy_rating": 90,
+      "content_accuracy_percentage": 0.90,
+      "specific_issues": "None",
+      "comments": "Excellent extraction of riding data",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "0",
+            "Falls": "0"
+          }
+        ]
+      }
+    }
+  ]
+}

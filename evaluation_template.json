@@ -1,0 +1,1165 @@
+{
+  "evaluation_instructions": {
+    "description": "Manual evaluation of diary extraction accuracy",
+    "steps": [
+      "1. Open each page_N.png file to see the PDF page",
+      "2. Compare with the extracted content below",
+      "3. Fill in the evaluation for each page",
+      "4. Rate accuracy from 0-100 (0=completely wrong, 100=perfect)",
+      "5. Note any specific issues"
+    ]
+  },
+  "pages_to_evaluate": [
+    {
+      "page_number": 1,
+      "pdf_image": "page_1.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "name": "Liam",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Butter chicken"
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "pasta chicken"
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Macaroni"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "KFC"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Samp"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Kebab"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Meatballs mash"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Samp"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Noodle canleen"
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page_number": 2,
+      "pdf_image": "page_2.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "9",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "pdf_image": "page_3.png",
+      "extracted_category": "sleep_diary_night",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "TV"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Amber",
+          "date": "YYYY-MM-DD|",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page_number": 4,
+      "pdf_image": "page_4.png",
+      "extracted_category": "sleep_diary_morning",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "6",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "pdf_image": "page_5.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "name": "Ander",
+        "date": "23/9/24",
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "toast",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Yogurt",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "steak salad",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Subway wrap",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Yogurt",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Nothing",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "sandwich",
+                "conf": 1
+              },
+              {
+                "text": "fruit",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "pasta / chicken",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Chicken",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Out for Dinner Indian",
+                "conf": 0.9
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Nothing",
+                "conf": 0.9
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "two savory pies",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Chia pudding",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [
+              {
+                "text": "lollies",
+                "conf": 1
+              }
+            ],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Burger",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page_number": 6,
+      "pdf_image": "page_6.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "7",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "4",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "1",
+            "Falls": "0",
+            "Trackwork": "1",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "7",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "7",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 7,
+      "pdf_image": "page_7.png",
+      "extracted_category": "sleep_diary_night",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "2",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "Phone, TV"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "45",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "1",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos / Neg",
+            "PreBedActivities": "No"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Crystal",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page_number": 8,
+      "pdf_image": "page_8.png",
+      "extracted_category": "sleep_diary_morning",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:30",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "05:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "20:30",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "11:00",
+            "WakeUpTime": "09:00",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 9,
+      "pdf_image": "page_9.png",
+      "extracted_category": "food_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "name": "Crystal",
+        "date": "23/7/24",
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Cheese & crackers"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Cheese toastie"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Steak & veg"
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "muesli bar & up egg"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "sandwich"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "noodles"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Stir fry"
+              }
+            ],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "sushi"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pork belly roast"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "muesli bar & up egg"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Quiche"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Butter chicken"
+              }
+            ],
+            "snack3": [
+              {
+                "text": "Chocolate"
+              }
+            ]
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Cheese & crackers"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "cordon bleu"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Cheese & crackers"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Dumplings"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "BBQ"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "noodles"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Soup"
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page_number": 10,
+      "pdf_image": "page_10.png",
+      "extracted_category": "riding_diary",
+      "manual_classification": "TO_BE_FILLED",
+      "classification_correct": "TO_BE_FILLED",
+      "content_accuracy_rating": "TO_BE_FILLED",
+      "content_accuracy_percentage": "TO_BE_FILLED",
+      "specific_issues": "TO_BE_FILLED",
+      "comments": "TO_BE_FILLED",
+      "extracted_content": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          }
+        ]
+      }
+    }
+  ]
+}

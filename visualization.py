@@ -8,16 +8,16 @@ from config import FOOD_CATEGORIES
 class NutritionVisualizer:
     def __init__(self):
         self.colors = {
-            "Protein": "#FF6B6B",
-            "Carbohydrates": "#4ECDC4", 
-            "Fat": "#45B7D1",
-            "Vitamins": "#96CEB4",
-            "Minerals": "#FFEAA7",
-            "Fiber": "#DDA0DD"
+            "蛋白质": "#FF6B6B",
+            "碳水化合物": "#4ECDC4", 
+            "脂肪": "#45B7D1",
+            "维生素": "#96CEB4",
+            "矿物质": "#FFEAA7",
+            "纤维": "#DDA0DD"
         }
     
     def create_nutrition_pie_chart(self, nutrition_data):
-        """Create nutrition breakdown pie chart"""
+        """创建营养成分饼图"""
         labels = list(nutrition_data.keys())
         values = list(nutrition_data.values())
         
@@ -28,16 +28,20 @@ class NutritionVisualizer:
             marker_colors=['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7']
         )])
         
-        fig.update_layout(title="Nutrition Breakdown", showlegend=True, height=400)
+        fig.update_layout(
+            title="营养成分分布",
+            showlegend=True,
+            height=400
+        )
         
         return fig
     
     def create_food_category_chart(self, foods_data):
-        """Create food category bar chart"""
+        """创建食物分类图表"""
         # 统计各分类的食物数量
         category_counts = {}
         for food in foods_data:
-            category = food.get("category", "Other")
+            category = food.get("category", "其他")
             category_counts[category] = category_counts.get(category, 0) + 1
         
         fig = px.bar(
@@ -45,48 +49,19 @@ class NutritionVisualizer:
             y=list(category_counts.values()),
             color=list(category_counts.keys()),
             color_discrete_map=self.colors,
-            title="Food Category Distribution"
+            title="食物分类分布"
         )
         
-        fig.update_layout(xaxis_title="Category", yaxis_title="Count", height=400)
-        
-        return fig
-    
-    def create_food_category_pie_chart(self, food_categories):
-        """Create food category pie chart"""
-        if not food_categories:
-            # 创建空图表
-            fig = go.Figure()
-            fig.add_annotation(
-                text="No food data",
-                xref="paper", yref="paper",
-                x=0.5, y=0.5, showarrow=False,
-                font=dict(size=16)
-            )
-            fig.update_layout(title="Food Category Distribution", height=400)
-            return fig
-        
-        labels = list(food_categories.keys())
-        values = list(food_categories.values())
-        
-        # 为每个类别分配颜色
-        colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#FFB347', '#98D8C8']
-        
-        fig = go.Figure(data=[go.Pie(
-            labels=labels,
-            values=values,
-            hole=0.3,
-            marker_colors=colors[:len(labels)],
-            textinfo='label+percent+value',
-            textposition='inside'
-        )])
-        
-        fig.update_layout(title="Food Category Pie Chart", showlegend=True, height=400, margin=dict(t=50, b=50, l=50, r=50))
+        fig.update_layout(
+            xaxis_title="食物分类",
+            yaxis_title="数量",
+            height=400
+        )
         
         return fig
     
     def create_nutrition_comparison_chart(self, actual_data, target_data):
-        """Create nutrition vs target bar chart"""
+        """创建营养目标对比图"""
         nutrients = list(actual_data.keys())
         actual_values = list(actual_data.values())
         target_values = [target_data.get(nutrient, 0) for nutrient in nutrients]
@@ -94,40 +69,50 @@ class NutritionVisualizer:
         fig = go.Figure()
         
         fig.add_trace(go.Bar(
-            name="Actual",
+            name="实际摄入",
             x=nutrients,
             y=actual_values,
             marker_color='#FF6B6B'
         ))
         
         fig.add_trace(go.Bar(
-            name="Target",
+            name="目标摄入",
             x=nutrients,
             y=target_values,
             marker_color='#4ECDC4'
         ))
         
-        fig.update_layout(title="Intake vs Target", barmode='group', xaxis_title="Nutrient", yaxis_title="Amount", height=400)
+        fig.update_layout(
+            title="营养摄入 vs 目标",
+            barmode='group',
+            xaxis_title="营养素",
+            yaxis_title="数量",
+            height=400
+        )
         
         return fig
     
     def create_trend_chart(self, daily_records, nutrient="calories"):
-        """Create nutrition trend chart"""
+        """创建营养趋势图"""
         dates = [record["date"] for record in daily_records]
         values = [record[nutrient] for record in daily_records]
         
         fig = px.line(
             x=dates,
             y=values,
-            title=f"{nutrient} Trend"
+            title=f"{nutrient}摄入趋势"
         )
         
-        fig.update_layout(xaxis_title="Date", yaxis_title=f"{nutrient}", height=400)
+        fig.update_layout(
+            xaxis_title="日期",
+            yaxis_title=f"{nutrient}摄入量",
+            height=400
+        )
         
         return fig
     
     def create_radar_chart(self, nutrition_data, target_data):
-        """Create nutrition radar chart"""
+        """创建营养雷达图"""
         nutrients = list(nutrition_data.keys())
         actual_values = list(nutrition_data.values())
         target_values = [target_data.get(nutrient, 0) for nutrient in nutrients]
@@ -147,7 +132,7 @@ class NutritionVisualizer:
             r=percentages,
             theta=nutrients,
             fill='toself',
-            name='Actual %',
+            name='实际摄入百分比',
             line_color='#FF6B6B'
         ))
         
@@ -155,7 +140,7 @@ class NutritionVisualizer:
             r=[100] * len(nutrients),
             theta=nutrients,
             fill='toself',
-            name='Target',
+            name='目标线',
             line_color='#4ECDC4'
         ))
         
@@ -166,14 +151,14 @@ class NutritionVisualizer:
                     range=[0, 200]
                 )),
             showlegend=True,
-            title="Nutrition Radar",
+            title="营养摄入雷达图",
             height=500
         )
         
         return fig
     
     def create_calorie_timeline(self, daily_records):
-        """Create calorie timeline chart"""
+        """创建卡路里时间线图"""
         dates = [record["date"] for record in daily_records]
         calories = [record["calories"] for record in daily_records]
         
@@ -182,17 +167,21 @@ class NutritionVisualizer:
             y=calories,
             size=calories,
             color=calories,
-            title="Daily Calorie Timeline"
+            title="每日卡路里摄入时间线"
         )
         
-        fig.update_layout(xaxis_title="Date", yaxis_title="Calories", height=400)
+        fig.update_layout(
+            xaxis_title="日期",
+            yaxis_title="卡路里",
+            height=400
+        )
         
         return fig
     
     def create_nutrition_heatmap(self, weekly_data):
-        """Create nutrition heatmap"""
+        """创建营养热力图"""
         # 准备数据
-        days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        days = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
         nutrients = ["calories", "protein", "carbs", "fat", "fiber"]
         
         # 创建数据矩阵
@@ -213,7 +202,7 @@ class NutritionVisualizer:
             x=days,
             y=nutrients,
             color_continuous_scale='Viridis',
-            title="Weekly Nutrition Heatmap"
+            title="每周营养摄入热力图"
         )
         
         fig.update_layout(height=400)
@@ -221,7 +210,7 @@ class NutritionVisualizer:
         return fig
     
     def create_bmi_chart(self, weight_history, height):
-        """Create BMI chart"""
+        """创建BMI变化图"""
         bmi_values = []
         dates = []
         
@@ -236,24 +225,28 @@ class NutritionVisualizer:
         fig = px.line(
             x=dates,
             y=bmi_values,
-            title="BMI Trend"
+            title="BMI变化趋势"
         )
         
         # 添加BMI分类线
-        fig.add_hline(y=18.5, line_dash="dash", line_color="red", annotation_text="Underweight")
-        fig.add_hline(y=24, line_dash="dash", line_color="green", annotation_text="Normal")
-        fig.add_hline(y=28, line_dash="dash", line_color="orange", annotation_text="Overweight")
+        fig.add_hline(y=18.5, line_dash="dash", line_color="red", annotation_text="体重不足")
+        fig.add_hline(y=24, line_dash="dash", line_color="green", annotation_text="正常体重")
+        fig.add_hline(y=28, line_dash="dash", line_color="orange", annotation_text="超重")
         
-        fig.update_layout(xaxis_title="Date", yaxis_title="BMI", height=400)
+        fig.update_layout(
+            xaxis_title="日期",
+            yaxis_title="BMI",
+            height=400
+        )
         
         return fig
     
     def create_comprehensive_dashboard(self, analysis_result):
-        """Create comprehensive dashboard"""
+        """创建综合仪表板"""
         # 创建子图
         fig = make_subplots(
             rows=2, cols=2,
-            subplot_titles=("Nutrition Breakdown", "Food Categories", "Intake vs Target", "Trends"),
+            subplot_titles=("营养成分分布", "食物分类", "营养目标对比", "趋势分析"),
             specs=[[{"type": "pie"}, {"type": "bar"}],
                    [{"type": "bar"}, {"type": "scatter"}]]
         )
@@ -271,7 +264,7 @@ class NutritionVisualizer:
         if foods_data:
             category_counts = {}
             for food in foods_data:
-                category = food.get("category", "Other")
+                category = food.get("category", "其他")
                 category_counts[category] = category_counts.get(category, 0) + 1
             
             fig.add_trace(
@@ -279,6 +272,6 @@ class NutritionVisualizer:
                 row=1, col=2
             )
         
-        fig.update_layout(height=800, title_text="Nutrition Analysis Dashboard")
+        fig.update_layout(height=800, title_text="营养分析综合仪表板")
         
         return fig

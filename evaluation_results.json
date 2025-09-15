@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "total_pages_evaluated": 10,
+    "overall_classification_accuracy": 1.0,
+    "overall_content_accuracy": 0.7972854434233172
+  },
+  "classification_results": {
+    "correct": 10,
+    "total": 10,
+    "details": [
+      {
+        "page": 1,
+        "ground_truth": "food_diary",
+        "extracted": "food_diary",
+        "correct": true
+      },
+      {
+        "page": 2,
+        "ground_truth": "riding_diary",
+        "extracted": "riding_diary",
+        "correct": true
+      },
+      {
+        "page": 3,
+        "ground_truth": "sleep_diary_night",
+        "extracted": "sleep_diary_night",
+        "correct": true
+      },
+      {
+        "page": 4,
+        "ground_truth": "sleep_diary_morning",
+        "extracted": "sleep_diary_morning",
+        "correct": true
+      },
+      {
+        "page": 5,
+        "ground_truth": "food_diary",
+        "extracted": "food_diary",
+        "correct": true
+      },
+      {
+        "page": 6,
+        "ground_truth": "riding_diary",
+        "extracted": "riding_diary",
+        "correct": true
+      },
+      {
+        "page": 7,
+        "ground_truth": "sleep_diary_night",
+        "extracted": "sleep_diary_night",
+        "correct": true
+      },
+      {
+        "page": 8,
+        "ground_truth": "sleep_diary_morning",
+        "extracted": "sleep_diary_morning",
+        "correct": true
+      },
+      {
+        "page": 9,
+        "ground_truth": "food_diary",
+        "extracted": "food_diary",
+        "correct": true
+      },
+      {
+        "page": 10,
+        "ground_truth": "riding_diary",
+        "extracted": "riding_diary",
+        "correct": true
+      }
+    ],
+    "accuracy": 1.0
+  },
+  "content_results": {
+    "food_diary": {
+      "correct": 2.7473572938689217,
+      "total": 3,
+      "details": [
+        {
+          "page": 1,
+          "accuracy": 0.9302325581395349
+        },
+        {
+          "page": 5,
+          "accuracy": 0.8636363636363636
+        },
+        {
+          "page": 9,
+          "accuracy": 0.9534883720930233
+        }
+      ],
+      "accuracy": 0.9157857646229739
+    },
+    "riding_diary": {
+      "correct": 2.3469387755102042,
+      "total": 3,
+      "details": [
+        {
+          "page": 2,
+          "accuracy": 0.40816326530612246
+        },
+        {
+          "page": 6,
+          "accuracy": 0.9387755102040817
+        },
+        {
+          "page": 10,
+          "accuracy": 1.0
+        }
+      ],
+      "accuracy": 0.7823129251700681
+    },
+    "sleep_diary_morning": {
+      "correct": 1.426530612244898,
+      "total": 2,
+      "details": [
+        {
+          "page": 4,
+          "accuracy": 0.610204081632653
+        },
+        {
+          "page": 8,
+          "accuracy": 0.8163265306122449
+        }
+      ],
+      "accuracy": 0.713265306122449
+    },
+    "sleep_diary_night": {
+      "correct": 1.5555555555555556,
+      "total": 2,
+      "details": [
+        {
+          "page": 3,
+          "accuracy": 0.873015873015873
+        },
+        {
+          "page": 7,
+          "accuracy": 0.6825396825396826
+        }
+      ],
+      "accuracy": 0.7777777777777778
+    }
+  },
+  "note": "This is an automatic evaluation with limited accuracy. For precise results, use manual evaluation."
+}

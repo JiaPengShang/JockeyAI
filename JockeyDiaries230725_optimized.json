@@ -8,8 +8,8 @@
     "sleep_diary_morning": 8
   },
   "processing_stats": {
-    "total_time": 976.9253010749817,
-    "avg_time_per_page": 28.49047814397251,
+    "total_time": 992.0875079631805,
+    "avg_time_per_page": 28.93364205781151,
     "successful_pages": 34,
     "failed_pages": 0,
     "seed_used": 42
@@ -29,15 +29,14 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [],
-            "lunch": [
+            "snack": [],
+            "lunch": [],
+            "dinner": [
               {
                 "text": "Butter chicken"
               }
             ],
-            "snack2": [],
-            "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
@@ -45,15 +44,14 @@
                 "text": "Nutri grain"
               }
             ],
-            "snack1": [],
-            "lunch": [
+            "snack": [],
+            "lunch": [],
+            "dinner": [
               {
-                "text": "pasta chicken"
+                "text": "Pasta chicken"
               }
             ],
-            "snack2": [],
-            "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "wednesday": {
             "breakfast": [
@@ -61,47 +59,44 @@
                 "text": "Nutri grain"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Macaroni"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "KFC"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pizza"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "friday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Samp"
+                "text": "Soup"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Kebab"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [
@@ -109,31 +104,29 @@
                 "text": "Nutri grain"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Meatballs mash"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Samp"
+                "text": "Soup"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Noodle canleen"
+                "text": "Noodle canteen"
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -152,77 +145,77 @@
             "Horses ridden": "8",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Tuesday",
             "Horses ridden": "8",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Wednesday",
             "Horses ridden": "7",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Thursday",
             "Horses ridden": "8",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Friday",
             "Horses ridden": "9",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Saturday",
             "Horses ridden": "10",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
             "Day": "Sunday",
             "Horses ridden": "0",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": null,
-            "Jumpouts": null,
-            "Trials": null,
-            "Races": null,
-            "Other eg. gym/run": null
+            "Gallops": "Gallops",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           }
         ]
       }
@@ -243,7 +236,7 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           },
           {
@@ -253,9 +246,9 @@
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
+            "MedicationsOrDrugsUsed": "Yes",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           },
           {
@@ -266,8 +259,8 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Never",
-            "OverallMood": "Pos",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           },
           {
@@ -277,9 +270,9 @@
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
+            "MedicationsOrDrugsUsed": "Yes",
             "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "TV"
           },
           {
@@ -289,9 +282,9 @@
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
+            "MedicationsOrDrugsUsed": "Yes",
             "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           },
           {
@@ -303,7 +296,7 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           },
           {
@@ -315,14 +308,14 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos",
+            "OverallMood": "Positive",
             "PreBedActivities": "Phone"
           }
         ],
         "metadata": {
           "institution": "Massey University",
           "name": "Amber",
-          "date": "YYYY-MM-DD|",
+          "date": "YYYY-MM-DD|null",
           "form_title": "Sleep Diary: Night"
         }
       }
@@ -339,70 +332,70 @@
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Tuesday",
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Wednesday",
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Thursday",
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Friday",
             "Bedtime": "21:00",
             "WakeUpTime": "06:00",
-            "SleepLatencyMins": "6",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Saturday",
-            "Bedtime": "21:00",
+            "Bedtime": "22:00",
             "WakeUpTime": "06:00",
-            "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Sunday",
-            "Bedtime": "21:00",
+            "Bedtime": "22:00",
             "WakeUpTime": "06:00",
-            "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           }
         ]
       }
@@ -412,163 +405,129 @@
       "category": "food_diary",
       "raw_text": null,
       "structured": {
-        "name": "Ander",
+        "name": "Anker",
         "date": "23/9/24",
         "days": {
           "monday": {
             "breakfast": [
               {
-                "text": "toast",
-                "conf": 1
+                "text": "toast"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Yogurt",
-                "conf": 1
+                "text": "Yogurt"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "steak salad",
-                "conf": 1
+                "text": "steak salad"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
               {
-                "text": "Musli bar",
-                "conf": 1
+                "text": "Musi bar"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Subway wrap",
-                "conf": 1
+                "text": "Subway wrap"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "wednesday": {
             "breakfast": [
               {
-                "text": "Musli bar",
-                "conf": 1
+                "text": "Musli bar"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Yogurt",
-                "conf": 1
+                "text": "Yogurt"
               }
             ],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
-            "breakfast": [
-              {
-                "text": "Nothing",
-                "conf": 1
-              }
-            ],
-            "snack1": [],
+            "breakfast": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "sandwich",
-                "conf": 1
-              },
-              {
-                "text": "fruit",
-                "conf": 1
+                "text": "sandwich"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "pasta / chicken",
-                "conf": 1
+                "text": "Pasta / Chicken"
               }
             ],
-            "snack3": []
+            "snack2": [
+              {
+                "text": "fruit"
+              }
+            ]
           },
           "friday": {
             "breakfast": [
               {
-                "text": "Musli bar",
-                "conf": 1
+                "text": "Musli bar"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Chicken",
-                "conf": 1
+                "text": "Chicken"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Out for Dinner Indian",
-                "conf": 0.9
+                "text": "Out for Dinner Indian"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
-            "breakfast": [
-              {
-                "text": "Nothing",
-                "conf": 0.9
-              }
-            ],
-            "snack1": [],
+            "breakfast": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "two savory pies",
-                "conf": 1
+                "text": "two savory pies"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Chia pudding",
-                "conf": 1
+                "text": "Chia Pudding"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [
               {
-                "text": "Musli bar",
-                "conf": 1
+                "text": "Musli bar"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "lollies",
-                "conf": 1
+                "text": "lollies"
               }
             ],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Burger",
-                "conf": 1
+                "text": "Burger"
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -598,7 +557,7 @@
             "Horses ridden": "10",
             "Falls": "0",
             "Trackwork": "10",
-            "Gallops": "0",
+            "Gallops": "null",
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "7",
@@ -642,7 +601,7 @@
             "Horses ridden": "1",
             "Falls": "0",
             "Trackwork": "1",
-            "Gallops": "null",
+            "Gallops": "0",
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "7",
@@ -650,10 +609,10 @@
           },
           {
             "Day": "Sunday",
-            "Horses ridden": "7",
+            "Horses ridden": "-7",
             "Falls": "0",
-            "Trackwork": "7",
-            "Gallops": "null",
+            "Trackwork": "-7",
+            "Gallops": "0",
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
@@ -683,7 +642,7 @@
           },
           {
             "Day": "Tuesday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -691,11 +650,11 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           },
           {
             "Day": "Wednesday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -703,11 +662,11 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           },
           {
             "Day": "Thursday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -715,11 +674,11 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Sometimes",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           },
           {
             "Day": "Friday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -727,11 +686,11 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Sometimes",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           },
           {
             "Day": "Saturday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -739,11 +698,11 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           },
           {
             "Day": "Sunday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
@@ -751,13 +710,13 @@
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
             "OverallMood": "Pos / Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone, TV"
           }
         ],
         "metadata": {
           "institution": "Massey University",
           "name": "Crystal",
-          "date": "YYYY-MM-DD",
+          "date": "YYYY-MM-DD|null",
           "form_title": "Sleep Diary: Night"
         }
       }
@@ -816,7 +775,7 @@
             "SleepLatencyMins": "5",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
+            "NightAwakenings": "2",
             "DifficultyFactors": "discomfort"
           },
           {
@@ -831,8 +790,8 @@
           },
           {
             "Day": "Sunday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
+            "Bedtime": null,
+            "WakeUpTime": null,
             "SleepLatencyMins": "2",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
@@ -856,23 +815,22 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "Cheese & crackers"
+                "text": "cheese & crackers"
               }
             ],
             "lunch": [
               {
-                "text": "Cheese toastie"
+                "text": "cheese toastie"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Steak & veg"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
@@ -880,9 +838,9 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "muesli bar & up egg"
+                "text": "muesli bar & up & 2 eggs"
               }
             ],
             "lunch": [
@@ -890,17 +848,16 @@
                 "text": "sandwich"
               }
             ],
-            "snack2": [
-              {
-                "text": "noodles"
-              }
-            ],
             "dinner": [
               {
                 "text": "Stir fry"
               }
             ],
-            "snack3": []
+            "snack2": [
+              {
+                "text": "noodles"
+              }
+            ]
           },
           "wednesday": {
             "breakfast": [
@@ -908,19 +865,18 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "sushi"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pork belly roast"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [
@@ -928,9 +884,9 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "muesli bar & up egg"
+                "text": "muesli bar & up & 2 eggs"
               }
             ],
             "lunch": [
@@ -938,15 +894,14 @@
                 "text": "Quiche"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Butter chicken"
               }
             ],
-            "snack3": [
+            "snack2": [
               {
-                "text": "Chocolate"
+                "text": "chocolate"
               }
             ]
           },
@@ -956,9 +911,9 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "Cheese & crackers"
+                "text": "cheese & crackers"
               }
             ],
             "lunch": [
@@ -966,13 +921,12 @@
                 "text": "cordon bleu"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pizza"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [
@@ -980,9 +934,9 @@
                 "text": "Banana"
               }
             ],
-            "snack1": [
+            "snack": [
               {
-                "text": "Cheese & crackers"
+                "text": "cheese & crackers"
               }
             ],
             "lunch": [
@@ -990,29 +944,27 @@
                 "text": "Dumplings"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "BBQ"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "noodles"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Soup"
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -1115,92 +1067,92 @@
         "records": [
           {
             "Day": "Monday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "1",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, TV"
           },
           {
             "Day": "Tuesday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
+            "CaffeineAfternoonDrinks": "1",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Phone, dinner"
           },
           {
             "Day": "Wednesday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "CaffeineAfternoonDrinks": "1",
+            "CaffeineEveningDrinks": "1",
+            "ExerciseDuration": "15",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Eating"
           },
           {
             "Day": "Thursday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
+            "CaffeineMorningDrinks": "2",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Showering"
           },
           {
             "Day": "Friday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "CaffeineEveningDrinks": "1",
+            "ExerciseDuration": "20",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "TV, phone"
           },
           {
             "Day": "Saturday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
+            "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "60",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Spending time with partner"
           },
           {
             "Day": "Sunday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
+            "CaffeineAfternoonDrinks": "2",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading"
           }
         ],
         "metadata": {
           "institution": "Massey University",
-          "name": "No",
+          "name": "null",
           "date": "YYYY-MM-DD",
           "form_title": "Sleep Diary: Night"
         }
@@ -1300,11 +1252,10 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
@@ -1312,19 +1263,18 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "Apple"
               }
             ],
-            "snack2": [
+            "dinner": [
               {
                 "text": "Mash + meatballs"
               }
             ],
-            "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "wednesday": {
             "breakfast": [
@@ -1332,15 +1282,14 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pumpkin Soup"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [
@@ -1348,19 +1297,18 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "Apple"
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Butter chicken"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "friday": {
             "breakfast": [
@@ -1368,15 +1316,14 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Mushroom Pasta"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [
@@ -1384,31 +1331,29 @@
                 "text": "Nutri grain + Banana"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Crumpets + chicken"
+                "text": "Crumpets + Chicken"
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [
               {
-                "text": "scrambled eggs + potato"
+                "text": "Scrambled eggs + potato"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pizza"
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -1512,9 +1457,9 @@
           {
             "Day": "Monday",
             "NapTaken": "Yes",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
@@ -1525,78 +1470,78 @@
             "Day": "Tuesday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
             "OverallMood": "Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone"
           },
           {
             "Day": "Wednesday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
             "OverallMood": "Pos",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone"
           },
           {
             "Day": "Thursday",
             "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
             "OverallMood": "Neg",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone"
           },
           {
             "Day": "Friday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
             "OverallMood": "Pos",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone"
           },
           {
             "Day": "Saturday",
             "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Pos",
-            "PreBedActivities": "No"
+            "OverallMood": "Neg",
+            "PreBedActivities": "Phone"
           },
           {
             "Day": "Sunday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": null,
+            "CaffeineEveningDrinks": null,
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
             "OverallMood": "Pos",
-            "PreBedActivities": "No"
+            "PreBedActivities": "Phone"
           }
         ],
         "metadata": {
           "institution": "Massey University",
-          "name": "Jatish Mudhoo",
+          "name": "Jatesh Mulho",
           "date": "2025-07-23",
           "form_title": "Sleep Diary: Night"
         }
@@ -1611,21 +1556,21 @@
         "records": [
           {
             "Day": "Monday",
-            "Bedtime": "21:00",
+            "Bedtime": "09:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "20",
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Refreshed (Ref)",
             "NightAwakenings": "1",
-            "DifficultyFactors": "temperature"
+            "DifficultyFactors": "Temperature"
           },
           {
             "Day": "Tuesday",
             "Bedtime": null,
             "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
             "NightAwakenings": "0",
             "DifficultyFactors": null
           },
@@ -1634,8 +1579,8 @@
             "Bedtime": null,
             "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
             "NightAwakenings": "0",
             "DifficultyFactors": null
           },
@@ -1644,8 +1589,8 @@
             "Bedtime": null,
             "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Groggy (Grog)",
             "NightAwakenings": "0",
             "DifficultyFactors": null
           },
@@ -1654,29 +1599,29 @@
             "Bedtime": null,
             "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
             "NightAwakenings": "0",
             "DifficultyFactors": null
           },
           {
             "Day": "Saturday",
-            "Bedtime": "22:00",
-            "WakeUpTime": "08:00",
+            "Bedtime": "10:00",
+            "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
-            "NightAwakenings": "0",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
+            "NightAwakenings": null,
             "DifficultyFactors": null
           },
           {
             "Day": "Sunday",
-            "Bedtime": "21:00",
+            "Bedtime": "09:00",
             "WakeUpTime": null,
             "SleepLatencyMins": null,
-            "SleepQuality": "Very Good",
-            "MorningFeeling": "Refreshed",
-            "NightAwakenings": "0",
+            "SleepQuality": "Very Good (VG)",
+            "MorningFeeling": "Tired (Tir)",
+            "NightAwakenings": null,
             "DifficultyFactors": null
           }
         ]
@@ -1697,7 +1642,7 @@
                 "conf": 1
               }
             ],
-            "snack1": [
+            "snack": [
               {
                 "text": "Biscuit",
                 "conf": 1
@@ -1709,9 +1654,8 @@
                 "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
@@ -1720,16 +1664,15 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "Noodles",
                 "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "wednesday": {
             "breakfast": [
@@ -1738,16 +1681,15 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Bread egg",
-                "conf": 1
+                "conf": 0.9
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [
@@ -1756,16 +1698,15 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Bread egg",
-                "conf": 1
+                "conf": 0.9
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "friday": {
             "breakfast": [
@@ -1774,11 +1715,10 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [
@@ -1787,11 +1727,10 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [
@@ -1800,16 +1739,15 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Curry",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -1832,7 +1770,7 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Tuesday",
@@ -1843,7 +1781,7 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Wednesday",
@@ -1854,7 +1792,7 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Thursday",
@@ -1865,7 +1803,7 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Friday",
@@ -1876,18 +1814,18 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Saturday",
             "Horses ridden": "10",
-            "Falls": "4",
+            "Falls": "1",
             "Trackwork": "10",
             "Gallops": "0",
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Sunday",
@@ -1898,7 +1836,7 @@
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": "0"
           }
         ]
       }
@@ -1918,9 +1856,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Positive",
-            "PreBedActivities": "Reading, Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone, showering, eating"
           },
           {
             "Day": "Tuesday",
@@ -1930,9 +1868,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone, eating"
           },
           {
             "Day": "Wednesday",
@@ -1942,9 +1880,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "1",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Eating"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone"
           },
           {
             "Day": "Thursday",
@@ -1954,9 +1892,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone, eating"
           },
           {
             "Day": "Friday",
@@ -1966,9 +1904,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone, showering"
           },
           {
             "Day": "Saturday",
@@ -1978,9 +1916,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Eating, Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone, showering"
           },
           {
             "Day": "Sunday",
@@ -1990,9 +1928,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos / Neg / Neu",
+            "PreBedActivities": "Using phone"
           }
         ],
         "metadata": {
@@ -2015,8 +1953,8 @@
             "Bedtime": "22:00",
             "WakeUpTime": "04:00",
             "SleepLatencyMins": "45",
-            "SleepQuality": "Good",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
@@ -2025,8 +1963,8 @@
             "Bedtime": "23:30",
             "WakeUpTime": "04:00",
             "SleepLatencyMins": "50",
-            "SleepQuality": "Good",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Tir",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
@@ -2035,8 +1973,8 @@
             "Bedtime": "22:00",
             "WakeUpTime": "04:00",
             "SleepLatencyMins": "35",
-            "SleepQuality": "Average",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
@@ -2045,8 +1983,8 @@
             "Bedtime": "21:30",
             "WakeUpTime": "04:00",
             "SleepLatencyMins": "25",
-            "SleepQuality": "Good",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
@@ -2056,17 +1994,17 @@
             "WakeUpTime": "04:00",
             "SleepLatencyMins": "45",
             "SleepQuality": "Very Good",
-            "MorningFeeling": "Tired",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
           {
             "Day": "Saturday",
             "Bedtime": "00:45",
-            "WakeUpTime": "04:00",
+            "WakeUpTime": "07:00",
             "SleepLatencyMins": "60",
-            "SleepQuality": "Good",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           },
@@ -2075,8 +2013,8 @@
             "Bedtime": "21:45",
             "WakeUpTime": "07:00",
             "SleepLatencyMins": "25",
-            "SleepQuality": "Very Bad",
-            "MorningFeeling": "Tired",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "Thoughts"
           }
@@ -2089,7 +2027,7 @@
       "raw_text": null,
       "structured": {
         "name": "Sima",
-        "date": "28 July 2017",
+        "date": "28 July 2019",
         "days": {
           "monday": {
             "breakfast": [
@@ -2098,7 +2036,7 @@
                 "conf": 1
               }
             ],
-            "snack1": [
+            "snack": [
               {
                 "text": "Pringles",
                 "conf": 1
@@ -2106,13 +2044,7 @@
             ],
             "lunch": [
               {
-                "text": "Kentucky fried chicken",
-                "conf": 1
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Muffin",
+                "text": "Kentucky Fried Chicken",
                 "conf": 1
               }
             ],
@@ -2122,30 +2054,29 @@
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
               {
-                "text": "Apple protein bar",
+                "text": "Apple",
                 "conf": 1
               }
             ],
-            "snack1": [
+            "snack": [
               {
                 "text": "Four biscuits",
                 "conf": 1
               }
             ],
             "lunch": [],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Fruit salad",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "wednesday": {
             "breakfast": [
@@ -2154,7 +2085,7 @@
                 "conf": 1
               }
             ],
-            "snack1": [
+            "snack": [
               {
                 "text": "Protein Bar",
                 "conf": 1
@@ -2166,18 +2097,17 @@
                 "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Chicken sandwich on toast",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [],
-            "snack1": [
+            "snack": [
               {
                 "text": "Chips",
                 "conf": 1
@@ -2189,20 +2119,19 @@
                 "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
                 "text": "Pizza",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "friday": {
             "breakfast": [],
-            "snack1": [
+            "snack": [
               {
-                "text": "Kransky Roll",
+                "text": "Krantz Roll",
                 "conf": 1
               }
             ],
@@ -2212,19 +2141,18 @@
                 "conf": 1
               }
             ],
-            "snack2": [
-              {
-                "text": "Pringles",
-                "conf": 1
-              }
-            ],
             "dinner": [
               {
                 "text": "McDonald's",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": [
+              {
+                "text": "Pringles",
+                "conf": 1
+              }
+            ]
           },
           "saturday": {
             "breakfast": [
@@ -2233,32 +2161,31 @@
                 "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "Pizza",
                 "conf": 1
               }
             ],
-            "snack2": [
+            "dinner": [
               {
                 "text": "Doritos",
                 "conf": 1
               }
             ],
-            "dinner": [
+            "snack2": [
               {
                 "text": "Grilled chicken",
                 "conf": 1
               }
-            ],
-            "snack3": []
+            ]
           },
           "sunday": {
             "breakfast": [],
-            "snack1": [
+            "snack": [
               {
-                "text": "Kransky Roll",
+                "text": "Krantz Rolls",
                 "conf": 1
               }
             ],
@@ -2268,22 +2195,16 @@
                 "conf": 1
               }
             ],
-            "snack2": [
-              {
-                "text": "Chips",
-                "conf": 1
-              }
-            ],
             "dinner": [
               {
                 "text": "Pizza",
                 "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
-        "notes": "-I need to eat healthier.\n-Plean writing takeout.",
+        "notes": "- I need to eat healthier.\n- Plan using takeout.",
         "uncertain": []
       }
     },
@@ -2298,78 +2219,78 @@
             "Day": "Monday",
             "Horses ridden": "10",
             "Falls": "0",
-            "Trackwork": "10",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           },
           {
             "Day": "Tuesday",
             "Horses ridden": "10",
             "Falls": "0",
-            "Trackwork": "10",
+            "Trackwork": "Trackwork",
             "Gallops": "3",
-            "Jumpouts": "0",
+            "Jumpouts": null,
             "Trials": "1",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Races": null,
+            "Other eg. gym/run": null
           },
           {
             "Day": "Wednesday",
             "Horses ridden": "7",
             "Falls": "0",
-            "Trackwork": "7",
-            "Gallops": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
             "Jumpouts": "0",
             "Trials": "0",
             "Races": "0",
-            "Other eg. gym/run": "null"
+            "Other eg. gym/run": null
           },
           {
             "Day": "Thursday",
             "Horses ridden": "11",
             "Falls": "0",
-            "Trackwork": "11",
+            "Trackwork": "Trackwork",
             "Gallops": "6",
             "Jumpouts": "1",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           },
           {
             "Day": "Friday",
             "Horses ridden": "8",
             "Falls": "0",
-            "Trackwork": "8",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           },
           {
             "Day": "Saturday",
             "Horses ridden": "12",
             "Falls": "0",
-            "Trackwork": "12",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           },
           {
             "Day": "Sunday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           }
         ]
       }
@@ -2384,62 +2305,62 @@
           {
             "Day": "Monday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
+            "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Reading, phone"
           },
           {
             "Day": "Tuesday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
+            "CaffeineAfternoonDrinks": "2",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "60",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Negative",
+            "PreBedActivities": "TV, eating"
           },
           {
             "Day": "Wednesday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
+            "CaffeineAfternoonDrinks": "1",
+            "CaffeineEveningDrinks": "1",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Positive",
+            "PreBedActivities": "showering, spending time with partner"
           },
           {
             "Day": "Thursday",
             "NapTaken": "No",
             "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
+            "CaffeineAfternoonDrinks": "2",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "eating"
           },
           {
             "Day": "Friday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
+            "ExerciseDuration": "15",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "computer"
           },
           {
             "Day": "Saturday",
@@ -2449,9 +2370,443 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Negative",
+            "PreBedActivities": null
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "2",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "45",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Lucy",
+          "date": "2023-10-01",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 24,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "A",
+            "MorningFeeling": "Grog",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "B",
+            "MorningFeeling": "AI",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "VG",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "G",
+            "MorningFeeling": "Grog",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          }
+        ]
+      }
+    },
+    {
+      "page": 25,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": "Lucy",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "Chocolate",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Sandwich",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Indian",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Sushi",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Stew",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chocolate",
+                "conf": 1
+              }
+            ]
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack": [
+              {
+                "text": "Pork bun",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Sandwich",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Mc Donalds",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Smoothie bowl",
+                "conf": 1
+              }
+            ]
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Pasta",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Pasta",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chocolate",
+                "conf": 1
+              }
+            ]
+          },
+          "friday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Burger",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Loaded wedges",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chips",
+                "conf": 1
+              }
+            ]
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Sandwich",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Chicken Burgahh",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Smoothie",
+                "conf": 1
+              }
+            ]
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack": [],
+            "lunch": [
+              {
+                "text": "Pasta",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Noodles",
+                "conf": 1
+              }
+            ],
+            "snack2": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 26,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "11",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "6",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "8",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "8",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "1",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          }
+        ]
+      }
+    },
+    {
+      "page": 27,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
           },
           {
             "Day": "Sunday",
@@ -2461,21 +2816,21 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
           }
         ],
         "metadata": {
           "institution": "Massey University",
-          "name": "Lucy",
-          "date": "YYYY-MM-DD|string",
+          "name": "Elle",
+          "date": "YYYY-MM-DD",
           "form_title": "Sleep Diary: Night"
         }
       }
     },
     {
-      "page": 24,
+      "page": 28,
       "category": "sleep_diary_morning",
       "raw_text": null,
       "structured": {
@@ -2516,446 +2871,18 @@
             "Bedtime": "null",
             "WakeUpTime": "null",
             "SleepLatencyMins": "null",
-            "SleepQuality": "VB",
+            "SleepQuality": "B",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
           },
           {
             "Day": "Friday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Tir",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Saturday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Tir",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Sunday",
             "Bedtime": "null",
             "WakeUpTime": "null",
             "SleepLatencyMins": "null",
             "SleepQuality": "VB",
-            "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          }
-        ]
-      }
-    },
-    {
-      "page": 25,
-      "category": "food_diary",
-      "raw_text": null,
-      "structured": {
-        "name": "Lucy",
-        "date": null,
-        "days": {
-          "monday": {
-            "breakfast": [],
-            "snack1": [
-              {
-                "text": "Chocolate"
-              }
-            ],
-            "lunch": [
-              {
-                "text": "Sandwich"
-              }
-            ],
-            "snack2": [],
-            "dinner": [
-              {
-                "text": "Indian"
-              }
-            ],
-            "snack3": []
-          },
-          "tuesday": {
-            "breakfast": [],
-            "snack1": [],
-            "lunch": [
-              {
-                "text": "Sushi"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Chips"
-              }
-            ],
-            "dinner": [
-              {
-                "text": "stew"
-              }
-            ],
-            "snack3": [
-              {
-                "text": "chocolate"
-              }
-            ]
-          },
-          "wednesday": {
-            "breakfast": [],
-            "snack1": [
-              {
-                "text": "Pork bun"
-              }
-            ],
-            "lunch": [
-              {
-                "text": "Sandwich"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "smoothie bowl"
-              }
-            ],
-            "dinner": [
-              {
-                "text": "Mc Donalds"
-              }
-            ],
-            "snack3": []
-          },
-          "thursday": {
-            "breakfast": [],
-            "snack1": [],
-            "lunch": [
-              {
-                "text": "Pasta"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Chocolate"
-              }
-            ],
-            "dinner": [
-              {
-                "text": "Pasta"
-              }
-            ],
-            "snack3": []
-          },
-          "friday": {
-            "breakfast": [],
-            "snack1": [],
-            "lunch": [
-              {
-                "text": "Burger"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Chips"
-              }
-            ],
-            "dinner": [
-              {
-                "text": "Loaded wedges"
-              }
-            ],
-            "snack3": []
-          },
-          "saturday": {
-            "breakfast": [],
-            "snack1": [],
-            "lunch": [
-              {
-                "text": "Sandwich"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Smoothie"
-              }
-            ],
-            "dinner": [
-              {
-                "text": "Chicken Burgahh"
-              }
-            ],
-            "snack3": [
-              {
-                "text": "Chips"
-              }
-            ]
-          },
-          "sunday": {
-            "breakfast": [],
-            "snack1": [],
-            "lunch": [
-              {
-                "text": "Pasta"
-              }
-            ],
-            "snack2": [],
-            "dinner": [
-              {
-                "text": "Noodles"
-              }
-            ],
-            "snack3": []
-          }
-        },
-        "notes": null,
-        "uncertain": []
-      }
-    },
-    {
-      "page": 26,
-      "category": "riding_diary",
-      "raw_text": null,
-      "structured": {
-        "category": "riding_diary",
-        "records": [
-          {
-            "Day": "Monday",
-            "Horses ridden": "11",
-            "Falls": "0",
-            "Trackwork": "11",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Tuesday",
-            "Horses ridden": "6",
-            "Falls": "0",
-            "Trackwork": "6",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "8",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Wednesday",
-            "Horses ridden": "10",
-            "Falls": "0",
-            "Trackwork": "10",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Thursday",
-            "Horses ridden": "10",
-            "Falls": "0",
-            "Trackwork": "10",
-            "Gallops": "8",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Friday",
-            "Horses ridden": "10",
-            "Falls": "1",
-            "Trackwork": "10",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Saturday",
-            "Horses ridden": "8",
-            "Falls": "0",
-            "Trackwork": "8",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          },
-          {
-            "Day": "Sunday",
-            "Horses ridden": "0",
-            "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
-            "Other eg. gym/run": "null"
-          }
-        ]
-      }
-    },
-    {
-      "page": 27,
-      "category": "sleep_diary_night",
-      "raw_text": null,
-      "structured": {
-        "category": "sleep_diary_night",
-        "records": [
-          {
-            "Day": "Monday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Tuesday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Wednesday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "No",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Thursday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Friday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Positive",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Saturday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          },
-          {
-            "Day": "Sunday",
-            "NapTaken": "No",
-            "CaffeineMorningDrinks": "0",
-            "CaffeineAfternoonDrinks": "0",
-            "CaffeineEveningDrinks": "0",
-            "ExerciseDuration": "0",
-            "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "No",
-            "PreBedActivities": "No"
-          }
-        ],
-        "metadata": {
-          "institution": "Massey University",
-          "name": "Elle",
-          "date": "YYYY-MM-DD",
-          "form_title": "Sleep Diary: Night"
-        }
-      }
-    },
-    {
-      "page": 28,
-      "category": "sleep_diary_morning",
-      "raw_text": null,
-      "structured": {
-        "category": "sleep_diary_morning",
-        "records": [
-          {
-            "Day": "Monday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Tuesday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Wednesday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Thursday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
-          },
-          {
-            "Day": "Friday",
-            "Bedtime": "null",
-            "WakeUpTime": "null",
-            "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "MorningFeeling": "AI",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
           },
@@ -2974,8 +2901,8 @@
             "Bedtime": "null",
             "WakeUpTime": "null",
             "SleepLatencyMins": "null",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "A",
+            "MorningFeeling": "AI",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
           }
@@ -2992,11 +2919,10 @@
         "days": {
           "monday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
@@ -3004,34 +2930,20 @@
                 "text": "coffee"
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
                 "text": "Salad bowl"
               }
             ],
-            "snack2": [
-              {
-                "text": "chocolate",
-                "conf": 0.9
-              },
-              {
-                "text": "cupcake milo"
-              },
-              {
-                "text": "chocolate chips cookie",
-                "conf": 0.9
-              }
-            ],
             "dinner": [
               {
-                "text": "fish pie"
+                "text": "fish pie (potatoes)"
               }
             ],
-            "snack3": [
+            "snack2": [
               {
-                "text": "2 pieces of chocolate",
-                "conf": 0.9
+                "text": "2 pieces of chocolate."
               }
             ]
           },
@@ -3041,61 +2953,54 @@
                 "text": "Bay Coffee"
               }
             ],
-            "snack1": [
+            "snack": [
               {
                 "text": "Sausage Sandwich"
               }
             ],
             "lunch": [
               {
-                "text": "Smoothie bowl thing"
+                "text": "Smoothie bowl thing."
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "McDonald's",
-                "conf": 0.9
+                "text": "McDonald's"
               }
             ],
-            "snack3": [
+            "snack2": [
               {
-                "text": "Sausage roll from 2d",
-                "conf": 0.8
+                "text": "Sausage roll from 2d"
               }
             ]
           },
           "thursday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "friday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [],
-            "snack1": [],
+            "snack": [],
             "lunch": [],
-            "snack2": [],
             "dinner": [],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -3113,77 +3018,77 @@
             "Day": "Monday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           },
           {
             "Day": "Tuesday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           },
           {
             "Day": "Wednesday",
             "Horses ridden": "6",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "gym"
           },
           {
             "Day": "Thursday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           },
           {
             "Day": "Friday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           },
           {
             "Day": "Saturday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           },
           {
             "Day": "Sunday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "0",
-            "Gallops": "0",
-            "Jumpouts": "0",
-            "Trials": "0",
-            "Races": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
             "Other eg. gym/run": "null"
           }
         ]
@@ -3205,20 +3110,20 @@
             "ExerciseDuration": "60",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Positive",
-            "PreBedActivities": "Phone"
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Tuesday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Negative",
-            "PreBedActivities": "Phone"
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Wednesday",
@@ -3228,9 +3133,9 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "30",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Positive",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Thursday",
@@ -3241,20 +3146,20 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Negative",
-            "PreBedActivities": "Phone"
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Friday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Saturday",
@@ -3265,26 +3170,26 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Never",
-            "OverallMood": "Negative",
-            "PreBedActivities": "Phone"
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           },
           {
             "Day": "Sunday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "1",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Neutral",
-            "PreBedActivities": "Phone"
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos/Neg/Neu",
+            "PreBedActivities": "phone"
           }
         ],
         "metadata": {
           "institution": "Massey University",
-          "name": "Toni",
-          "date": "2023-10-01",
+          "name": "Tori",
+          "date": "YYYY-MM-DD",
           "form_title": "Sleep Diary: Night"
         }
       }
@@ -3303,8 +3208,8 @@
             "SleepLatencyMins": "5",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "NightAwakenings": "1",
+            "DifficultyFactors": null
           },
           {
             "Day": "Tuesday",
@@ -3313,8 +3218,8 @@
             "SleepLatencyMins": "5",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
-            "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "NightAwakenings": "1",
+            "DifficultyFactors": null
           },
           {
             "Day": "Wednesday",
@@ -3322,9 +3227,9 @@
             "WakeUpTime": "03:30",
             "SleepLatencyMins": "10",
             "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "MorningFeeling": "Grog",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Thursday",
@@ -3332,9 +3237,9 @@
             "WakeUpTime": "03:30",
             "SleepLatencyMins": "10",
             "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "MorningFeeling": "Grog",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Friday",
@@ -3344,27 +3249,27 @@
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Saturday",
             "Bedtime": "11:00",
             "WakeUpTime": "10:00",
-            "SleepLatencyMins": "5",
+            "SleepLatencyMins": "null",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           },
           {
             "Day": "Sunday",
             "Bedtime": "09:00",
-            "WakeUpTime": "03:30",
-            "SleepLatencyMins": "5",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
             "SleepQuality": "VG",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
-            "DifficultyFactors": "null"
+            "DifficultyFactors": null
           }
         ]
       }
@@ -3380,146 +3285,161 @@
           "monday": {
             "breakfast": [
               {
-                "text": "Vegels w/ Peanut Butter"
+                "text": "Vegels w/ Peanut Butter",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Ham Wrap"
+                "text": "Ham Wrap",
+                "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Smoked Salmon Salad"
+                "text": "Smoked Salmon Salad",
+                "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "tuesday": {
             "breakfast": [
               {
-                "text": "Muesli Bar"
+                "text": "Muesli Bar",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Fruit"
-              }
-            ],
-            "snack2": [
-              {
-                "text": "Lollies"
+                "text": "Fruit",
+                "conf": 1
               }
             ],
             "dinner": [],
-            "snack3": []
+            "snack2": [
+              {
+                "text": "Lollies",
+                "conf": 1
+              }
+            ]
           },
           "wednesday": {
             "breakfast": [
               {
-                "text": "Scrambled Eggs"
+                "text": "Scrambled Eggs",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Fruit"
+                "text": "Fruit",
+                "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Smoked Salmon Salad"
+                "text": "Smoked Salmon Salad",
+                "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "thursday": {
             "breakfast": [
               {
-                "text": "Muesli Bar"
+                "text": "Muesli Bar",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Fruit"
+                "text": "Fruit",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Honey Soy Chicken & Rice",
+                "conf": 1
               }
             ],
             "snack2": [
               {
-                "text": "Lollies"
+                "text": "Lollies",
+                "conf": 1
               }
-            ],
-            "dinner": [
-              {
-                "text": "Honey Soy Chicken & Rice"
-              }
-            ],
-            "snack3": []
+            ]
           },
           "friday": {
             "breakfast": [
               {
-                "text": "Vegels w/ Peanut Butter"
+                "text": "Vegels w/ Peanut Butter",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Omelette"
+                "text": "Omelette",
+                "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Smoked Salmon Salad"
+                "text": "Smoked Salmon Salad",
+                "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "saturday": {
             "breakfast": [
               {
-                "text": "Muesli Bar"
+                "text": "Muesli Bar",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Pasta Salad"
+                "text": "Pasta Salad",
+                "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Chicken Burgers"
+                "text": "Chicken Burgers",
+                "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           },
           "sunday": {
             "breakfast": [
               {
-                "text": "French Toast"
+                "text": "French Toast",
+                "conf": 1
               }
             ],
-            "snack1": [],
+            "snack": [],
             "lunch": [
               {
-                "text": "Ham Wrap"
+                "text": "Ham Wrap",
+                "conf": 1
               }
             ],
-            "snack2": [],
             "dinner": [
               {
-                "text": "Pizza"
+                "text": "Pizza",
+                "conf": 1
               }
             ],
-            "snack3": []
+            "snack2": []
           }
         },
         "notes": null,
@@ -3538,10 +3458,10 @@
             "Horses ridden": "5",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
             "Other eg. gym/run": "Gym"
           },
           {
@@ -3549,21 +3469,21 @@
             "Horses ridden": "0",
             "Falls": "4",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
-            "Other eg. gym/run": "null"
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Wednesday",
             "Horses ridden": "5",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
             "Other eg. gym/run": "Mechanical Horse"
           },
           {
@@ -3571,44 +3491,44 @@
             "Horses ridden": "0",
             "Falls": "4",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
-            "Other eg. gym/run": "null"
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Friday",
             "Horses ridden": "6",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
-            "Other eg. gym/run": "null"
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Saturday",
             "Horses ridden": "0",
             "Falls": "4",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
-            "Other eg. gym/run": "null"
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "0"
           },
           {
             "Day": "Sunday",
             "Horses ridden": "0",
             "Falls": "0",
             "Trackwork": "Trackwork",
-            "Gallops": "null",
-            "Jumpouts": "null",
-            "Trials": "null",
-            "Races": "null",
-            "Other eg. gym/run": "null"
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "0"
           }
         ]
       }
