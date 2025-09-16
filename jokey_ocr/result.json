@@ -1,0 +1,37 @@
+{
+  "index": 0,
+  "box": [
+    [
+      788,
+      0
+    ],
+    [
+      1083,
+      0
+    ],
+    [
+      1083,
+      50
+    ],
+    [
+      788,
+      48
+    ]
+  ],
+  "orig": "NSSSK",
+  "corr": "MASSEY",
+  "changed": true,
+  "ocr_score": 0.3426090478897095,
+  "corr_conf": 0.99,
+  "action": "fix",
+  "reason": "Correct header text from image",
+  "source": "gpt_refine",
+  "char_agreement": 1.0,
+  "meta": {
+    "stage": "ali_table",
+    "version": "v1",
+    "table_file": "./ali_tables.xlsx",
+    "table_format": "xlsx"
+  },
+  "tables": []
+}

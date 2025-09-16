@@ -6,7 +6,7 @@ import time
 import paddle
 from tqdm import tqdm
 
-from base import BaseTrainer
+from jokey_ocr.plugins.base import BaseTrainer
 from utils import runningScore, cal_text_score, Polynomial, profiler
 
 

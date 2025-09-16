@@ -219,3 +219,8 @@ PaddleOCR-3.2.0/out_vis.png
 PaddleOCR-3.2.0/test.raw_ocr.json
 PaddleOCR-3.2.0/refined.csv
 PaddleOCR-3.2.0/corrected_texts.json
+jokey_ocr/ali_tables.xlsx
+jokey_ocr/config.json
+jokey_ocr/config.json
+jokey_ocr/config.json
+jokey_ocr/test.png
