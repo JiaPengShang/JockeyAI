@@ -1,4 +1,0 @@
-build: ''
-build_path: ''
-dev: streamlit run app.py
-install: python3 -m pip install -r requirements.txt

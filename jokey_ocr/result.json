@@ -1,36 +1,2410 @@
 {
-  "index": 0,
-  "box": [
-    [
-      788,
-      0
-    ],
-    [
-      1083,
-      0
-    ],
-    [
-      1083,
-      50
-    ],
-    [
-      788,
-      48
-    ]
+  "items": [
+    {
+      "index": 0,
+      "box": [
+        [
+          788,
+          0
+        ],
+        [
+          1083,
+          0
+        ],
+        [
+          1083,
+          50
+        ],
+        [
+          788,
+          48
+        ]
+      ],
+      "orig": "NSSSK",
+      "corr": "",
+      "changed": true,
+      "ocr_score": 0.3426090478897095,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Name field empty; corrected noise to blank",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 1,
+      "box": [
+        [
+          693,
+          25
+        ],
+        [
+          727,
+          25
+        ],
+        [
+          727,
+          66
+        ],
+        [
+          693,
+          66
+        ]
+      ],
+      "orig": "*",
+      "corr": "",
+      "changed": true,
+      "ocr_score": 0.991479218006134,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Noise symbol removed",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 2,
+      "box": [
+        [
+          793,
+          33
+        ],
+        [
+          1079,
+          52
+        ],
+        [
+          1076,
+          90
+        ],
+        [
+          790,
+          72
+        ]
+      ],
+      "orig": "UNIVERSITY",
+      "corr": "UNIVERSITY",
+      "changed": false,
+      "ocr_score": 0.9998595118522644,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 3,
+      "box": [
+        [
+          1194,
+          61
+        ],
+        [
+          1323,
+          61
+        ],
+        [
+          1323,
+          113
+        ],
+        [
+          1194,
+          113
+        ]
+      ],
+      "orig": "Name:",
+      "corr": "Name:",
+      "changed": false,
+      "ocr_score": 0.9998523592948914,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 4,
+      "box": [
+        [
+          795,
+          82
+        ],
+        [
+          1080,
+          100
+        ],
+        [
+          1078,
+          124
+        ],
+        [
+          793,
+          106
+        ]
+      ],
+      "orig": "TE KUNENGA EI PUREHUROA",
+      "corr": "TE KUNENGA KI PUREHUROA",
+      "changed": true,
+      "ocr_score": 0.9862087368965149,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: KI instead of EI",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 5,
+      "box": [
+        [
+          647,
+          131
+        ],
+        [
+          1082,
+          160
+        ],
+        [
+          1079,
+          195
+        ],
+        [
+          645,
+          166
+        ]
+      ],
+      "orig": "UNIVERSITY OF NEW ZEALAND",
+      "corr": "UNIVERSITY OF NEW ZEALAND",
+      "changed": false,
+      "ocr_score": 0.9983346462249756,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 6,
+      "box": [
+        [
+          1204,
+          160
+        ],
+        [
+          1310,
+          163
+        ],
+        [
+          1308,
+          215
+        ],
+        [
+          1202,
+          213
+        ]
+      ],
+      "orig": "Date:",
+      "corr": "Date:",
+      "changed": false,
+      "ocr_score": 0.9994600415229797,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 7,
+      "box": [
+        [
+          707,
+          202
+        ],
+        [
+          1135,
+          229
+        ],
+        [
+          1130,
+          308
+        ],
+        [
+          702,
+          281
+        ]
+      ],
+      "orig": "My Food Diary",
+      "corr": "My Food Diary",
+      "changed": false,
+      "ocr_score": 0.9998945593833923,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 8,
+      "box": [
+        [
+          418,
+          296
+        ],
+        [
+          578,
+          303
+        ],
+        [
+          576,
+          358
+        ],
+        [
+          415,
+          350
+        ]
+      ],
+      "orig": "Monday",
+      "corr": "Monday",
+      "changed": false,
+      "ocr_score": 0.999927282333374,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 9,
+      "box": [
+        [
+          1312,
+          325
+        ],
+        [
+          1474,
+          331
+        ],
+        [
+          1473,
+          380
+        ],
+        [
+          1310,
+          374
+        ]
+      ],
+      "orig": "Tuesday",
+      "corr": "Tuesday",
+      "changed": false,
+      "ocr_score": 0.9999322891235352,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 10,
+      "box": [
+        [
+          50,
+          341
+        ],
+        [
+          209,
+          354
+        ],
+        [
+          206,
+          399
+        ],
+        [
+          46,
+          386
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.9994704127311707,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 11,
+      "box": [
+        [
+          242,
+          360
+        ],
+        [
+          451,
+          367
+        ],
+        [
+          449,
+          446
+        ],
+        [
+          240,
+          440
+        ]
+      ],
+      "orig": "cup teu",
+      "corr": "cup tea",
+      "changed": true,
+      "ocr_score": 0.9056310057640076,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Typo: 'teu' should be 'tea'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 12,
+      "box": [
+        [
+          974,
+          388
+        ],
+        [
+          1115,
+          392
+        ],
+        [
+          1114,
+          435
+        ],
+        [
+          973,
+          430
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.9997743964195251,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 13,
+      "box": [
+        [
+          1138,
+          379
+        ],
+        [
+          1508,
+          387
+        ],
+        [
+          1507,
+          471
+        ],
+        [
+          1136,
+          463
+        ]
+      ],
+      "orig": "Hazelnut lattle",
+      "corr": "Hazelnut latte",
+      "changed": true,
+      "ocr_score": 0.9116371870040894,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'lattle' -> 'latte'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 14,
+      "box": [
+        [
+          47,
+          422
+        ],
+        [
+          160,
+          431
+        ],
+        [
+          156,
+          475
+        ],
+        [
+          43,
+          466
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.99986332654953,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 15,
+      "box": [
+        [
+          972,
+          458
+        ],
+        [
+          1071,
+          463
+        ],
+        [
+          1068,
+          507
+        ],
+        [
+          970,
+          502
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998594522476196,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 16,
+      "box": [
+        [
+          1131,
+          460
+        ],
+        [
+          1684,
+          465
+        ],
+        [
+          1683,
+          558
+        ],
+        [
+          1131,
+          554
+        ]
+      ],
+      "orig": "eggs on toast x2",
+      "corr": "eggs on toast x2",
+      "changed": false,
+      "ocr_score": 0.9317173957824707,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 17,
+      "box": [
+        [
+          45,
+          500
+        ],
+        [
+          155,
+          511
+        ],
+        [
+          151,
+          555
+        ],
+        [
+          41,
+          545
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9999614953994751,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 18,
+      "box": [
+        [
+          232,
+          523
+        ],
+        [
+          593,
+          539
+        ],
+        [
+          591,
+          598
+        ],
+        [
+          229,
+          581
+        ]
+      ],
+      "orig": "2 meat pathes",
+      "corr": "2 meat patties",
+      "changed": true,
+      "ocr_score": 0.9669607877731323,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'pathes' -> 'patties'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 19,
+      "box": [
+        [
+          970,
+          533
+        ],
+        [
+          1067,
+          537
+        ],
+        [
+          1065,
+          578
+        ],
+        [
+          968,
+          574
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9999426007270813,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 20,
+      "box": [
+        [
+          45,
+          581
+        ],
+        [
+          154,
+          589
+        ],
+        [
+          151,
+          630
+        ],
+        [
+          42,
+          622
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998928308486938,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 21,
+      "box": [
+        [
+          227,
+          606
+        ],
+        [
+          436,
+          614
+        ],
+        [
+          434,
+          674
+        ],
+        [
+          225,
+          667
+        ]
+      ],
+      "orig": "cup tey",
+      "corr": "cup tea",
+      "changed": true,
+      "ocr_score": 0.9577924609184265,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Typo: 'tey' -> 'tea'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 22,
+      "box": [
+        [
+          968,
+          607
+        ],
+        [
+          1066,
+          609
+        ],
+        [
+          1065,
+          651
+        ],
+        [
+          967,
+          648
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998321533203125,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 23,
+      "box": [
+        [
+          1128,
+          601
+        ],
+        [
+          1776,
+          610
+        ],
+        [
+          1775,
+          694
+        ],
+        [
+          1127,
+          684
+        ]
+      ],
+      "orig": "Hot chips $ can coke",
+      "corr": "Hot chips & can coke",
+      "changed": true,
+      "ocr_score": 0.9563930630683899,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Symbol '$' should be '&'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 24,
+      "box": [
+        [
+          39,
+          660
+        ],
+        [
+          157,
+          665
+        ],
+        [
+          155,
+          707
+        ],
+        [
+          37,
+          702
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9997449517250061,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 25,
+      "box": [
+        [
+          966,
+          682
+        ],
+        [
+          1070,
+          686
+        ],
+        [
+          1069,
+          726
+        ],
+        [
+          965,
+          722
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9970644116401672,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 26,
+      "box": [
+        [
+          38,
+          736
+        ],
+        [
+          148,
+          741
+        ],
+        [
+          146,
+          785
+        ],
+        [
+          36,
+          779
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9997441172599792,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 27,
+      "box": [
+        [
+          966,
+          758
+        ],
+        [
+          1064,
+          762
+        ],
+        [
+          1062,
+          803
+        ],
+        [
+          964,
+          800
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.999843955039978,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 28,
+      "box": [
+        [
+          374,
+          839
+        ],
+        [
+          595,
+          844
+        ],
+        [
+          594,
+          890
+        ],
+        [
+          373,
+          885
+        ]
+      ],
+      "orig": "Wednesday",
+      "corr": "Wednesday",
+      "changed": false,
+      "ocr_score": 0.9999579191207886,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 29,
+      "box": [
+        [
+          1297,
+          848
+        ],
+        [
+          1480,
+          854
+        ],
+        [
+          1479,
+          903
+        ],
+        [
+          1295,
+          897
+        ]
+      ],
+      "orig": "Thursday",
+      "corr": "Thursday",
+      "changed": false,
+      "ocr_score": 0.9998701810836792,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 30,
+      "box": [
+        [
+          36,
+          901
+        ],
+        [
+          194,
+          906
+        ],
+        [
+          193,
+          944
+        ],
+        [
+          35,
+          939
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.99985271692276,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 31,
+      "box": [
+        [
+          235,
+          892
+        ],
+        [
+          502,
+          898
+        ],
+        [
+          500,
+          984
+        ],
+        [
+          233,
+          977
+        ]
+      ],
+      "orig": "coffee",
+      "corr": "coffee",
+      "changed": false,
+      "ocr_score": 0.9983980655670166,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 32,
+      "box": [
+        [
+          964,
+          916
+        ],
+        [
+          1106,
+          921
+        ],
+        [
+          1105,
+          960
+        ],
+        [
+          963,
+          955
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.9998064041137695,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 33,
+      "box": [
+        [
+          1136,
+          909
+        ],
+        [
+          1429,
+          909
+        ],
+        [
+          1429,
+          986
+        ],
+        [
+          1136,
+          986
+        ]
+      ],
+      "orig": "Noodles",
+      "corr": "Noodles",
+      "changed": false,
+      "ocr_score": 0.9487777352333069,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 34,
+      "box": [
+        [
+          32,
+          978
+        ],
+        [
+          144,
+          981
+        ],
+        [
+          143,
+          1025
+        ],
+        [
+          30,
+          1021
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998732805252075,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 35,
+      "box": [
+        [
+          961,
+          992
+        ],
+        [
+          1063,
+          996
+        ],
+        [
+          1061,
+          1040
+        ],
+        [
+          959,
+          1036
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998881220817566,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 36,
+      "box": [
+        [
+          1122,
+          992
+        ],
+        [
+          1423,
+          987
+        ],
+        [
+          1425,
+          1069
+        ],
+        [
+          1124,
+          1075
+        ]
+      ],
+      "orig": "cup tea",
+      "corr": "cup tea",
+      "changed": false,
+      "ocr_score": 0.9942447543144226,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 37,
+      "box": [
+        [
+          28,
+          1054
+        ],
+        [
+          140,
+          1058
+        ],
+        [
+          139,
+          1102
+        ],
+        [
+          26,
+          1098
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9999473690986633,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 38,
+      "box": [
+        [
+          208,
+          1050
+        ],
+        [
+          661,
+          1057
+        ],
+        [
+          659,
+          1137
+        ],
+        [
+          207,
+          1130
+        ]
+      ],
+      "orig": "musel bar",
+      "corr": "muesli bar",
+      "changed": true,
+      "ocr_score": 0.9780519008636475,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'musel'->'muesli'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 39,
+      "box": [
+        [
+          958,
+          1069
+        ],
+        [
+          1059,
+          1073
+        ],
+        [
+          1057,
+          1117
+        ],
+        [
+          956,
+          1113
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9999212026596069,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 40,
+      "box": [
+        [
+          28,
+          1134
+        ],
+        [
+          140,
+          1138
+        ],
+        [
+          139,
+          1181
+        ],
+        [
+          26,
+          1178
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9999225735664368,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 41,
+      "box": [
+        [
+          958,
+          1148
+        ],
+        [
+          1057,
+          1150
+        ],
+        [
+          1056,
+          1191
+        ],
+        [
+          957,
+          1189
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998588562011719,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 42,
+      "box": [
+        [
+          29,
+          1215
+        ],
+        [
+          145,
+          1217
+        ],
+        [
+          144,
+          1261
+        ],
+        [
+          28,
+          1258
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9998376965522766,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 43,
+      "box": [
+        [
+          207,
+          1216
+        ],
+        [
+          424,
+          1216
+        ],
+        [
+          424,
+          1300
+        ],
+        [
+          207,
+          1300
+        ]
+      ],
+      "orig": "soup",
+      "corr": "soup",
+      "changed": false,
+      "ocr_score": 0.9123797416687012,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 44,
+      "box": [
+        [
+          1126,
+          1207
+        ],
+        [
+          1733,
+          1216
+        ],
+        [
+          1731,
+          1317
+        ],
+        [
+          1124,
+          1308
+        ]
+      ],
+      "orig": "lamb chop veges",
+      "corr": "lamb chop veges",
+      "changed": false,
+      "ocr_score": 0.9801580905914307,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 45,
+      "box": [
+        [
+          957,
+          1223
+        ],
+        [
+          1062,
+          1225
+        ],
+        [
+          1061,
+          1267
+        ],
+        [
+          956,
+          1264
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9997320771217346,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 46,
+      "box": [
+        [
+          30,
+          1296
+        ],
+        [
+          138,
+          1299
+        ],
+        [
+          137,
+          1339
+        ],
+        [
+          29,
+          1336
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9997245073318481,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 47,
+      "box": [
+        [
+          957,
+          1302
+        ],
+        [
+          1056,
+          1306
+        ],
+        [
+          1054,
+          1342
+        ],
+        [
+          956,
+          1338
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.999659538269043,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 48,
+      "box": [
+        [
+          412,
+          1381
+        ],
+        [
+          538,
+          1387
+        ],
+        [
+          536,
+          1434
+        ],
+        [
+          410,
+          1429
+        ]
+      ],
+      "orig": "Friday",
+      "corr": "Friday",
+      "changed": false,
+      "ocr_score": 0.9999439120292664,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 49,
+      "box": [
+        [
+          1296,
+          1387
+        ],
+        [
+          1468,
+          1391
+        ],
+        [
+          1467,
+          1438
+        ],
+        [
+          1295,
+          1433
+        ]
+      ],
+      "orig": "Saturday",
+      "corr": "Saturday",
+      "changed": false,
+      "ocr_score": 0.9999250769615173,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 50,
+      "box": [
+        [
+          218,
+          1438
+        ],
+        [
+          481,
+          1443
+        ],
+        [
+          480,
+          1522
+        ],
+        [
+          217,
+          1517
+        ]
+      ],
+      "orig": "coffee",
+      "corr": "coffee",
+      "changed": false,
+      "ocr_score": 0.9823918342590332,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 51,
+      "box": [
+        [
+          955,
+          1453
+        ],
+        [
+          1099,
+          1457
+        ],
+        [
+          1098,
+          1499
+        ],
+        [
+          954,
+          1495
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.99983149766922,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 52,
+      "box": [
+        [
+          1121,
+          1444
+        ],
+        [
+          1309,
+          1449
+        ],
+        [
+          1307,
+          1529
+        ],
+        [
+          1118,
+          1524
+        ]
+      ],
+      "orig": "caffee",
+      "corr": "coffee",
+      "changed": true,
+      "ocr_score": 0.8731257319450378,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'caffee' -> 'coffee'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 53,
+      "box": [
+        [
+          31,
+          1456
+        ],
+        [
+          185,
+          1456
+        ],
+        [
+          185,
+          1495
+        ],
+        [
+          31,
+          1495
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.9995529651641846,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 54,
+      "box": [
+        [
+          30,
+          1536
+        ],
+        [
+          137,
+          1536
+        ],
+        [
+          137,
+          1576
+        ],
+        [
+          30,
+          1576
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9999215006828308,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 55,
+      "box": [
+        [
+          954,
+          1533
+        ],
+        [
+          1053,
+          1536
+        ],
+        [
+          1052,
+          1577
+        ],
+        [
+          953,
+          1575
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998812675476074,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 56,
+      "box": [
+        [
+          1117,
+          1592
+        ],
+        [
+          1272,
+          1595
+        ],
+        [
+          1270,
+          1687
+        ],
+        [
+          1115,
+          1684
+        ]
+      ],
+      "orig": "fruit",
+      "corr": "fruit",
+      "changed": false,
+      "ocr_score": 0.9955394864082336,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 57,
+      "box": [
+        [
+          202,
+          1602
+        ],
+        [
+          562,
+          1598
+        ],
+        [
+          563,
+          1678
+        ],
+        [
+          203,
+          1683
+        ]
+      ],
+      "orig": "Sandwhich",
+      "corr": "Sandwich",
+      "changed": true,
+      "ocr_score": 0.9856963753700256,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'Sandwhich' -> 'Sandwich'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 58,
+      "box": [
+        [
+          27,
+          1613
+        ],
+        [
+          133,
+          1611
+        ],
+        [
+          134,
+          1652
+        ],
+        [
+          28,
+          1655
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9999116063117981,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 59,
+      "box": [
+        [
+          954,
+          1612
+        ],
+        [
+          1050,
+          1612
+        ],
+        [
+          1050,
+          1653
+        ],
+        [
+          954,
+          1653
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9998927116394043,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 60,
+      "box": [
+        [
+          26,
+          1688
+        ],
+        [
+          135,
+          1688
+        ],
+        [
+          135,
+          1732
+        ],
+        [
+          26,
+          1732
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.999906063079834,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 61,
+      "box": [
+        [
+          952,
+          1688
+        ],
+        [
+          1055,
+          1688
+        ],
+        [
+          1055,
+          1733
+        ],
+        [
+          952,
+          1733
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9992823600769043,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 62,
+      "box": [
+        [
+          202,
+          1753
+        ],
+        [
+          604,
+          1753
+        ],
+        [
+          604,
+          1839
+        ],
+        [
+          202,
+          1839
+        ]
+      ],
+      "orig": "mc Donalds",
+      "corr": "McDonalds",
+      "changed": true,
+      "ocr_score": 0.8539981842041016,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Spelling: 'mc Donalds' -> 'McDonalds'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 63,
+      "box": [
+        [
+          1115,
+          1749
+        ],
+        [
+          1638,
+          1757
+        ],
+        [
+          1637,
+          1843
+        ],
+        [
+          1114,
+          1835
+        ]
+      ],
+      "orig": "Home made roast.",
+      "corr": "Home made roast.",
+      "changed": false,
+      "ocr_score": 0.9073989391326904,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 64,
+      "box": [
+        [
+          27,
+          1769
+        ],
+        [
+          142,
+          1769
+        ],
+        [
+          142,
+          1809
+        ],
+        [
+          27,
+          1809
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9999036192893982,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 65,
+      "box": [
+        [
+          954,
+          1768
+        ],
+        [
+          1060,
+          1768
+        ],
+        [
+          1060,
+          1808
+        ],
+        [
+          954,
+          1808
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.999805212020874,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 66,
+      "box": [
+        [
+          27,
+          1844
+        ],
+        [
+          136,
+          1847
+        ],
+        [
+          135,
+          1891
+        ],
+        [
+          26,
+          1888
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998502731323242,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 67,
+      "box": [
+        [
+          952,
+          1844
+        ],
+        [
+          1055,
+          1844
+        ],
+        [
+          1055,
+          1889
+        ],
+        [
+          952,
+          1889
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.999707818031311,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 68,
+      "box": [
+        [
+          392,
+          1937
+        ],
+        [
+          547,
+          1939
+        ],
+        [
+          546,
+          1993
+        ],
+        [
+          391,
+          1991
+        ]
+      ],
+      "orig": "Sunday",
+      "corr": "Sunday",
+      "changed": false,
+      "ocr_score": 0.9999472498893738,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 69,
+      "box": [
+        [
+          1313,
+          1945
+        ],
+        [
+          1448,
+          1950
+        ],
+        [
+          1446,
+          1999
+        ],
+        [
+          1311,
+          1994
+        ]
+      ],
+      "orig": "Notes:",
+      "corr": "Notes:",
+      "changed": false,
+      "ocr_score": 0.9998723864555359,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 70,
+      "box": [
+        [
+          26,
+          2009
+        ],
+        [
+          179,
+          2007
+        ],
+        [
+          180,
+          2049
+        ],
+        [
+          26,
+          2052
+        ]
+      ],
+      "orig": "Breakfast",
+      "corr": "Breakfast",
+      "changed": false,
+      "ocr_score": 0.9998971223831177,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 71,
+      "box": [
+        [
+          197,
+          2002
+        ],
+        [
+          718,
+          1998
+        ],
+        [
+          718,
+          2076
+        ],
+        [
+          198,
+          2081
+        ]
+      ],
+      "orig": "Pancakes coffee",
+      "corr": "Pancakes coffee",
+      "changed": false,
+      "ocr_score": 0.9592161178588867,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 72,
+      "box": [
+        [
+          26,
+          2089
+        ],
+        [
+          134,
+          2089
+        ],
+        [
+          134,
+          2132
+        ],
+        [
+          26,
+          2132
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.999794602394104,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 73,
+      "box": [
+        [
+          197,
+          2152
+        ],
+        [
+          506,
+          2154
+        ],
+        [
+          505,
+          2251
+        ],
+        [
+          196,
+          2248
+        ]
+      ],
+      "orig": "Hot chips",
+      "corr": "Hot chips",
+      "changed": false,
+      "ocr_score": 0.9526435136795044,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 74,
+      "box": [
+        [
+          22,
+          2164
+        ],
+        [
+          133,
+          2164
+        ],
+        [
+          133,
+          2215
+        ],
+        [
+          22,
+          2215
+        ]
+      ],
+      "orig": "Lunch",
+      "corr": "Lunch",
+      "changed": false,
+      "ocr_score": 0.9440492391586304,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 75,
+      "box": [
+        [
+          24,
+          2250
+        ],
+        [
+          134,
+          2250
+        ],
+        [
+          134,
+          2298
+        ],
+        [
+          24,
+          2298
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998418688774109,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 76,
+      "box": [
+        [
+          194,
+          2322
+        ],
+        [
+          333,
+          2325
+        ],
+        [
+          331,
+          2403
+        ],
+        [
+          192,
+          2400
+        ]
+      ],
+      "orig": "Kfe",
+      "corr": "coffee",
+      "changed": true,
+      "ocr_score": 0.8330092430114746,
+      "corr_conf": null,
+      "action": "fix",
+      "reason": "Typo: 'Kfe' -> 'coffee'",
+      "source": "gpt_refine",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 77,
+      "box": [
+        [
+          24,
+          2335
+        ],
+        [
+          138,
+          2333
+        ],
+        [
+          139,
+          2377
+        ],
+        [
+          25,
+          2379
+        ]
+      ],
+      "orig": "Dinner",
+      "corr": "Dinner",
+      "changed": false,
+      "ocr_score": 0.9997970461845398,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 78,
+      "box": [
+        [
+          23,
+          2418
+        ],
+        [
+          131,
+          2415
+        ],
+        [
+          132,
+          2459
+        ],
+        [
+          24,
+          2462
+        ]
+      ],
+      "orig": "Snack",
+      "corr": "Snack",
+      "changed": false,
+      "ocr_score": 0.9998706579208374,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    },
+    {
+      "index": 79,
+      "box": [
+        [
+          1718,
+          2424
+        ],
+        [
+          1819,
+          2424
+        ],
+        [
+          1819,
+          2479
+        ],
+        [
+          1718,
+          2479
+        ]
+      ],
+      "orig": "CDC",
+      "corr": "CDC",
+      "changed": false,
+      "ocr_score": 0.9623987674713135,
+      "corr_conf": null,
+      "action": "keep",
+      "reason": null,
+      "source": "paddleocr",
+      "char_agreement": 1.0
+    }
   ],
-  "orig": "NSSSK",
-  "corr": "MASSEY",
-  "changed": true,
-  "ocr_score": 0.3426090478897095,
-  "corr_conf": 0.99,
-  "action": "fix",
-  "reason": "Correct header text from image",
-  "source": "gpt_refine",
-  "char_agreement": 1.0,
   "meta": {
     "stage": "ali_table",
     "version": "v1",
-    "table_file": "./ali_tables.xlsx",
+    "table_file": "./tables_qwen.xlsx",
     "table_format": "xlsx"
   },
   "tables": []
