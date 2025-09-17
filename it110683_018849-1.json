@@ -1,0 +1,2360 @@
+{
+  "source_pdf": "it110683_018849-1.pdf",
+  "page_count": 160,
+  "category_summary": {
+    "riding_diary": 33,
+    "food_diary": 57,
+    "sleep_diary_morning": 37,
+    "sleep_diary_night": 31,
+    "unknown": 2
+  },
+  "processing_stats": {
+    "total_time": 4408.470153570175,
+    "avg_time_per_page": 27.013944314420222,
+    "successful_pages": 160,
+    "failed_pages": 0,
+    "seed_used": 42
+  },
+  "pages": [
+    {
+      "page": 1,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 2,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 3,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 4,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 5,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 6,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 7,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 8,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 9,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 10,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 11,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 12,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 13,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 14,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 15,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 16,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 17,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 18,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 19,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 20,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 21,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 22,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 23,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 24,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 25,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 26,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 27,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 28,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 29,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 30,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 31,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 32,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 33,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 34,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          " sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 35,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 36,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 37,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 38,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 39,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 40,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 41,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 42,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 43,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 44,
+      "category": "unknown",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 45,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 46,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 47,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 48,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 49,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 50,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 51,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 52,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 53,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 54,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 55,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 56,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 57,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 58,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 59,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 60,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 61,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 62,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 63,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 64,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 65,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 66,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 67,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 68,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 69,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 70,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 71,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 72,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 73,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 74,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 75,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 76,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 77,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 78,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 79,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 80,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 81,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 82,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 83,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 84,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 85,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 86,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 87,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 88,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 89,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 90,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 91,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 92,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 93,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 94,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 95,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 96,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 97,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 98,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 99,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 100,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 101,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 102,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 103,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 104,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 105,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 106,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 107,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 108,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 109,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 110,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 111,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 112,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 113,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 114,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 115,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 116,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 117,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 118,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 119,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 120,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 121,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 122,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 123,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 124,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 125,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 126,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 127,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 128,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 129,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 130,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 131,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 132,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 133,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 134,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 135,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 136,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 137,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 138,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 139,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 140,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 141,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 142,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 143,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 144,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 145,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 146,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 147,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 148,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 149,
+      "category": "unknown",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 150,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 151,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 152,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 153,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 154,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 155,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 156,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    },
+    {
+      "page": 157,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 158,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "food_diary",
+        "raw": ""
+      }
+    },
+    {
+      "page": 159,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "raw": ""
+      }
+    },
+    {
+      "page": 160,
+      "category": "sleep_diary_night",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_night",
+        "raw": ""
+      }
+    }
+  ]
+}

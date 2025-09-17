@@ -11,8 +11,9 @@ class OCRProcessor:
             raise RuntimeError("OPENAI_API_KEY 未设置，请在环境变量中配置后重试。")
         openai.api_key = OPENAI_API_KEY
         self.client = openai.OpenAI(api_key=OPENAI_API_KEY)
-        self.primary_vision_model = "gpt-4o-mini"
-        self.fallback_vision_model = "gpt-4o"
+        self.primary_vision_model = "gpt-5-nano"
+        self.fallback_vision_model = "gpt-5"
+        print(self.primary_vision_model)
 
     def encode_image(self, image_path):
         """将图片编码为base64格式"""
@@ -38,7 +39,7 @@ class OCRProcessor:
                     ],
                 }
             ],
-            max_tokens=1000,
+            max_completion_tokens=1000,
         )
 
     def extract_text_from_image(self, image, language="zh"):
@@ -115,7 +116,7 @@ class OCRProcessor:
                         },
                         {"role": "user", "content": prompt_user},
                     ],
-                    max_tokens=1000,
+                    max_completion_tokens=1000,
                 )
             except Exception:
                 response = self.client.chat.completions.create(
@@ -130,7 +131,7 @@ class OCRProcessor:
                         },
                         {"role": "user", "content": prompt_user},
                     ],
-                    max_tokens=1000,
+                    max_completion_tokens=1000,
                 )
 
             return response.choices[0].message.content

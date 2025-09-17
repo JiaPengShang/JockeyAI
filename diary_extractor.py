@@ -65,7 +65,7 @@ class DiaryExtractor:
         except Exception as e:
             print(f"   ⚠️  Primary model failed: {e}, trying fallback...")
             response = self.ocr._chat_with_image(base64_img, prompt, self.ocr.fallback_vision_model)
-
+        time.sleep(0.5)
         text = (response.choices[0].message.content or "").strip().lower()
         for cand in ["food_diary", "riding_diary", "sleep_diary_morning", "sleep_diary_night"]:
             if cand in text:
@@ -373,14 +373,14 @@ if __name__ == "__main__":
     import sys
     
     # Default PDF file path
-    DEFAULT_PDF = "JockeyDiaries230725.pdf"
-    
+    DEFAULT_PDF = "it110683_018849-1.pdf"
+
     parser = argparse.ArgumentParser(description="Extract diary PDF to structured JSON.")
     parser.add_argument("pdf", nargs='?', default=DEFAULT_PDF, 
                        help=f"Path to PDF, default: {DEFAULT_PDF}")
     parser.add_argument("--out", default=None, help="Output JSON path, default same name with .json suffix")
     parser.add_argument("--dpi", type=int, default=200, help="Render DPI for PDF pages")
-    parser.add_argument("--lang", default="zh", help="OCR/LLM language, default zh")
+    parser.add_argument("--lang", default="en", help="OCR/LLM language, default zh")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility, default 42")
     
     # If no arguments provided, use default values
@@ -388,14 +388,14 @@ if __name__ == "__main__":
         print(f"🚀 Running with default parameters...")
         print(f"📄 PDF file: {DEFAULT_PDF}")
         print(f"🔧 Seed: 42")
-        print(f"🌐 Language: zh")
+        print(f"🌐 Language")
         print(f"📐 DPI: 200")
         print("-" * 50)
         
         pdf_path = DEFAULT_PDF
         out_path = os.path.splitext(pdf_path)[0] + ".json"
         dpi = 200
-        language = "zh"
+        language = "en"
         seed = 42
     else:
         args = parser.parse_args()
