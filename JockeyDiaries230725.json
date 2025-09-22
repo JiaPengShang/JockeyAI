@@ -30,13 +30,13 @@
               }
             ],
             "snack1": [],
-            "lunch": [
+            "lunch": [],
+            "snack2": [],
+            "dinner": [              
               {
                 "text": "Butter chicken"
               }
             ],
-            "snack2": [],
-            "dinner": [],
             "snack3": []
           },
           "tuesday": {
@@ -46,13 +46,13 @@
               }
             ],
             "snack1": [],
-            "lunch": [
+            "lunch": [],
+            "snack2": [],
+            "dinner": [              
               {
                 "text": "pasta chicken"
               }
             ],
-            "snack2": [],
-            "dinner": [],
             "snack3": []
           },
           "wednesday": {
@@ -217,7 +217,7 @@
             "Day": "Sunday",
             "Horses ridden": "0",
             "Falls": "0",
-            "Trackwork": "Trackwork",
+            "Trackwork": null,
             "Gallops": null,
             "Jumpouts": null,
             "Trials": null,
@@ -261,7 +261,7 @@
           {
             "Day": "Wednesday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "1",
+            "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
@@ -273,7 +273,7 @@
           {
             "Day": "Thursday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "1",
+            "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
@@ -290,26 +290,26 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
-            "DaytimeDrowsiness": "Sometimes",
+            "DaytimeDrowsiness": "Never",
             "OverallMood": "Pos",
             "PreBedActivities": "Phone"
           },
           {
             "Day": "Saturday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "1",
+            "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "No",
             "DaytimeDrowsiness": "Sometimes",
             "OverallMood": "Pos",
-            "PreBedActivities": "Phone"
+            "PreBedActivities": "TV"
           },
           {
             "Day": "Sunday",
             "NapTaken": "No",
-            "CaffeineMorningDrinks": "1",
+            "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
@@ -339,7 +339,7 @@
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
@@ -349,7 +349,7 @@
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
@@ -359,7 +359,7 @@
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
@@ -369,7 +369,7 @@
             "Bedtime": "21:00",
             "WakeUpTime": "05:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
@@ -377,29 +377,29 @@
           {
             "Day": "Friday",
             "Bedtime": "21:00",
-            "WakeUpTime": "06:00",
-            "SleepLatencyMins": "6",
-            "SleepQuality": "VG",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
           },
           {
             "Day": "Saturday",
-            "Bedtime": "21:00",
+            "Bedtime": "22:00",
             "WakeUpTime": "06:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
           },
           {
             "Day": "Sunday",
-            "Bedtime": "21:00",
+            "Bedtime": "22:00",
             "WakeUpTime": "06:00",
             "SleepLatencyMins": "5",
-            "SleepQuality": "VG",
+            "SleepQuality": "G",
             "MorningFeeling": "Ref",
             "NightAwakenings": "0",
             "DifficultyFactors": "null"
@@ -652,11 +652,11 @@
             "Day": "Sunday",
             "Horses ridden": "7",
             "Falls": "0",
-            "Trackwork": "7",
+            "Trackwork": "",
             "Gallops": "null",
             "Jumpouts": "0",
             "Trials": "0",
-            "Races": "0",
+            "Races": "7",
             "Other eg. gym/run": "null"
           }
         ]
@@ -671,14 +671,14 @@
         "records": [
           {
             "Day": "Monday",
-            "NapTaken": "Yes",
-            "CaffeineMorningDrinks": "2",
-            "CaffeineAfternoonDrinks": "0",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "1",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "40",
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Pos / Neg",
+            "OverallMood": "Neu",
             "PreBedActivities": "Phone, TV"
           },
           {
@@ -690,7 +690,7 @@
             "ExerciseDuration": "45",
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Pos / Neg",
+            "OverallMood": "Neu",
             "PreBedActivities": "No"
           },
           {
@@ -702,7 +702,7 @@
             "ExerciseDuration": "1",
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Pos / Neg",
+            "OverallMood": "Neu",
             "PreBedActivities": "No"
           },
           {
@@ -713,8 +713,8 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "Panadol",
-            "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos / Neg",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg/Neu",
             "PreBedActivities": "No"
           },
           {
@@ -726,19 +726,19 @@
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "Panadol",
             "DaytimeDrowsiness": "Sometimes",
-            "OverallMood": "Pos / Neg",
+            "OverallMood": "Pos",
             "PreBedActivities": "No"
           },
           {
             "Day": "Saturday",
-            "NapTaken": "No",
+            "NapTaken": "Yes",
             "CaffeineMorningDrinks": "0",
             "CaffeineAfternoonDrinks": "0",
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "40",
             "MedicationsOrDrugsUsed": "Panadol",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Pos / Neg",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
             "PreBedActivities": "No"
           },
           {
@@ -749,8 +749,8 @@
             "CaffeineEveningDrinks": "0",
             "ExerciseDuration": "0",
             "MedicationsOrDrugsUsed": "Panadol",
-            "DaytimeDrowsiness": "Very often",
-            "OverallMood": "Pos / Neg",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
             "PreBedActivities": "No"
           }
         ],
@@ -774,8 +774,8 @@
             "Bedtime": "21:30",
             "WakeUpTime": "04:50",
             "SleepLatencyMins": "10",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
             "NightAwakenings": "0",
             "DifficultyFactors": "discomfort"
           },
@@ -784,8 +784,8 @@
             "Bedtime": "09:00",
             "WakeUpTime": "04:50",
             "SleepLatencyMins": "10",
-            "SleepQuality": "VG",
-            "MorningFeeling": "Ref",
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
             "NightAwakenings": "0",
             "DifficultyFactors": "discomfort"
           },
