@@ -1,2807 +1,3614 @@
 {
   "source_pdf": "JockeyDiaries230725.pdf",
   "page_count": 34,
-  "entries": [
-    {
-      "date": "2023-10-01",
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "香蕉",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "黄油鸡",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Nutri grain",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "本日记记录了不同日期的早餐、零食、午餐和晚餐。"
-    },
-    {
-      "date": "2023-10-01",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "意大利面",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "KFC",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-01",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "披萨",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "羊肉汤",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-01",
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "烤肉串",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "肉丸泥",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "面条餐厅",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "无",
-          "quantity": null,
-          "unit": null,
-          "notes": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：这是一个骑马日记表，记录了每周的骑马活动，包括骑乘的马匹数量和摔倒的次数。"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "吐司",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "酸奶",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "牛排沙拉",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-03",
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "麦片棒",
-          "quantity": null,
-          "unit": null,
-          "notes": "星期二早餐"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-03",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "Subway卷",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-05",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "三明治",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-05",
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "水果",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-05",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "意大利面/鸡肉",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-06",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "鸡肉",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-06",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "外出用餐（印度餐）",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-08",
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "咯吱糖",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-08",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "汉堡",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-07",
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "两块咸派",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-07",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "奇亚种子布丁",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "10",
-          "unit": "次",
-          "notes": "跌倒0次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-03",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "10",
-          "unit": "次",
-          "notes": "跌倒0次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-04",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "12",
-          "unit": "次",
-          "notes": "跌倒0次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-05",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "10",
-          "unit": "次",
-          "notes": "跌倒0次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-06",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "12",
-          "unit": "次",
-          "notes": "跌倒0次，未记录其他项目数量"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-07",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "1",
-          "unit": "次",
-          "notes": "跌倒0次，赛马7次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-08",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "骑马",
-          "quantity": "7",
-          "unit": "次",
-          "notes": "跌倒0次"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-09",
-      "time": "21:00",
-      "meal_type": "other",
-      "items": [],
-      "notes": "Last night, it took me about 10 mins to fall asleep. I felt the quality of my sleep was VG (Very Good). This morning I feel Ref (Refreshed)."
-    },
-    {
-      "date": "2023-10-10",
-      "time": "21:00",
-      "meal_type": "other",
-      "items": [],
-      "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was A (Average). This morning I feel Tired (Tir)."
-    },
-    {
-      "date": "2023-10-11",
-      "time": "21:00",
-      "meal_type": "other",
-      "items": [],
-      "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was A (Average). This morning I feel Ref (Refreshed)."
-    },
-    {
-      "date": "2023-10-12",
-      "time": "20:30",
-      "meal_type": "other",
-      "items": [],
-      "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was VG (Very Good). This morning I feel Grog (Groggy)."
-    },
-    {
-      "date": "2023-10-13",
-      "time": "20:30",
-      "meal_type": "other",
-      "items": [],
-      "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was G (Good). This morning I feel Grog/AI (Groggy/Alert)."
-    },
-    {
-      "date": "2023-10-14",
-      "time": null,
-      "meal_type": "other",
-      "items": [],
-      "notes": "周末的记录有些模糊，可能需要进一步核对信息。"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "banana",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "cheese",
-          "quantity": null,
-          "unit": null,
-          "notes": "paired with crackers"
-        },
-        {
-          "name": "cheese sandwich",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "sushi",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "pork belly",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "pizza",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "dumpling",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "stir-fried vegetables",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "butter chicken",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "chocolate",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "candy bar",
-          "quantity": null,
-          "unit": null,
-          "notes": "BMueartybar noted, possible OCR error"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [],
-      "notes": "Weekly meal plan from Monday to Saturday, including breakfast, snacks, lunch, and dinner"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "无",
-          "quantity": null,
-          "unit": null,
-          "notes": "食物名称：无"
-        },
-        {
-          "name": "无",
-          "quantity": null,
-          "unit": null,
-          "notes": "营养成分：无"
-        },
-        {
-          "name": "无",
-          "quantity": null,
-          "unit": null,
-          "notes": "数量/重量：无"
-        }
-      ],
-      "notes": "其他信息：- Name: - Date: - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday - Yes / No - I took a nap: - I had caffeine: - # of drinks - Morning, Afternoon, Evening - Minutes: - Today I exercised for - Medications or drugs I used today: - Mins/hrs - Throughout the day I felt drowsy: - Never, Sometimes, Very often - Overall, my mood today was: - Pos / Neg / Neu - In the hour before bed, my activities included: - E.g., Reading, computer, T.V, showering, phone, eating, spending time with partner - Sleep Diary: Night - MASSEY UNIVERSITY - UNIVERSITY OF NEW ZEALAND"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "Nutri grain",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Banana",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "周一至周六的早餐均为Nutri grain + Banana；其他食物包括苹果、南瓜汤、蘑菇意面、鸡肉等。"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": null,
-          "quantity": null,
-          "unit": null,
-          "notes": "这是一个关于骑马的周记录，包含骑行的马匹数量及摔倒次数，未涉及食物信息。"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2025-07-22",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "Coffee",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Biscuit",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Curry",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Noodles",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Bread egg",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "记录的是一周的饮食日记，包含早餐、午餐、晚餐和零食的选择。姓名为Jitesh Mudhoo。"
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Pie",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pringles",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Kentucky Fried Chicken",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Muffin",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chicken sandwich",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "需要更健康的饮食"
-    },
-    {
-      "date": "2023-10-03",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Apple",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Prunbar",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Flour biscuits",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Fruit salad",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-04",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Apple",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Protein Bar",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Muesli",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chicken sandwich on toast",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-05",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Chips",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Burger",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pizza",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-06",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Kransky Roll",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "New York sandwich",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pringles",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "McDonald's",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-07",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Cereal",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pizza",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Doritos",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Grilled chicken",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-08",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Kransky Rolls",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pie",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chips",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pizza",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "考虑使用外卖"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [],
-      "notes": "该图片是一个骑马日记，记录了一周内骑马的情况，包括周一至周六的不同骑马类型及骑的次数。没有涉及食物或营养成分。"
-    },
-    {
-      "date": "2023-10-02",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Indian",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "食物名称包含Monday: Chocolate Sandwich"
-    },
-    {
-      "date": "2023-10-04",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "Pork bun",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Sandwich",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Smoothie bowl",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Mc Donalds",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-06",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "Burger",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chips",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Loaded wedges",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-07",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "Sandwich",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Smoothie",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chicken Burger",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chips",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-08",
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "Pasta",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Noodles",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [
-        {
-          "name": "无食物",
-          "quantity": null,
-          "unit": null,
-          "notes": "食物名称：无，营养成分：无，数量/重量：无"
-        }
-      ],
-      "notes": "这是一个骑马日记，记录了每周的骑马活动和摔跤情况，无食物或营养成分信息。"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "咖啡",
-          "quantity": "1",
-          "unit": "杯",
-          "notes": null
-        },
-        {
-          "name": "沙拉碗",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定"
-        },
-        {
-          "name": "巧克力杯子蛋糕",
-          "quantity": "1",
-          "unit": "个",
-          "notes": null
-        },
-        {
-          "name": "巧克力薯片",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定"
-        },
-        {
-          "name": "鱼饼",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定（土豆）"
-        },
-        {
-          "name": "香肠三明治",
-          "quantity": "1",
-          "unit": "个",
-          "notes": null
-        },
-        {
-          "name": "奶昔碗",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定"
-        },
-        {
-          "name": "麦当劳",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定"
-        },
-        {
-          "name": "香肠",
-          "quantity": null,
-          "unit": null,
-          "notes": "不确定（从2D）"
-        }
-      ],
-      "notes": "日期和姓名未填写"
-    },
-    {
-      "date": null,
-      "time": null,
-      "meal_type": "other",
-      "items": [],
-      "notes": "这张图片中没有任何食物名称、营养成分或数量等信息。它是一个骑马日记的表格，用来记录骑马的活动和相关的跌倒情况。请让我知道是否需要其他帮助！"
-    },
-    {
-      "date": "2023-07-25",
-      "time": null,
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "Vogels w/ Peanut Butter",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Scrambled Eggs",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Muesli Bar",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Omelette",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "French Toast",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-07-25",
-      "time": null,
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "Ham Wrap",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Fruit",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pasta Salad",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Ham Wrap",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-07-25",
-      "time": null,
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "Smoked Salmon Salad",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Honey Soy Chicken & Rice",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Chicken Burgers",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        },
-        {
-          "name": "Pizza",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-07-25",
-      "time": null,
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "Lollies",
-          "quantity": null,
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-12",
-      "time": "08:30",
-      "meal_type": "breakfast",
-      "items": [
-        {
-          "name": "oatmeal",
-          "quantity": "1",
-          "unit": "bowl",
-          "notes": null
-        },
-        {
-          "name": "banana",
-          "quantity": "1",
-          "unit": null,
-          "notes": null
-        }
-      ],
-      "notes": "Consumed with a cup of coffee"
-    },
-    {
-      "date": "2023-10-12",
-      "time": "12:15",
-      "meal_type": "lunch",
-      "items": [
-        {
-          "name": "grilled chicken",
-          "quantity": "200",
-          "unit": "grams",
-          "notes": null
-        },
-        {
-          "name": "mixed salad",
-          "quantity": "1",
-          "unit": "serving",
-          "notes": "Includes lettuce, tomato, cucumber"
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-12",
-      "time": "15:30",
-      "meal_type": "snack",
-      "items": [
-        {
-          "name": "almonds",
-          "quantity": "15",
-          "unit": "pieces",
-          "notes": null
-        }
-      ],
-      "notes": null
-    },
-    {
-      "date": "2023-10-12",
-      "time": "19:00",
-      "meal_type": "dinner",
-      "items": [
-        {
-          "name": "spaghetti",
-          "quantity": "150",
-          "unit": "grams",
-          "notes": "With tomato sauce"
-        },
-        {
-          "name": "garlic bread",
-          "quantity": "2",
-          "unit": "slices",
-          "notes": null
-        }
-      ],
-      "notes": "Drank a glass of red wine"
-    }
-  ],
+  "category_summary": {
+    "food_diary": 9,
+    "riding_diary": 9,
+    "sleep_diary_night": 8,
+    "sleep_diary_morning": 8
+  },
+  "processing_stats": {
+    "total_time": 976.9253010749817,
+    "avg_time_per_page": 28.49047814397251,
+    "successful_pages": 34,
+    "failed_pages": 0,
+    "seed_used": 42
+  },
   "pages": [
     {
       "page": 1,
-      "raw_text": "食物名称：\n- 香蕉\n- 黄油鸡\n- Nutri grain\n- 意大利面\n- KFC\n- 披萨\n- 羊肉汤\n- 烤肉串\n- 肉丸泥\n- 面条餐厅\n\n营养成分：\n（未提供）\n\n数量/重量：\n（未提供）\n\n其他信息：\n- 本日记记录了不同日期的早餐、零食、午餐和晚餐。",
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": "2023-10-01",
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
+        "name": "Liam",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": "香蕉",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "黄油鸡",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Nutri grain",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Banana"
               }
             ],
-            "notes": "本日记记录了不同日期的早餐、零食、午餐和晚餐。"
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [              
+              {
+                "text": "Butter chicken"
+              }
+            ],
+            "snack3": []
           },
-          {
-            "date": "2023-10-01",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
+          "tuesday": {
+            "breakfast": [
               {
-                "name": "意大利面",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "KFC",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Nutri grain"
               }
             ],
-            "notes": null
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [              
+              {
+                "text": "pasta chicken"
+              }
+            ],
+            "snack3": []
           },
-          {
-            "date": "2023-10-01",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
+          "wednesday": {
+            "breakfast": [
               {
-                "name": "披萨",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "羊肉汤",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Nutri grain"
               }
             ],
-            "notes": null
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Macaroni"
+              }
+            ],
+            "snack3": []
           },
-          {
-            "date": "2023-10-01",
-            "time": null,
-            "meal_type": "snack",
-            "items": [
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
               {
-                "name": "烤肉串",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "肉丸泥",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "面条餐厅",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "KFC"
               }
             ],
-            "notes": null
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Samp"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Kebab"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Meatballs mash"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Samp"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Noodle canleen"
+              }
+            ],
+            "snack3": []
           }
-        ]
+        },
+        "notes": null,
+        "uncertain": []
       }
     },
     {
       "page": 2,
-      "raw_text": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：这是一个骑马日记表，记录了每周的骑马活动，包括骑乘的马匹数量和摔倒的次数。",
+      "category": "riding_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
+        "category": "riding_diary",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "无",
-                "quantity": null,
-                "unit": null,
-                "notes": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：这是一个骑马日记表，记录了每周的骑马活动，包括骑乘的马匹数量和摔倒的次数。"
-              }
-            ],
-            "notes": null
+            "Day": "Monday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "9",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": null,
+            "Gallops": null,
+            "Jumpouts": null,
+            "Trials": null,
+            "Races": null,
+            "Other eg. gym/run": null
           }
         ]
       }
     },
     {
       "page": 3,
-      "raw_text": "抱歉，我无法识别该图片中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "TV"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "TV"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Amber",
+          "date": "YYYY-MM-DD|",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 4,
-      "raw_text": "抱歉，我无法识别该图片中的文字内容。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 5,
-      "raw_text": "食物名称：吐司  \n营养成分：无  \n数量/重量：无  \n其他信息：星期一早餐  \n\n食物名称：酸奶  \n营养成分：无  \n数量/重量：无  \n其他信息：星期一午餐  \n\n食物名称：牛排沙拉  \n营养成分：无  \n数量/重量：无  \n其他信息：星期一晚餐  \n\n食物名称：麦片棒  \n营养成分：无  \n数量/重量：无  \n其他信息：星期二早餐、星期三早餐、星期五早餐、星期日早餐  \n\n食物名称：Subway卷  \n营养成分：无  \n数量/重量：无  \n其他信息：星期二晚餐  \n\n食物名称：三明治  \n营养成分：无  \n数量/重量：无  \n其他信息：星期四午餐  \n\n食物名称：水果  \n营养成分：无  \n数量/重量：无  \n其他信息：星期四小吃  \n\n食物名称：意大利面/鸡肉  \n营养成分：无  \n数量/重量：无  \n其他信息：星期四晚餐  \n\n食物名称：鸡肉  \n营养成分：无  \n数量/重量：无  \n其他信息：星期五午餐  \n\n食物名称：外出用餐（印度餐）  \n营养成分：无  \n数量/重量：无  \n其他信息：星期五晚餐  \n\n食物名称：咯吱糖  \n营养成分：无  \n数量/重量：无  \n其他信息：星期日小吃  \n\n食物名称：汉堡  \n营养成分：无  \n数量/重量：无  \n其他信息：星期日晚餐  \n\n食物名称：两块咸派  \n营养成分：无  \n数量/重量：无  \n其他信息：星期六小吃  \n\n食物名称：奇亚种子布丁  \n营养成分：无  \n数量/重量：无  \n其他信息：星期六晚餐  ",
-      "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
-              {
-                "name": "吐司",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "酸奶",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "牛排沙拉",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-03",
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
-              {
-                "name": "麦片棒",
-                "quantity": null,
-                "unit": null,
-                "notes": "星期二早餐"
-              }
-            ],
-            "notes": null
+            "Day": "Thursday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-03",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "Subway卷",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Friday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-05",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "三明治",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Saturday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-05",
-            "time": null,
-            "meal_type": "snack",
-            "items": [
-              {
-                "name": "水果",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-05",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "意大利面/鸡肉",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-06",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "鸡肉",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-06",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "外出用餐（印度餐）",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-08",
-            "time": null,
-            "meal_type": "snack",
-            "items": [
-              {
-                "name": "咯吱糖",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-08",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "汉堡",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-07",
-            "time": null,
-            "meal_type": "snack",
-            "items": [
-              {
-                "name": "两块咸派",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
-          },
-          {
-            "date": "2023-10-07",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "奇亚种子布丁",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Sunday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "G",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           }
         ]
       }
     },
     {
-      "page": 6,
-      "raw_text": "食物名称：无相关信息\n营养成分：无相关信息\n数量/重量：无相关信息\n其他信息：这是一个骑马日记（My Riding Diary），记录了在不同天骑乘的马数量和跌倒次数。具体数据如下：  \n- 星期一：骑马10次，跌倒0次  \n- 星期二：骑马10次，跌倒0次  \n- 星期三：骑马12次，跌倒0次  \n- 星期四：骑马10次，跌倒0次  \n- 星期五：骑马12次，跌倒0次，未记录其他项目数量  \n- 星期六：骑马1次，跌倒0次，赛马7次  \n- 星期日：骑马7次，跌倒0次  \n其他信息包括距离、项目的分类等。",
+      "page": 5,
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "other",
-            "items": [
+        "name": "Ander",
+        "date": "23/9/24",
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": "骑马",
-                "quantity": "10",
-                "unit": "次",
-                "notes": "跌倒0次"
+                "text": "toast",
+                "conf": 1
               }
             ],
-            "notes": null
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Yogurt",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "steak salad",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Subway wrap",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Yogurt",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Nothing",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "sandwich",
+                "conf": 1
+              },
+              {
+                "text": "fruit",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "pasta / chicken",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Chicken",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Out for Dinner Indian",
+                "conf": 0.9
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Nothing",
+                "conf": 0.9
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "two savory pies",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Chia pudding",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "Musli bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [
+              {
+                "text": "lollies",
+                "conf": 1
+              }
+            ],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Burger",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 6,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-03",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "10",
-                "unit": "次",
-                "notes": "跌倒0次"
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "7",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-04",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "12",
-                "unit": "次",
-                "notes": "跌倒0次"
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-05",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "10",
-                "unit": "次",
-                "notes": "跌倒0次"
-              }
-            ],
-            "notes": null
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "4",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-06",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "12",
-                "unit": "次",
-                "notes": "跌倒0次，未记录其他项目数量"
-              }
-            ],
-            "notes": null
+            "Day": "Friday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-07",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "1",
-                "unit": "次",
-                "notes": "跌倒0次，赛马7次"
-              }
-            ],
-            "notes": null
+            "Day": "Saturday",
+            "Horses ridden": "1",
+            "Falls": "0",
+            "Trackwork": "1",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "7",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-08",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "骑马",
-                "quantity": "7",
-                "unit": "次",
-                "notes": "跌倒0次"
-              }
-            ],
-            "notes": null
+            "Day": "Sunday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "",
+            "Gallops": "null",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "7",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
       "page": 7,
-      "raw_text": "抱歉，我无法帮助您识别图片中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "1",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "Phone, TV"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "45",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "1",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neu",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neg/Neu",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "40",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "Panadol",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Crystal",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 8,
-      "raw_text": "这是一份“睡眠日志：早晨”，主要记录了从周一到周日的睡眠相关信息。以下是识别出的文字内容：\n\n- **Monday:**\n  - **Last night, I went to bed at:** 9 PM\n  - **This morning, I woke up at:** 6 AM\n  - **Last night, it took me about:** 10 mins to fall asleep\n  - **I felt the quality of my sleep was:** VG (Very Good)\n  - **This morning I feel:** Ref (Refreshed)\n\n- **Tuesday:**\n  - **Last night, I went to bed at:** 9 PM\n  - **This morning, I woke up at:** 5 AM\n  - **Last night, it took me about:** 5 mins to fall asleep\n  - **I felt the quality of my sleep was:** A (Average)\n  - **This morning I feel:** Tired (Tir)\n\n- **Wednesday:**\n  - **Last night, I went to bed at:** 9 PM\n  - **This morning, I woke up at:** 5 AM\n  - **Last night, it took me about:** 5 mins to fall asleep\n  - **I felt the quality of my sleep was:** A (Average)\n  - **This morning I feel:** Ref (Refreshed)\n\n- **Thursday:**\n  - **Last night, I went to bed at:** 8:30 PM\n  - **This morning, I woke up at:** 5 AM\n  - **Last night, it took me about:** 5 mins to fall asleep\n  - **I felt the quality of my sleep was:** VG (Very Good)\n  - **This morning I feel:** Grog (Groggy)\n\n- **Friday:**\n  - **Last night, I went to bed at:** 8:30 PM\n  - **This morning, I woke up at:** 5 AM\n  - **Last night, it took me about:** 5 mins to fall asleep\n  - **I felt the quality of my sleep was:** G (Good)\n  - **This morning I feel:** Grog/AI (Groggy/Alert)\n\n周末的记录有些模糊，可能需要进一步核对信息。\n\n后面的部分记录了一些夜间醒来的次数和造成睡眠困难的原因，如不适（discomfort）等。\n\n由于内容是睡眠日志，并不涉及具体的食物或营养成分信息。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": "2023-10-09",
-            "time": "21:00",
-            "meal_type": "other",
-            "items": [],
-            "notes": "Last night, it took me about 10 mins to fall asleep. I felt the quality of my sleep was VG (Very Good). This morning I feel Ref (Refreshed)."
+            "Day": "Monday",
+            "Bedtime": "21:30",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           },
           {
-            "date": "2023-10-10",
-            "time": "21:00",
-            "meal_type": "other",
-            "items": [],
-            "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was A (Average). This morning I feel Tired (Tir)."
+            "Day": "Tuesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           },
           {
-            "date": "2023-10-11",
-            "time": "21:00",
-            "meal_type": "other",
-            "items": [],
-            "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was A (Average). This morning I feel Ref (Refreshed)."
+            "Day": "Wednesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "04:50",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           },
           {
-            "date": "2023-10-12",
-            "time": "20:30",
-            "meal_type": "other",
-            "items": [],
-            "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was VG (Very Good). This morning I feel Grog (Groggy)."
+            "Day": "Thursday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "05:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           },
           {
-            "date": "2023-10-13",
-            "time": "20:30",
-            "meal_type": "other",
-            "items": [],
-            "notes": "Last night, it took me about 5 mins to fall asleep. I felt the quality of my sleep was G (Good). This morning I feel Grog/AI (Groggy/Alert)."
+            "Day": "Friday",
+            "Bedtime": "20:30",
+            "WakeUpTime": "06:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           },
           {
-            "date": "2023-10-14",
-            "time": null,
-            "meal_type": "other",
-            "items": [],
-            "notes": "周末的记录有些模糊，可能需要进一步核对信息。"
+            "Day": "Saturday",
+            "Bedtime": "11:00",
+            "WakeUpTime": "09:00",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "2",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "discomfort"
           }
         ]
       }
     },
     {
       "page": 9,
-      "raw_text": "食物名称：\n香蕉\n奶酪和饼干\n奶酪三明治\n寿司\n猪腹肉\n皮萨\n饺子\n炒菜\n鸡肉黄油\n巧克力\nBMueartybar\n\n营养成分：\n未提供具体营养成分信息\n\n数量/重量：\n未提供具体数量或重量信息\n\n其他信息：\n周一至周六的饮食安排，包括早餐、零食、午餐和晚餐。",
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
+        "name": "Crystal",
+        "date": "23/7/24",
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": "banana",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "cheese",
-                "quantity": null,
-                "unit": null,
-                "notes": "paired with crackers"
-              },
-              {
-                "name": "cheese sandwich",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Banana"
               }
             ],
-            "notes": null
-          },
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
+            "snack1": [
               {
-                "name": "sushi",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "pork belly",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "pizza",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Cheese & crackers"
               }
             ],
-            "notes": null
-          },
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
+            "lunch": [
               {
-                "name": "dumpling",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "stir-fried vegetables",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "butter chicken",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Cheese toastie"
               }
             ],
-            "notes": null
-          },
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "snack",
-            "items": [
+            "snack2": [],
+            "dinner": [
               {
-                "name": "chocolate",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "candy bar",
-                "quantity": null,
-                "unit": null,
-                "notes": "BMueartybar noted, possible OCR error"
+                "text": "Steak & veg"
               }
             ],
-            "notes": null
+            "snack3": []
           },
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [],
-            "notes": "Weekly meal plan from Monday to Saturday, including breakfast, snacks, lunch, and dinner"
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "muesli bar & up egg"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "sandwich"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "noodles"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Stir fry"
+              }
+            ],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "sushi"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pork belly roast"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "muesli bar & up egg"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Quiche"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Butter chicken"
+              }
+            ],
+            "snack3": [
+              {
+                "text": "Chocolate"
+              }
+            ]
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Cheese & crackers"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "cordon bleu"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Banana"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Cheese & crackers"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Dumplings"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "BBQ"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "noodles"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Soup"
+              }
+            ],
+            "snack3": []
           }
-        ]
+        },
+        "notes": null,
+        "uncertain": []
       }
     },
     {
       "page": 10,
-      "raw_text": "抱歉，我无法识别该图片中的文字内容。",
+      "category": "riding_diary",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          }
+        ]
       }
     },
     {
       "page": 11,
-      "raw_text": "这张图片是一个睡眠日记表格，包含以下文字内容：\n\n食物名称：无\n\n营养成分：无\n\n数量/重量：无\n\n其他信息：\n- Name:\n- Date:\n- Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\n- Yes / No\n- I took a nap:\n- I had caffeine:\n- # of drinks\n- Morning, Afternoon, Evening\n- Minutes:\n- Today I exercised for\n- Medications or drugs I used today:\n- Mins/hrs\n- Throughout the day I felt drowsy:\n- Never, Sometimes, Very often\n- Overall, my mood today was:\n- Pos / Neg / Neu\n- In the hour before bed, my activities included:\n- E.g., Reading, computer, T.V, showering, phone, eating, spending time with partner\n- Sleep Diary: Night\n- MASSEY UNIVERSITY\n- UNIVERSITY OF NEW ZEALAND",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": [
+        "category": "sleep_diary_night",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "无",
-                "quantity": null,
-                "unit": null,
-                "notes": "食物名称：无"
-              },
-              {
-                "name": "无",
-                "quantity": null,
-                "unit": null,
-                "notes": "营养成分：无"
-              },
-              {
-                "name": "无",
-                "quantity": null,
-                "unit": null,
-                "notes": "数量/重量：无"
-              }
-            ],
-            "notes": "其他信息：- Name: - Date: - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday - Yes / No - I took a nap: - I had caffeine: - # of drinks - Morning, Afternoon, Evening - Minutes: - Today I exercised for - Medications or drugs I used today: - Mins/hrs - Throughout the day I felt drowsy: - Never, Sometimes, Very often - Overall, my mood today was: - Pos / Neg / Neu - In the hour before bed, my activities included: - E.g., Reading, computer, T.V, showering, phone, eating, spending time with partner - Sleep Diary: Night - MASSEY UNIVERSITY - UNIVERSITY OF NEW ZEALAND"
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "Reading, computer, TV, showering, phone, eating, spending time with partner"
           }
-        ]
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "No",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 12,
-      "raw_text": "抱歉，我无法识别该图片中的文本内容。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 13,
-      "raw_text": "食物名称：Nutri grain + Banana  \n营养成分：无具体信息  \n数量/重量：无具体信息  \n其他信息：周一至周六的早餐均为Nutri grain + Banana；其他食物包括苹果、南瓜汤、蘑菇意面、鸡肉等。",
-      "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
-              {
-                "name": "Nutri grain",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Banana",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": "周一至周六的早餐均为Nutri grain + Banana；其他食物包括苹果、南瓜汤、蘑菇意面、鸡肉等。"
+            "Day": "Monday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           }
         ]
       }
     },
     {
-      "page": 14,
-      "raw_text": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：这是一个关于骑马的周记录，包含骑行的马匹数量及摔倒次数，未涉及食物信息。",
+      "page": 13,
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [
+        "name": null,
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": null,
-                "quantity": null,
-                "unit": null,
-                "notes": "这是一个关于骑马的周记录，包含骑行的马匹数量及摔倒次数，未涉及食物信息。"
+                "text": "Nutri grain + Banana"
               }
             ],
-            "notes": null
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Apple"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Mash + meatballs"
+              }
+            ],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pumpkin Soup"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Apple"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Butter chicken"
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Mushroom Pasta"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Nutri grain + Banana"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Crumpets + chicken"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "scrambled eggs + potato"
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 14,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "8",
+            "Gallops": "4",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "1",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "5",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "null",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
       "page": 15,
-      "raw_text": "抱歉，我无法帮助识别图像中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Neg",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Pos",
+            "PreBedActivities": "No"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Jatish Mudhoo",
+          "date": "2025-07-23",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 16,
-      "raw_text": "抱歉，我无法识别或提取该图片中的文字内容。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "21:00",
+            "WakeUpTime": "05:00",
+            "SleepLatencyMins": "20",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "1",
+            "DifficultyFactors": "temperature"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": null,
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "08:00",
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "21:00",
+            "WakeUpTime": null,
+            "SleepLatencyMins": null,
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Refreshed",
+            "NightAwakenings": "0",
+            "DifficultyFactors": null
+          }
+        ]
       }
     },
     {
       "page": 17,
-      "raw_text": "食物名称：\n- Coffee\n- Biscuit\n- Curry\n- Noodles\n- Bread egg\n\n营养成分：\n- 未提供具体营养成分信息\n\n数量/重量：\n- 未提供明确数量或重量信息\n\n其他信息：\n- 记录的是一周的饮食日记，包含早餐、午餐、晚餐和零食的选择。日期为2025年7月22日，姓名为Jitesh Mudhoo。",
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": "2025-07-22",
-            "time": null,
-            "meal_type": "other",
-            "items": [
+        "name": "Jeetesh mudhoo",
+        "date": "23/07/25",
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": "Coffee",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Biscuit",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Curry",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Noodles",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Bread egg",
-                "quantity": null,
-                "unit": null,
-                "notes": null
+                "text": "Coffee",
+                "conf": 1
               }
             ],
-            "notes": "记录的是一周的饮食日记，包含早餐、午餐、晚餐和零食的选择。姓名为Jitesh Mudhoo。"
+            "snack1": [
+              {
+                "text": "Biscuit",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Curry",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Noodles",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Bread egg",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Bread egg",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "Coffee",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Curry",
+                "conf": 1
+              }
+            ],
+            "snack3": []
           }
-        ]
+        },
+        "notes": null,
+        "uncertain": []
       }
     },
     {
       "page": 18,
-      "raw_text": "抱歉，我无法帮助处理该请求。",
+      "category": "riding_diary",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 19,
-      "raw_text": "抱歉，我无法提取或识别图片中的文字内容。",
-      "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 20,
-      "raw_text": "很抱歉，我无法识别这张图片中的具体文字内容。",
-      "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 21,
-      "raw_text": "食物名称：\n- Monday: Pie, Pringles, Kentucky Fried Chicken, Muffin, Chicken sandwich\n- Tuesday: Apple, Prunbar, Flour biscuits, Fruit salad\n- Wednesday: Apple, Protein Bar, Muesli, Chicken sandwich on toast\n- Thursday: Chips, Burger, Pizza\n- Friday: Kransky Roll, New York sandwich, Pringles, McDonald's\n- Saturday: Cereal, Pizza, Doritos, Grilled chicken\n- Sunday: Kransky Rolls, Pie, Chips, Pizza\n\n营养成分：未提供具体的营养成分信息。\n\n数量/重量：未提供具体的数量或重量信息。\n\n其他信息：备注提到“需要更健康的饮食”和“考虑使用外卖”。",
-      "structured": {
-        "entries": [
+        "category": "riding_diary",
+        "records": [
           {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Pie",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pringles",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Kentucky Fried Chicken",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Muffin",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chicken sandwich",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": "需要更健康的饮食"
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-03",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Apple",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Prunbar",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Flour biscuits",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Fruit salad",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "2",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-04",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Apple",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Protein Bar",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Muesli",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chicken sandwich on toast",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-05",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Chips",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Burger",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pizza",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "2",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-06",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Kransky Roll",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "New York sandwich",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pringles",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "McDonald's",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "1",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-07",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Cereal",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pizza",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Doritos",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Grilled chicken",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Saturday",
+            "Horses ridden": "10",
+            "Falls": "4",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-08",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Kransky Rolls",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pie",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chips",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pizza",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": "考虑使用外卖"
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
-      "page": 22,
-      "raw_text": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：该图片是一个骑马日记，记录了一周内骑马的情况，包括周一至周六的不同骑马类型及骑的次数。没有涉及食物或营养成分。",
+      "page": 19,
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": [
+        "category": "sleep_diary_night",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [],
-            "notes": "该图片是一个骑马日记，记录了一周内骑马的情况，包括周一至周六的不同骑马类型及骑的次数。没有涉及食物或营养成分。"
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Reading, Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "1",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Eating"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Eating, Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Sima",
+          "date": "2015-07-25",
+          "form_title": "Sleep Diary: Night"
+        }
+      }
+    },
+    {
+      "page": 20,
+      "category": "sleep_diary_morning",
+      "raw_text": null,
+      "structured": {
+        "category": "sleep_diary_morning",
+        "records": [
+          {
+            "Day": "Monday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "45",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "23:30",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "50",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "22:00",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "35",
+            "SleepQuality": "Average",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "21:30",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "25",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "23:45",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "45",
+            "SleepQuality": "Very Good",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "00:45",
+            "WakeUpTime": "04:00",
+            "SleepLatencyMins": "60",
+            "SleepQuality": "Good",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "21:45",
+            "WakeUpTime": "07:00",
+            "SleepLatencyMins": "25",
+            "SleepQuality": "Very Bad",
+            "MorningFeeling": "Tired",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "Thoughts"
+          }
+        ]
+      }
+    },
+    {
+      "page": 21,
+      "category": "food_diary",
+      "raw_text": null,
+      "structured": {
+        "name": "Sima",
+        "date": "28 July 2017",
+        "days": {
+          "monday": {
+            "breakfast": [
+              {
+                "text": "Pie",
+                "conf": 1
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Pringles",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Kentucky fried chicken",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Muffin",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Chicken sandwich",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Apple protein bar",
+                "conf": 1
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Four biscuits",
+                "conf": 1
+              }
+            ],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Fruit salad",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Apple",
+                "conf": 1
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Protein Bar",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Muesli",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Chicken sandwich on toast",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [
+              {
+                "text": "Chips",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Burger",
+                "conf": 1
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [
+              {
+                "text": "Kransky Roll",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "New York sandwich",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Pringles",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "McDonald's",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Cereal",
+                "conf": 1
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Doritos",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Grilled chicken",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [
+              {
+                "text": "Kransky Roll",
+                "conf": 1
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Pie",
+                "conf": 1
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chips",
+                "conf": 1
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Pizza",
+                "conf": 1
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": "-I need to eat healthier.\n-Plean writing takeout.",
+        "uncertain": []
+      }
+    },
+    {
+      "page": 22,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "3",
+            "Jumpouts": "0",
+            "Trials": "1",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "7",
+            "Falls": "0",
+            "Trackwork": "7",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "11",
+            "Falls": "0",
+            "Trackwork": "11",
+            "Gallops": "6",
+            "Jumpouts": "1",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "8",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "12",
+            "Falls": "0",
+            "Trackwork": "12",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
       "page": 23,
-      "raw_text": "抱歉，我无法处理该图像中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Lucy",
+          "date": "YYYY-MM-DD|string",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 24,
-      "raw_text": "抱歉，我无法帮助识别图片中的文字内容。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 25,
-      "raw_text": "食物名称：\n- Monday: Chocolate Sandwich\n- Lunch: Indian\n- Wednesday: Pork bun\n- Sandwich\n- Smoothie bowl\n- Mc Donalds\n- Friday: Burger\n- Chips\n- Loaded wedges\n- Saturday: Sandwich\n- Smoothie\n- Chicken Burghah\n- Chips\n- Sunday: Pasta\n- Noodles\n\n营养成分：未提供具体营养成分信息。\n\n数量/重量：未提供具体数量或重量信息。\n\n其他信息：该表格是一个饮食日记，记录了一周内的餐食情况。",
-      "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": "2023-10-02",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Indian",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": "食物名称包含Monday: Chocolate Sandwich"
+            "Day": "Monday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-04",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "Pork bun",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Sandwich",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Smoothie bowl",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Mc Donalds",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "G",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-06",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "Burger",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chips",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Loaded wedges",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "A",
+            "MorningFeeling": "Grog",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-07",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "Sandwich",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Smoothie",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chicken Burger",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chips",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Thursday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-10-08",
-            "time": null,
-            "meal_type": "other",
-            "items": [
-              {
-                "name": "Pasta",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Noodles",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Friday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Tir",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VB",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           }
         ]
       }
     },
     {
-      "page": 26,
-      "raw_text": "食物名称：无\n营养成分：无\n数量/重量：无\n其他信息：这是一个骑马日记，记录了每周的骑马活动和摔跤情况，无食物或营养成分信息。",
+      "page": 25,
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [
+        "name": "Lucy",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [
               {
-                "name": "无食物",
-                "quantity": null,
-                "unit": null,
-                "notes": "食物名称：无，营养成分：无，数量/重量：无"
+                "text": "Chocolate"
               }
             ],
-            "notes": "这是一个骑马日记，记录了每周的骑马活动和摔跤情况，无食物或营养成分信息。"
+            "lunch": [
+              {
+                "text": "Sandwich"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Indian"
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Sushi"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chips"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "stew"
+              }
+            ],
+            "snack3": [
+              {
+                "text": "chocolate"
+              }
+            ]
+          },
+          "wednesday": {
+            "breakfast": [],
+            "snack1": [
+              {
+                "text": "Pork bun"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Sandwich"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "smoothie bowl"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Mc Donalds"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Pasta"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chocolate"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Pasta"
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Burger"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Chips"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Loaded wedges"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Sandwich"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Smoothie"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Chicken Burgahh"
+              }
+            ],
+            "snack3": [
+              {
+                "text": "Chips"
+              }
+            ]
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Pasta"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Noodles"
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 26,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "11",
+            "Falls": "0",
+            "Trackwork": "11",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "6",
+            "Falls": "0",
+            "Trackwork": "6",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "8",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "10",
+            "Falls": "0",
+            "Trackwork": "10",
+            "Gallops": "8",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "10",
+            "Falls": "1",
+            "Trackwork": "10",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "8",
+            "Falls": "0",
+            "Trackwork": "8",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
       "page": 27,
-      "raw_text": "抱歉，我无法提取图片中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "No",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Positive",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "0",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "No",
+            "PreBedActivities": "No"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Elle",
+          "date": "YYYY-MM-DD",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 28,
-      "raw_text": "抱歉，我无法识别或提取这张图片中的文字内容。",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 29,
-      "raw_text": "食物名称：\n- 咖啡\n- 沙拉碗\n- 巧克力杯子蛋糕\n- 巧克力薯片\n- 鱼饼（土豆）\n- 香肠三明治\n- 奶昔碗\n- 麦当劳\n- 从2D的香肠\n\n营养成分：\n（未提供具体营养成分信息）\n\n数量/重量：\n- 咖啡：1杯\n- 沙拉碗：不确定\n- 巧克力杯子蛋糕：1个\n- 巧克力薯片：不确定\n- 鱼饼：不确定\n- 香肠三明治：1个\n- 奶昔碗：不确定\n- 麦当劳：不确定\n- 香肠：不确定（从2D）\n\n其他信息：\n- 日期和姓名未填写\n- 每天有早餐、点心、午餐、晚餐和夜宵的记录，但某些条目为空。",
-      "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
-              {
-                "name": "咖啡",
-                "quantity": "1",
-                "unit": "杯",
-                "notes": null
-              },
-              {
-                "name": "沙拉碗",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定"
-              },
-              {
-                "name": "巧克力杯子蛋糕",
-                "quantity": "1",
-                "unit": "个",
-                "notes": null
-              },
-              {
-                "name": "巧克力薯片",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定"
-              },
-              {
-                "name": "鱼饼",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定（土豆）"
-              },
-              {
-                "name": "香肠三明治",
-                "quantity": "1",
-                "unit": "个",
-                "notes": null
-              },
-              {
-                "name": "奶昔碗",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定"
-              },
-              {
-                "name": "麦当劳",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定"
-              },
-              {
-                "name": "香肠",
-                "quantity": null,
-                "unit": null,
-                "notes": "不确定（从2D）"
-              }
-            ],
-            "notes": "日期和姓名未填写"
+            "Day": "Monday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Thursday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "null",
+            "WakeUpTime": "null",
+            "SleepLatencyMins": "null",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           }
         ]
       }
     },
     {
-      "page": 30,
-      "raw_text": "这张图片中没有任何食物名称、营养成分或数量等信息。它是一个骑马日记的表格，用来记录骑马的活动和相关的跌倒情况。请让我知道是否需要其他帮助！",
+      "page": 29,
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
+        "name": "Elle",
+        "date": null,
+        "days": {
+          "monday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "coffee"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Salad bowl"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "chocolate",
+                "conf": 0.9
+              },
+              {
+                "text": "cupcake milo"
+              },
+              {
+                "text": "chocolate chips cookie",
+                "conf": 0.9
+              }
+            ],
+            "dinner": [
+              {
+                "text": "fish pie"
+              }
+            ],
+            "snack3": [
+              {
+                "text": "2 pieces of chocolate",
+                "conf": 0.9
+              }
+            ]
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Bay Coffee"
+              }
+            ],
+            "snack1": [
+              {
+                "text": "Sausage Sandwich"
+              }
+            ],
+            "lunch": [
+              {
+                "text": "Smoothie bowl thing"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "McDonald's",
+                "conf": 0.9
+              }
+            ],
+            "snack3": [
+              {
+                "text": "Sausage roll from 2d",
+                "conf": 0.8
+              }
+            ]
+          },
+          "thursday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [],
+            "snack1": [],
+            "lunch": [],
+            "snack2": [],
+            "dinner": [],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 30,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
           {
-            "date": null,
-            "time": null,
-            "meal_type": "other",
-            "items": [],
-            "notes": "这张图片中没有任何食物名称、营养成分或数量等信息。它是一个骑马日记的表格，用来记录骑马的活动和相关的跌倒情况。请让我知道是否需要其他帮助！"
+            "Day": "Monday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Tuesday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Wednesday",
+            "Horses ridden": "6",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "gym"
+          },
+          {
+            "Day": "Thursday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "0",
+            "Gallops": "0",
+            "Jumpouts": "0",
+            "Trials": "0",
+            "Races": "0",
+            "Other eg. gym/run": "null"
           }
         ]
       }
     },
     {
       "page": 31,
-      "raw_text": "抱歉，我无法识别或提取该图片中的文字内容。",
+      "category": "sleep_diary_night",
+      "raw_text": null,
       "structured": {
-        "entries": []
+        "category": "sleep_diary_night",
+        "records": [
+          {
+            "Day": "Monday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "60",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Tuesday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Wednesday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "30",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Positive",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Thursday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Friday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Sometimes",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Saturday",
+            "NapTaken": "Yes",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Never",
+            "OverallMood": "Negative",
+            "PreBedActivities": "Phone"
+          },
+          {
+            "Day": "Sunday",
+            "NapTaken": "No",
+            "CaffeineMorningDrinks": "1",
+            "CaffeineAfternoonDrinks": "0",
+            "CaffeineEveningDrinks": "0",
+            "ExerciseDuration": "0",
+            "MedicationsOrDrugsUsed": "No",
+            "DaytimeDrowsiness": "Very often",
+            "OverallMood": "Neutral",
+            "PreBedActivities": "Phone"
+          }
+        ],
+        "metadata": {
+          "institution": "Massey University",
+          "name": "Toni",
+          "date": "2023-10-01",
+          "form_title": "Sleep Diary: Night"
+        }
       }
     },
     {
       "page": 32,
-      "raw_text": "对不起，我无法识别图片中的人物或签名。根据你的描述，这是一份睡眠日记，记载了每天的睡觉时间、醒来时间、入睡所需时间、睡眠质量和早晨的感觉等信息。请让我知道是否需要进一步帮助！",
+      "category": "sleep_diary_morning",
+      "raw_text": null,
       "structured": {
-        "entries": []
-      }
-    },
-    {
-      "page": 33,
-      "raw_text": "食物名称：\n1. 早餐：Vogels w/ Peanut Butter\n2. 午餐：Ham Wrap\n3. 晚餐：Smoked Salmon Salad\n4. 早餐：Scrambled Eggs\n5. 早餐：Muesli Bar\n6. 午餐：Fruit\n7. 小吃：Lollies\n8. 晚餐：Honey Soy Chicken & Rice\n9. 早餐：Omelette\n10. 午餐：Pasta Salad\n11. 晚餐：Chicken Burgers\n12. 早餐：French Toast\n13. 午餐：Ham Wrap\n14. 晚餐：Pizza\n\n营养成分：\n（具体营养成分未提供，此部分留空）\n\n数量/重量：\n（具体数量和重量未提供，此部分留空）\n\n其他信息：\n日期：23/07/25\n记录者姓名：John\n大学：Massey University",
-      "structured": {
-        "entries": [
+        "category": "sleep_diary_morning",
+        "records": [
           {
-            "date": "2023-07-25",
-            "time": null,
-            "meal_type": "breakfast",
-            "items": [
-              {
-                "name": "Vogels w/ Peanut Butter",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Scrambled Eggs",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Muesli Bar",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Omelette",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "French Toast",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Monday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-07-25",
-            "time": null,
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "Ham Wrap",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Fruit",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pasta Salad",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Ham Wrap",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-07-25",
-            "time": null,
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "Smoked Salmon Salad",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Honey Soy Chicken & Rice",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Chicken Burgers",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              },
-              {
-                "name": "Pizza",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           },
           {
-            "date": "2023-07-25",
-            "time": null,
-            "meal_type": "snack",
-            "items": [
-              {
-                "name": "Lollies",
-                "quantity": null,
-                "unit": null,
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Thursday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Friday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "10",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Bedtime": "11:00",
+            "WakeUpTime": "10:00",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Bedtime": "09:00",
+            "WakeUpTime": "03:30",
+            "SleepLatencyMins": "5",
+            "SleepQuality": "VG",
+            "MorningFeeling": "Ref",
+            "NightAwakenings": "0",
+            "DifficultyFactors": "null"
           }
         ]
       }
     },
     {
-      "page": 34,
-      "raw_text": "食物名称：\n营养成分：\n数量/重量：\n其他信息：",
+      "page": 33,
+      "category": "food_diary",
+      "raw_text": null,
       "structured": {
-        "entries": [
-          {
-            "date": "2023-10-12",
-            "time": "08:30",
-            "meal_type": "breakfast",
-            "items": [
+        "name": "John",
+        "date": "23/07/25",
+        "days": {
+          "monday": {
+            "breakfast": [
               {
-                "name": "oatmeal",
-                "quantity": "1",
-                "unit": "bowl",
-                "notes": null
-              },
-              {
-                "name": "banana",
-                "quantity": "1",
-                "unit": null,
-                "notes": null
+                "text": "Vegels w/ Peanut Butter"
               }
             ],
-            "notes": "Consumed with a cup of coffee"
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Ham Wrap"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Smoked Salmon Salad"
+              }
+            ],
+            "snack3": []
+          },
+          "tuesday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Fruit"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Lollies"
+              }
+            ],
+            "dinner": [],
+            "snack3": []
+          },
+          "wednesday": {
+            "breakfast": [
+              {
+                "text": "Scrambled Eggs"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Fruit"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Smoked Salmon Salad"
+              }
+            ],
+            "snack3": []
+          },
+          "thursday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Fruit"
+              }
+            ],
+            "snack2": [
+              {
+                "text": "Lollies"
+              }
+            ],
+            "dinner": [
+              {
+                "text": "Honey Soy Chicken & Rice"
+              }
+            ],
+            "snack3": []
+          },
+          "friday": {
+            "breakfast": [
+              {
+                "text": "Vegels w/ Peanut Butter"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Omelette"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Smoked Salmon Salad"
+              }
+            ],
+            "snack3": []
+          },
+          "saturday": {
+            "breakfast": [
+              {
+                "text": "Muesli Bar"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Pasta Salad"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Chicken Burgers"
+              }
+            ],
+            "snack3": []
+          },
+          "sunday": {
+            "breakfast": [
+              {
+                "text": "French Toast"
+              }
+            ],
+            "snack1": [],
+            "lunch": [
+              {
+                "text": "Ham Wrap"
+              }
+            ],
+            "snack2": [],
+            "dinner": [
+              {
+                "text": "Pizza"
+              }
+            ],
+            "snack3": []
+          }
+        },
+        "notes": null,
+        "uncertain": []
+      }
+    },
+    {
+      "page": 34,
+      "category": "riding_diary",
+      "raw_text": null,
+      "structured": {
+        "category": "riding_diary",
+        "records": [
+          {
+            "Day": "Monday",
+            "Horses ridden": "5",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "Gym"
           },
           {
-            "date": "2023-10-12",
-            "time": "12:15",
-            "meal_type": "lunch",
-            "items": [
-              {
-                "name": "grilled chicken",
-                "quantity": "200",
-                "unit": "grams",
-                "notes": null
-              },
-              {
-                "name": "mixed salad",
-                "quantity": "1",
-                "unit": "serving",
-                "notes": "Includes lettuce, tomato, cucumber"
-              }
-            ],
-            "notes": null
+            "Day": "Tuesday",
+            "Horses ridden": "0",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           },
           {
-            "date": "2023-10-12",
-            "time": "15:30",
-            "meal_type": "snack",
-            "items": [
-              {
-                "name": "almonds",
-                "quantity": "15",
-                "unit": "pieces",
-                "notes": null
-              }
-            ],
-            "notes": null
+            "Day": "Wednesday",
+            "Horses ridden": "5",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "Mechanical Horse"
           },
           {
-            "date": "2023-10-12",
-            "time": "19:00",
-            "meal_type": "dinner",
-            "items": [
-              {
-                "name": "spaghetti",
-                "quantity": "150",
-                "unit": "grams",
-                "notes": "With tomato sauce"
-              },
-              {
-                "name": "garlic bread",
-                "quantity": "2",
-                "unit": "slices",
-                "notes": null
-              }
-            ],
-            "notes": "Drank a glass of red wine"
+            "Day": "Thursday",
+            "Horses ridden": "0",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Friday",
+            "Horses ridden": "6",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Saturday",
+            "Horses ridden": "0",
+            "Falls": "4",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
+          },
+          {
+            "Day": "Sunday",
+            "Horses ridden": "0",
+            "Falls": "0",
+            "Trackwork": "Trackwork",
+            "Gallops": "null",
+            "Jumpouts": "null",
+            "Trials": "null",
+            "Races": "null",
+            "Other eg. gym/run": "null"
           }
         ]
       }
