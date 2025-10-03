@@ -6,13 +6,9 @@ load_dotenv()
 # OpenAI API Configuration
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# Check if API key is set
+# Allow application to start without API key; it can be set from the UI later
 if not OPENAI_API_KEY:
-    raise ValueError(
-        "OPENAI_API_KEY environment variable not set. Please set the environment variable:\n"
-        "export OPENAI_API_KEY='your-api-key-here'\n"
-        "Or create a .env file and add: OPENAI_API_KEY=your-api-key-here"
-    )
+    OPENAI_API_KEY = ""
 
 # Food Classification Configuration
 FOOD_CATEGORIES = {

@@ -6,11 +6,14 @@ import numpy as np
 from typing import List, Dict, Any
 import json
 from ocr_processor import OCRProcessor
+import os
+import config as cfg
 
 class PDFProcessor:
     """PDF file processor, supports multi-page PDF OCR recognition and food data extraction"""
     
     def __init__(self):
+        # OCRProcessor reads key dynamically; this ensures new instances pick up latest key
         self.ocr = OCRProcessor()
         
     def extract_pages_from_pdf(self, pdf_file, fast_mode=False) -> List[Dict[str, Any]]:

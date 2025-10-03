@@ -7,9 +7,10 @@ from datetime import datetime, timedelta
 from PIL import Image
 import io
 import base64
+import os
 
 # Import custom modules
-from config import APP_CONFIG, NUTRITION_TARGETS
+from config import APP_CONFIG, NUTRITION_TARGETS, OPENAI_API_KEY
 from ocr_processor import OCRProcessor
 from food_classifier import FoodClassifier
 from nutrition_analyzer import NutritionAnalyzer
@@ -45,14 +46,17 @@ st.set_page_config(
 
 # Initialize components
 @st.cache_resource
-def init_components():
-    """Initialize all components"""
+def init_components(api_key: str):
+    """Initialize all components based on current API key."""
+    # Components requiring OpenAI key are initialized only when key is provided
+    ocr = OCRProcessor()
+    pdf_proc = PDFProcessor()
     return {
-        "ocr": OCRProcessor(),
+        "ocr": ocr,
         "classifier": FoodClassifier(),
         "analyzer": NutritionAnalyzer(),
         "visualizer": NutritionVisualizer(),
-        "pdf_processor": PDFProcessor()
+        "pdf_processor": pdf_proc
     }
 
 # Custom CSS styles
@@ -104,8 +108,40 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def main():
-    # Initialize components
-    components = init_components()
+    # Initialize or read API key from session/env
+    if "api_key" not in st.session_state:
+        st.session_state["api_key"] = OPENAI_API_KEY or os.getenv("OPENAI_API_KEY", "")
+
+    # Top-of-page API key input (visible and editable)
+    st.markdown('<h1 class="main-header">🏇 Jockey Nutrition AI</h1>', unsafe_allow_html=True)
+    api_key_input = st.text_input("OpenAI API Key", value=st.session_state["api_key"], help="Takes effect immediately after save; you can modify anytime")
+    col_save1, col_save2 = st.columns(2)
+    with col_save1:
+        if st.button("Save API Key", type="primary"):
+            new_key = api_key_input.strip()
+            os.environ["OPENAI_API_KEY"] = new_key
+            import config as cfg
+            cfg.OPENAI_API_KEY = new_key
+            st.session_state["api_key"] = new_key
+            st.cache_resource.clear()
+            st.success("API Key saved. App refreshed.")
+            st.rerun()
+    with col_save2:
+        if st.button("Clear API Key"):
+            os.environ["OPENAI_API_KEY"] = ""
+            import config as cfg
+            cfg.OPENAI_API_KEY = ""
+            st.session_state["api_key"] = ""
+            st.cache_resource.clear()
+            st.warning("API Key cleared")
+            st.rerun()
+
+    api_ready = bool(st.session_state.get("api_key") and st.session_state.get("api_key").startswith("sk-"))
+
+    # Initialize components only when API key is ready
+    components = None
+    if api_ready:
+        components = init_components(st.session_state["api_key"])    
     
     # Sidebar
     with st.sidebar:
@@ -150,10 +186,19 @@ def main():
     
     # Main content area
     if page == "📄 PDF Analysis":
+        if not api_ready:
+            st.warning("Please set a valid OpenAI API Key at the top to use this feature.")
+            return
         show_pdf_analysis(components)
     elif page == "📷 Image Recognition":
+        if not api_ready:
+            st.warning("Please set a valid OpenAI API Key at the top to use this feature.")
+            return
         show_image_recognition(components)
     elif page == "💬 Text Analysis":
+        if not api_ready:
+            st.warning("Please set a valid OpenAI API Key at the top to use this feature.")
+            return
         show_text_analysis(components)
     elif page == "⚙️ Settings":
         show_settings()

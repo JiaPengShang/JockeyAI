@@ -3,12 +3,15 @@ import io
 import requests
 from PIL import Image
 import openai
-from config import OPENAI_API_KEY
+import os
+import config as cfg
 
 class OCRProcessor:
     def __init__(self):
-        openai.api_key = OPENAI_API_KEY
-        self.client = openai.OpenAI(api_key=OPENAI_API_KEY)
+        # Read latest API key dynamically (supports runtime updates from UI)
+        api_key = os.getenv("OPENAI_API_KEY") or getattr(cfg, "OPENAI_API_KEY", "")
+        openai.api_key = api_key
+        self.client = openai.OpenAI(api_key=api_key)
         self.primary_vision_model = "gpt-4o-mini"
         self.fallback_vision_model = "gpt-4o"
         
@@ -17,7 +20,8 @@ class OCRProcessor:
     
     def _validate_api_key(self):
         """Validate if OpenAI API key is valid"""
-        if not OPENAI_API_KEY:
+        current_key = os.getenv("OPENAI_API_KEY") or getattr(cfg, "OPENAI_API_KEY", "")
+        if not current_key:
             raise ValueError("OpenAI API key not set. Please set environment variable OPENAI_API_KEY or create .env file.")
         
         try:
