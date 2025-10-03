@@ -8,17 +8,17 @@ import json
 from ocr_processor import OCRProcessor
 
 class PDFProcessor:
-    """PDF processor that supports multi-page OCR and food data extraction"""
+    """PDF file processor, supports multi-page PDF OCR recognition and food data extraction"""
     
     def __init__(self):
         self.ocr = OCRProcessor()
         
     def extract_pages_from_pdf(self, pdf_file, fast_mode=False) -> List[Dict[str, Any]]:
-        """Extract all pages from PDF and render to images"""
+        """Extract all pages from PDF file and convert to images"""
         pages_data = []
         
         try:
-            # Open PDF
+            # Open PDF file
             pdf_document = fitz.open(stream=pdf_file.read(), filetype="pdf")
             total_pages = len(pdf_document)
             
@@ -26,27 +26,27 @@ class PDFProcessor:
                 # Get page
                 page = pdf_document.load_page(page_num)
                 
-                # Optimize: dynamic scale factor by page size and mode
+                # Optimization: dynamically adjust scale factor based on page size and processing mode
                 page_rect = page.rect
                 page_width = page_rect.width
                 page_height = page_rect.height
                 
                 if fast_mode:
-                    # Fast mode: smaller scale
+                    # Fast mode: use smaller scale factor
                     if page_width > 600 or page_height > 800:
-                        scale_factor = 1.0  # 最小缩放
+                        scale_factor = 1.0  # Minimum scale
                     else:
-                        scale_factor = 1.2  # 较小缩放
+                        scale_factor = 1.2  # Smaller scale
                 else:
-                    # Standard mode: adjust by size
+                    # Standard mode: adjust based on page size
                     if page_width > 800 or page_height > 1000:
-                        scale_factor = 1.5  # 降低缩放因子
+                        scale_factor = 1.5  # Reduce scale factor
                     else:
-                        scale_factor = 2.0  # 保持原有缩放因子
+                        scale_factor = 2.0  # Keep original scale factor
                 
                 mat = fitz.Matrix(scale_factor, scale_factor)
                 
-                # Render page to image
+                # Render page as image
                 pix = page.get_pixmap(matrix=mat)
                 
                 # Convert to PIL image
@@ -67,11 +67,11 @@ class PDFProcessor:
             raise Exception(f"PDF processing failed: {str(e)}")
     
     def process_pdf_content(self, pdf_file, language="en", progress_callback=None, fast_mode=False) -> Dict[str, Any]:
-        """Process PDF: extract text per page and analyze food data"""
+        """Process PDF file, extract content from all pages and analyze food data"""
         try:
             # Extract all pages
             if progress_callback:
-                mode_text = "Fast mode" if fast_mode else "Standard mode"
+                mode_text = "Fast Mode" if fast_mode else "Standard Mode"
                 progress_callback(f"Extracting PDF pages... ({mode_text})", 0.1)
             pages_data = self.extract_pages_from_pdf(pdf_file, fast_mode=fast_mode)
             
@@ -90,18 +90,18 @@ class PDFProcessor:
                     progress = 0.1 + (i / total_pages) * 0.8  # 10%-90%
                     progress_callback(f"Processing page {page_num}... ({i+1}/{total_pages})", progress)
                 
-                # OCR current page
+                # OCR recognition for current page
                 page_text = self.ocr.extract_text_from_image(image, language=language)
                 all_text.append(f"Page {page_num}: {page_text}")
                 
                 # Analyze food content
                 food_analysis = self.ocr.analyze_food_content(page_text, language=language)
                 
-                # Parse JSON
+                # Parse JSON results
                 food_data = self._parse_food_analysis(food_analysis)
                 
                 if food_data and "foods" in food_data:
-                    # Attach page info to each food
+                    # Add page information for each food
                     for food in food_data["foods"]:
                         food["page_number"] = page_num
                         all_foods.append(food)
@@ -118,14 +118,14 @@ class PDFProcessor:
                     } if food_data else {"calories": 0, "protein": 0, "carbs": 0, "fat": 0}
                 })
             
-            # Final steps
+            # Final processing
             if progress_callback:
                 progress_callback("Generating analysis report...", 0.95)
             
-            # Aggregate foods
+            # Summarize all food data
             total_nutrition = self._calculate_total_nutrition(all_foods)
             
-            # Count by category
+            # Count foods by category
             food_categories = self._categorize_foods(all_foods)
             
             # Generate dietary advice
@@ -148,16 +148,16 @@ class PDFProcessor:
             raise Exception(f"PDF content processing failed: {str(e)}")
     
     def _parse_food_analysis(self, food_analysis: str) -> Dict[str, Any]:
-        """Parse food analysis JSON"""
+        """Parse food analysis results"""
         try:
-            # 尝试直接解析JSON
+            # Try to parse JSON directly
             if isinstance(food_analysis, str):
-                # Remove possible code fences
+                # Remove possible code block markers
                 text = food_analysis.strip()
                 if text.startswith("```"):
                     text = text.strip("`")
                 
-                # Extract JSON substring
+                # Find JSON section
                 first = text.find('{')
                 last = text.rfind('}')
                 if first != -1 and last != -1 and last > first:
@@ -172,7 +172,7 @@ class PDFProcessor:
             return None
     
     def _calculate_total_nutrition(self, foods: List[Dict[str, Any]]) -> Dict[str, float]:
-        """Calculate total nutrition"""
+        """Calculate total nutrition content"""
         total = {
             "calories": 0.0,
             "protein": 0.0,
@@ -199,7 +199,7 @@ class PDFProcessor:
         return categories
     
     def _generate_dietary_advice(self, foods: List[Dict[str, Any]], total_nutrition: Dict[str, float]) -> str:
-        """Generate dietary advice (English)"""
+        """Generate dietary advice"""
         advice_parts = []
         
         # Overall nutrition analysis
@@ -215,11 +215,11 @@ class PDFProcessor:
         advice_parts.append(f"Fat: {total_fat:.1f} g")
         advice_parts.append("")
         
-        # Food diversity
+        # Food diversity analysis
         unique_foods = len(set(food.get("name", "") for food in foods))
-        advice_parts.append(f"🍽️ Food Diversity: {unique_foods} unique items identified")
+        advice_parts.append(f"🍽️ Food Diversity: Identified {unique_foods} different foods")
         
-        # Category distribution
+        # Category distribution analysis
         categories = self._categorize_foods(foods)
         if categories:
             advice_parts.append("📈 Food Category Distribution:")
@@ -228,55 +228,55 @@ class PDFProcessor:
         
         advice_parts.append("")
         
-        # Nutrition suggestions
+        # Nutrition advice
         if total_calories > 0:
             # Protein ratio
             protein_ratio = (total_protein * 4 / total_calories) * 100
             if protein_ratio < 10:
-                advice_parts.append("⚠️ Low protein intake. Consider lean meats, fish, legumes, dairy.")
+                advice_parts.append("⚠️ Protein intake is low, recommend increasing lean meat, fish, beans and other protein sources")
             elif protein_ratio > 35:
-                advice_parts.append("⚠️ High protein proportion. Balance with carbs and healthy fats.")
+                advice_parts.append("⚠️ Protein intake is high, pay attention to balancing other nutrients")
             else:
-                advice_parts.append("✅ Protein proportion is reasonable.")
+                advice_parts.append("✅ Protein intake ratio is reasonable")
             
             # Fat ratio
             fat_ratio = (total_fat * 9 / total_calories) * 100
             if fat_ratio > 35:
-                advice_parts.append("⚠️ High fat intake. Reduce fried and high-fat foods.")
+                advice_parts.append("⚠️ Fat intake is high, recommend reducing fried foods and high-fat foods")
             elif fat_ratio < 15:
-                advice_parts.append("⚠️ Low fat intake. Add healthy fats like olive oil, nuts.")
+                advice_parts.append("⚠️ Fat intake is low, can appropriately increase healthy fat sources")
             else:
-                advice_parts.append("✅ Fat proportion is reasonable.")
+                advice_parts.append("✅ Fat intake ratio is reasonable")
             
             # Carbohydrate ratio
             carbs_ratio = (total_carbs * 4 / total_calories) * 100
             if carbs_ratio > 65:
-                advice_parts.append("⚠️ High carbohydrates intake. Increase protein and healthy fats.")
+                advice_parts.append("⚠️ Carbohydrate intake is high, recommend increasing protein and healthy fats")
             elif carbs_ratio < 40:
-                advice_parts.append("⚠️ Low carbohydrates. Add whole grains and fruits.")
+                advice_parts.append("⚠️ Carbohydrate intake is low, can appropriately increase whole grains and fruits")
             else:
-                advice_parts.append("✅ Carbohydrates proportion is reasonable.")
+                advice_parts.append("✅ Carbohydrate intake ratio is reasonable")
         
-        # Additional tips
+        # Special advice
         if len(foods) > 0:
             advice_parts.append("")
-            advice_parts.append("💡 Personalized Tips:")
+            advice_parts.append("💡 Personalized Recommendations:")
             
-            # Check vegetables/fruits
+            # Check for vegetables and fruits
             has_vegetables = any("vegetable" in food.get("category", "").lower() or 
                                "vitamin" in food.get("category", "").lower() 
                                for food in foods)
             if not has_vegetables:
-                advice_parts.append("  • Add vegetables and fruits to increase vitamins and minerals.")
+                advice_parts.append("  • Recommend increasing vegetable and fruit intake to provide rich vitamins and minerals")
             
-            # Check whole grains
+            # Check for whole grains
             has_whole_grains = any("grain" in food.get("name", "").lower() or 
                                  "whole" in food.get("name", "").lower() 
                                  for food in foods)
             if not has_whole_grains:
-                advice_parts.append("  • Choose whole grains for more dietary fiber.")
+                advice_parts.append("  • Recommend choosing whole grain foods to provide more dietary fiber")
             
-            # Hydration
-            advice_parts.append("  • Stay hydrated. Aim for ~8 cups of water per day.")
+            # Check water intake
+            advice_parts.append("  • Remember to maintain adequate water intake, recommend 8 glasses of water per day")
         
         return "\n".join(advice_parts)

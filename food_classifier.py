@@ -21,20 +21,20 @@ class FoodClassifier:
         training_data = []
         training_labels = []
         
-        # Add samples for each category
+        # Add training data for each category
         for category, foods in FOOD_CATEGORIES.items():
             for food in foods:
                 training_data.append(food)
                 training_labels.append(category)
         
-        # Additional samples (English)
+        # Add some additional training data
         additional_data = {
-            "Protein": ["chicken breast", "steak", "salmon", "tuna", "shrimp", "crab", "shellfish", "lean meat", "turkey"],
-            "Carbohydrates": ["white rice", "brown rice", "pasta", "steamed bun", "dumpling", "noodles", "porridge", "corn porridge"],
+            "Protein": ["chicken breast", "beef steak", "salmon", "tuna", "shrimp", "crab", "shellfish", "lean meat", "turkey"],
+            "Carbohydrates": ["white rice", "brown rice", "pasta", "bread", "bun", "dumpling", "noodles", "porridge", "corn porridge"],
             "Fat": ["peanut oil", "canola oil", "sesame oil", "lard", "mutton fat", "duck fat", "goose fat"],
             "Vitamins": ["apple", "banana", "grape", "strawberry", "blueberry", "kiwi", "mango", "pineapple"],
-            "Minerals": ["calcium tablets", "iron tablets", "zinc tablets", "magnesium", "potassium", "sodium", "phosphorus"],
-            "Fiber": ["oatmeal", "buckwheat", "quinoa", "millet", "black rice", "purple rice", "job's tears"]
+            "Minerals": ["calcium tablet", "iron tablet", "zinc tablet", "magnesium tablet", "potassium tablet", "sodium tablet", "phosphorus tablet"],
+            "Fiber": ["oatmeal", "buckwheat", "quinoa", "millet", "black rice", "purple rice", "barley"]
         }
         
         for category, foods in additional_data.items():
@@ -45,7 +45,7 @@ class FoodClassifier:
         return training_data, training_labels
     
     def train_model(self):
-        """Train classifier"""
+        """Train classification model"""
         print("Preparing training data...")
         training_data, training_labels = self.prepare_training_data()
         
@@ -55,10 +55,10 @@ class FoodClassifier:
         print("Training model...")
         self.classifier.fit(X, training_labels)
         
-        # Evaluate
+        # Evaluate model
         y_pred = self.classifier.predict(X)
         accuracy = accuracy_score(training_labels, y_pred)
-        print(f"Model trained, accuracy: {accuracy:.2f}")
+        print(f"Model training completed, accuracy: {accuracy:.2f}")
         
         self.model_trained = True
         
@@ -77,7 +77,7 @@ class FoodClassifier:
         prediction = self.classifier.predict(X)[0]
         probabilities = self.classifier.predict_proba(X)[0]
         
-        # Confidence
+        # Get confidence
         confidence = max(probabilities)
         
         return {
@@ -116,14 +116,14 @@ class FoodClassifier:
             self.classifier = model_data["classifier"]
             self.categories = model_data["categories"]
             self.model_trained = True
-            print("Model loaded")
+            print("Model loaded successfully")
             return True
         except FileNotFoundError:
-            print("Model file not found, retraining...")
+            print("Model file not found, will retrain")
             return False
     
     def get_nutrition_info(self, food_name, quantity=100):
-        """Get nutrition info (mock database)"""
+        """Get nutrition information for food (simulated data)"""
         nutrition_database = {
             "chicken": {"calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "fiber": 0},
             "beef": {"calories": 250, "protein": 26, "carbs": 0, "fat": 15, "fiber": 0},
@@ -137,7 +137,7 @@ class FoodClassifier:
             "carrot": {"calories": 41, "protein": 0.9, "carbs": 10, "fat": 0.2, "fiber": 2.8}
         }
         
-        # Find best match
+        # Find best matching food
         best_match = None
         best_score = 0
         
@@ -150,13 +150,13 @@ class FoodClassifier:
         
         if best_match and best_score > 0.3:
             nutrition = nutrition_database[best_match].copy()
-            # Scale by quantity
+            # Adjust nutrition values based on quantity
             ratio = quantity / 100
             for key in nutrition:
                 nutrition[key] = round(nutrition[key] * ratio, 2)
             return nutrition
         else:
-            # Default nutrition
+            # Return default nutrition information
             return {
                 "calories": 100,
                 "protein": 5,

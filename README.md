@@ -75,10 +75,26 @@ pip install streamlit==1.28.1 plotly==5.17.0 openai==1.3.7 pillow==10.0.1 reques
 ```
 
 ### 4. Configure API Key
-In `config.py`, set your OpenAI API key:
-```python
-OPENAI_API_KEY = "your-api-key-here"
+
+**重要：请使用环境变量设置API密钥，不要硬编码在代码中！**
+
+#### 方法一：使用设置助手（推荐）
+```bash
+python setup_env.py
 ```
+
+#### 方法二：手动设置
+创建 `.env` 文件并添加：
+```
+OPENAI_API_KEY=your-api-key-here
+```
+
+或者设置环境变量：
+```bash
+export OPENAI_API_KEY="your-api-key-here"
+```
+
+详细设置说明请参考 [ENVIRONMENT_SETUP.md](ENVIRONMENT_SETUP.md)
 
 ## 🚀 Daily Usage Commands
 

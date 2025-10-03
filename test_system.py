@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Jockey Nutrition AI - system test script
+Jockey Nutrition AI System Test Script
 """
 
 import sys
@@ -8,20 +8,20 @@ import os
 import json
 from datetime import datetime
 
-# 添加当前目录到Python路径
+# Add current directory to Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 def test_config():
-    """Test config module"""
-    print("🔧 Testing config module...")
+    """Test configuration module"""
+    print("🔧 Testing configuration module...")
     try:
         from config import OPENAI_API_KEY, FOOD_CATEGORIES, NUTRITION_TARGETS
-        print(f"✅ API key configured: {bool(OPENAI_API_KEY)}")
-        print(f"✅ Food categories: {len(FOOD_CATEGORIES)}")
+        print(f"✅ API key configuration: {'Set' if OPENAI_API_KEY else 'Not set'}")
+        print(f"✅ Food categories count: {len(FOOD_CATEGORIES)}")
         print(f"✅ Nutrition target types: {len(NUTRITION_TARGETS)}")
         return True
     except Exception as e:
-        print(f"❌ Config test failed: {e}")
+        print(f"❌ Configuration module test failed: {e}")
         return False
 
 def test_food_classifier():
@@ -32,17 +32,17 @@ def test_food_classifier():
         
         classifier = FoodClassifier()
         
-        # Classification
+        # Test food classification
         test_foods = ["chicken", "rice", "apple", "milk"]
         results = classifier.classify_multiple_foods(test_foods)
         
-        print("Classification results:")
+        print("Food classification results:")
         for result in results:
-            print(f"  {result['food_name']} -> {result['category']} (置信度: {result['confidence']:.2f})")
+            print(f"  {result['food_name']} -> {result['category']} (confidence: {result['confidence']:.2f})")
         
-        # Nutrition info
+        # Test nutrition information
         nutrition = classifier.get_nutrition_info("chicken", 100)
-        print(f"Chicken nutrition: {nutrition}")
+        print(f"Chicken nutrition info: {nutrition}")
         
         return True
     except Exception as e:
@@ -57,7 +57,7 @@ def test_nutrition_analyzer():
         
         analyzer = NutritionAnalyzer()
         
-        # Analysis
+        # Test food analysis
         test_foods = [
             {"name": "chicken", "quantity": 150},
             {"name": "rice", "quantity": 200},
@@ -65,15 +65,15 @@ def test_nutrition_analyzer():
         ]
         
         analysis = analyzer.analyze_meal(test_foods)
-        print(f"Analysis results:")
-        print(f"  Calories: {analysis['total_nutrition']['calories']:.1f} kcal")
+        print(f"Nutrition analysis results:")
+        print(f"  Total calories: {analysis['total_nutrition']['calories']:.1f} kcal")
         print(f"  Protein: {analysis['total_nutrition']['protein']:.1f} g")
-        print(f"  Carbs: {analysis['total_nutrition']['carbs']:.1f} g")
+        print(f"  Carbohydrates: {analysis['total_nutrition']['carbs']:.1f} g")
         print(f"  Fat: {analysis['total_nutrition']['fat']:.1f} g")
         
-        # 测试建议生成
+        # Test recommendation generation
         recommendations = analyzer.generate_recommendations(analysis)
-        print(f"Recommendations count: {len(recommendations['general_recommendations'])}")
+        print(f"Generated recommendations count: {len(recommendations['general_recommendations'])}")
         
         return True
     except Exception as e:
@@ -88,7 +88,7 @@ def test_visualization():
         
         visualizer = NutritionVisualizer()
         
-        # 测试数据
+        # Test data
         nutrition_data = {
             "calories": 1200,
             "protein": 80,
@@ -98,22 +98,22 @@ def test_visualization():
         }
         
         foods_data = [
-            {"category": "蛋白质"},
-            {"category": "碳水化合物"},
-            {"category": "维生素"},
-            {"category": "蛋白质"}
+            {"category": "Protein"},
+            {"category": "Carbohydrates"},
+            {"category": "Vitamins"},
+            {"category": "Protein"}
         ]
         
-        # 创建图表
+        # Create charts
         pie_chart = visualizer.create_nutrition_pie_chart(nutrition_data)
         category_chart = visualizer.create_food_category_chart(foods_data)
         
-        print("✅ Pie chart created")
-        print("✅ Category chart created")
+        print("✅ Pie chart created successfully")
+        print("✅ Category chart created successfully")
         
         return True
     except Exception as e:
-        print(f"❌ Visualization test failed: {e}")
+        print(f"❌ Visualization module test failed: {e}")
         return False
 
 def test_ocr_processor():
@@ -123,10 +123,10 @@ def test_ocr_processor():
         from ocr_processor import OCRProcessor
         
         processor = OCRProcessor()
-        print("✅ OCR processor initialized")
+        print("✅ OCR processor initialized successfully")
         
-        # 注意：实际OCR测试需要图片文件
-        print("⚠️ OCR test requires actual image file(s)")
+        # Note: Actual OCR testing requires image files
+        print("⚠️  OCR testing requires actual image files")
         
         return True
     except Exception as e:
@@ -134,33 +134,34 @@ def test_ocr_processor():
         return False
 
 def test_integration():
-    """Test integration flow"""
-    print("\n🔗 Testing integration...")
+    """Test integration functionality"""
+    print("\n🔗 Testing integration functionality...")
     try:
         from food_classifier import FoodClassifier
         from nutrition_analyzer import NutritionAnalyzer
         from visualization import NutritionVisualizer
         
-        # Simulate full flow
+        # Simulate complete analysis workflow
         classifier = FoodClassifier()
         analyzer = NutritionAnalyzer()
         visualizer = NutritionVisualizer()
         
+        # Test foods
         test_foods = [
             {"name": "chicken breast", "quantity": 150},
             {"name": "brown rice", "quantity": 200},
             {"name": "broccoli", "quantity": 100}
         ]
         
-        # 分析
+        # Analysis
         analysis = analyzer.analyze_meal(test_foods)
         
-        # 生成图表
+        # Generate charts
         pie_chart = visualizer.create_nutrition_pie_chart(analysis["total_nutrition"])
         category_chart = visualizer.create_food_category_chart(analysis["foods"])
         
-        print("✅ Integration test success")
-        print(f"  Foods analyzed: {len(analysis['foods'])}")
+        print("✅ Integration test successful")
+        print(f"  Analyzed foods count: {len(analysis['foods'])}")
         print(f"  Total calories: {analysis['total_nutrition']['calories']:.1f} kcal")
         
         return True
@@ -169,17 +170,17 @@ def test_integration():
         return False
 
 def main():
-    """Main test runner"""
-    print("🏇 Jockey Nutrition AI - System Tests")
+    """Main test function"""
+    print("🏇 Jockey Nutrition AI - System Test")
     print("=" * 50)
     
     tests = [
-        ("Config", test_config),
-        ("Classifier", test_food_classifier),
-        ("Analyzer", test_nutrition_analyzer),
-        ("Visualization", test_visualization),
-        ("OCR", test_ocr_processor),
-        ("Integration", test_integration)
+        ("Configuration Module", test_config),
+        ("Food Classifier", test_food_classifier),
+        ("Nutrition Analyzer", test_nutrition_analyzer),
+        ("Visualization Module", test_visualization),
+        ("OCR Processor", test_ocr_processor),
+        ("Integration Functionality", test_integration)
     ]
     
     passed = 0
@@ -189,21 +190,21 @@ def main():
         try:
             if test_func():
                 passed += 1
-                print(f"✅ {test_name} passed")
+                print(f"✅ {test_name} test passed")
             else:
-                print(f"❌ {test_name} failed")
+                print(f"❌ {test_name} test failed")
         except Exception as e:
-            print(f"❌ {test_name} error: {e}")
+            print(f"❌ {test_name} test exception: {e}")
     
     print("\n" + "=" * 50)
-    print(f"Results: {passed}/{total} passed")
+    print(f"Test results: {passed}/{total} passed")
     
     if passed == total:
-        print("🎉 All tests passed. System ready.")
-        print("\nRun the app:")
+        print("🎉 All tests passed! System ready.")
+        print("\nStart application:")
         print("  streamlit run app.py")
     else:
-        print("⚠️ Some tests failed. Please check the modules.")
+        print("⚠️  Some tests failed, please check related modules.")
 
 if __name__ == "__main__":
     main()

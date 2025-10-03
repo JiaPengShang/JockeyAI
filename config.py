@@ -6,9 +6,13 @@ load_dotenv()
 # OpenAI API Configuration
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# 如果没有设置环境变量，使用默认值（需要用户更新）
+# Check if API key is set
 if not OPENAI_API_KEY:
-    OPENAI_API_KEY = "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"
+    raise ValueError(
+        "OPENAI_API_KEY environment variable not set. Please set the environment variable:\n"
+        "export OPENAI_API_KEY='your-api-key-here'\n"
+        "Or create a .env file and add: OPENAI_API_KEY=your-api-key-here"
+    )
 
 # Food Classification Configuration
 FOOD_CATEGORIES = {

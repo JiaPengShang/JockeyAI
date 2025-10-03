@@ -115,7 +115,7 @@ def main():
         # Function selection
         page = st.selectbox(
             "Select Function",
-            ["📄 PDF Analysis", "📷 Image Recognition", "💬 Text Analysis", "📊 Nutrition Analysis", "📈 Trend Analysis", "⚙️ Settings"]
+            ["📄 PDF Analysis", "📷 Image Recognition", "💬 Text Analysis", "⚙️ Settings"]
         )
         
         st.markdown("---")
@@ -155,10 +155,6 @@ def main():
         show_image_recognition(components)
     elif page == "💬 Text Analysis":
         show_text_analysis(components)
-    elif page == "📊 Nutrition Analysis":
-        show_nutrition_analysis(components, target_type)
-    elif page == "📈 Trend Analysis":
-        show_trend_analysis(components)
     elif page == "⚙️ Settings":
         show_settings()
 
@@ -273,59 +269,59 @@ def show_pdf_analysis(components):
     st.markdown('<h1 class="main-header">📄 PDF Analysis</h1>', unsafe_allow_html=True)
     
     st.markdown("""
-    ### 📋 Features
-    Upload a PDF containing food information. The system will:
-    - 🔍 Recognize text on all PDF pages
-    - 🍽️ Extract and classify all food items
-    - 📊 Generate a pie chart of food categories
-    - 💡 Provide personalized dietary advice
+    ### 📋 Feature Description
+    Upload a PDF file containing food information, and the system will:
+    - 🔍 Recognize text content from all pages in the PDF
+    - 🍽️ Extract all food data and categorize them
+    - 📊 Generate a pie chart showing food category distribution
+    - 💡 Provide personalized dietary advice report
     """)
     
     # File upload
     uploaded_file = st.file_uploader(
-        "Upload PDF",
+        "Upload PDF File",
         type=['pdf'],
-        help="Supports multi-page PDFs with food info or nutrition labels"
+        help="Supports multi-page PDF files containing food information, nutrition labels, etc."
     )
     
     if uploaded_file is not None:
         # Display file info
         file_size_mb = uploaded_file.size / (1024 * 1024)
-        st.success(f"✅ File uploaded: {uploaded_file.name}")
+        st.success(f"✅ File uploaded successfully: {uploaded_file.name}")
         st.info(f"📄 File size: {file_size_mb:.1f} MB")
         
-        # Performance hints
+        # Performance tips
         if file_size_mb > 10:
-            st.warning("⚠️ Large file. Processing may take longer.")
+            st.warning("⚠️ Large file, processing may take longer, please be patient...")
         elif file_size_mb > 5:
-            st.info("💡 Estimated processing time: 2–5 minutes")
+            st.info("💡 Large file, estimated processing time: 2-5 minutes")
         else:
-            st.info("💡 Estimated processing time: 30 seconds–2 minutes")
+            st.info("💡 Estimated processing time: 30 seconds - 2 minutes")
         
         # Language selection
         language = st.selectbox(
-            "Recognition Language",
+            "Select Recognition Language",
             ["English"],
             index=0
         )
         
-        # Options
+        # Processing options
         col1, col2 = st.columns(2)
         with col1:
             processing_mode = st.selectbox(
                 "Processing Mode",
-                ["Standard", "Fast"],
+                ["Standard Mode", "Fast Mode"],
                 index=0,
-                help="Fast mode: lower image quality to speed up"
+                help="Fast Mode: Reduces image quality to improve processing speed"
             )
         with col2:
             if file_size_mb > 5:
-                st.info("💡 For large files, consider Fast mode")
+                st.info("💡 Large files recommended to use Fast Mode")
         
         # Process button
         if st.button("Start PDF Analysis", type="primary"):
             try:
-                # Progress bar
+                # Create progress bar
                 progress_bar = st.progress(0)
                 status_text = st.empty()
                 
@@ -335,7 +331,7 @@ def show_pdf_analysis(components):
                 
                 # Process PDF with progress
                 pdf_lang = "en"
-                fast_mode = processing_mode == "Fast"
+                fast_mode = processing_mode == "Fast Mode"
                 pdf_result = components["pdf_processor"].process_pdf_content(
                     uploaded_file, 
                     language=pdf_lang,
@@ -343,22 +339,22 @@ def show_pdf_analysis(components):
                     fast_mode=fast_mode
                 )
                 
-                # Clear progress
+                # Clear progress bar
                 progress_bar.empty()
                 status_text.empty()
                 
                 # Display results
-                st.success(f"✅ PDF analysis done! Total pages: {pdf_result['total_pages']}")
+                st.success(f"✅ PDF processing completed! Processed {pdf_result['total_pages']} pages")
                 
                 # Create tabs for different sections
                 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-                    "📄 Page Text", "🍽️ Foods", "📊 Nutrition", "🥧 Categories", "💡 Advice"
+                    "📄 Page Content", "🍽️ Food Data", "📊 Nutrition Analysis", "🥧 Category Distribution", "💡 Dietary Advice"
                 ])
                 
                 with tab1:
-                        st.subheader("📄 Extracted Text")
+                        st.subheader("📄 Extracted Text Content")
                         st.text_area(
-                            "All pages text",
+                            "Text content from all pages",
                             value=pdf_result['all_text'],
                             height=300,
                             disabled=True
@@ -379,16 +375,16 @@ def show_pdf_analysis(components):
                     st.subheader("🍽️ Identified Foods")
                     if pdf_result['all_foods']:
                         # Show food count
-                        st.success(f"📊 {len(pdf_result['all_foods'])} food items identified")
+                        st.success(f"📊 Total identified foods: {len(pdf_result['all_foods'])}")
                         
                         # Create DataFrame for better display
                         foods_df = pd.DataFrame(pdf_result['all_foods'])
                         st.dataframe(foods_df, use_container_width=True)
                         
-                        # Food details
+                        # Show food details
                         st.subheader("🍽️ Food Details")
                         for i, food in enumerate(pdf_result['all_foods'], 1):
-                            with st.expander(f"{i}. {food.get('name', 'Unknown')}"):
+                            with st.expander(f"{i}. {food.get('name', 'Unknown Food')}"):
                                 col1, col2 = st.columns(2)
                                 with col1:
                                     st.write(f"**Category**: {food.get('category', 'Unknown')}")
@@ -396,14 +392,14 @@ def show_pdf_analysis(components):
                                 with col2:
                                     st.write(f"**Calories**: {food.get('calories', 0)} kcal")
                                     st.write(f"**Protein**: {food.get('protein', 0)} g")
-                                    st.write(f"**Carbs**: {food.get('carbs', 0)} g")
+                                    st.write(f"**Carbohydrates**: {food.get('carbs', 0)} g")
                                     st.write(f"**Fat**: {food.get('fat', 0)} g")
                     else:
-                        st.warning("⚠️ No food information detected")
-                        st.info("💡 Possible reasons:")
+                        st.warning("⚠️ No food information identified")
+                        st.info("💡 This might be because:")
                         st.write("  • No clear food information in the PDF")
-                        st.write("  • OCR errors")
-                        st.write("  • Language settings need adjustment")
+                        st.write("  • Text recognition is not accurate")
+                        st.write("  • Need to adjust recognition language settings")
                 
                 with tab3:
                     st.subheader("📊 Nutrition Analysis")
@@ -412,11 +408,11 @@ def show_pdf_analysis(components):
                     # Display nutrition metrics
                     col1, col2, col3, col4 = st.columns(4)
                     with col1:
-                        st.metric("Calories", f"{total_nutrition['calories']:.1f} kcal")
+                        st.metric("Total Calories", f"{total_nutrition['calories']:.1f} kcal")
                     with col2:
                         st.metric("Protein", f"{total_nutrition['protein']:.1f} g")
                     with col3:
-                        st.metric("Carbs", f"{total_nutrition['carbs']:.1f} g")
+                        st.metric("Carbohydrates", f"{total_nutrition['carbs']:.1f} g")
                     with col4:
                         st.metric("Fat", f"{total_nutrition['fat']:.1f} g")
                     
@@ -434,12 +430,12 @@ def show_pdf_analysis(components):
                     st.subheader("🥧 Food Category Distribution")
                     food_categories = pdf_result['food_categories']
                     
-                    # Debug info
-                    st.info(f"📊 {len(food_categories)} categories detected")
+                    # Show debug info
+                    st.info(f"📊 Detected {len(food_categories)} food categories")
                     
                     if food_categories:
                         # Display category counts
-                        st.write("📈 Items per category:")
+                        st.write("📈 Food count by category:")
                         for category, count in food_categories.items():
                             st.write(f"  • {category}: {count} items")
                         
@@ -448,14 +444,14 @@ def show_pdf_analysis(components):
                             try:
                                 fig = components["visualizer"].create_food_category_pie_chart(food_categories)
                                 st.plotly_chart(fig, use_container_width=True)
-                                st.success("✅ Pie chart generated")
+                                st.success("✅ Pie chart generated successfully!")
                             except Exception as e:
                                 st.error(f"❌ Failed to generate pie chart: {str(e)}")
-                                # Raw data
+                                # Show raw data
                                 st.write("Raw data:", food_categories)
                     else:
-                        st.warning("⚠️ No category data yet")
-                        st.info("💡 Possibly no foods detected in the PDF")
+                        st.warning("⚠️ No food category data available")
+                        st.info("💡 This might be because no food information was identified, please check PDF content")
                 
                 with tab5:
                     st.subheader("💡 Dietary Advice Report")
@@ -483,7 +479,7 @@ def show_pdf_analysis(components):
                     
                     # Export option
                     st.download_button(
-                        label="📥 Download Report",
+                        label="📥 Download Analysis Report",
                         data=dietary_advice,
                         file_name=f"nutrition_analysis_report_{uploaded_file.name.replace('.pdf', '')}.txt",
                         mime="text/plain"
@@ -491,7 +487,7 @@ def show_pdf_analysis(components):
             
             except Exception as e:
                 st.error(f"❌ PDF processing failed: {str(e)}")
-                st.info("💡 Ensure the PDF contains clear food info or nutrition labels")
+                st.info("💡 Please ensure the PDF file contains clear food information or nutrition labels")
 
 def show_nutrition_analysis(components, target_type):
     """Nutrition analysis page"""
@@ -569,70 +565,58 @@ def show_settings():
     # API settings
     st.write("**OpenAI API Configuration**")
     
-    # Read current API key from config
+    # Read current API key status from config
     from config import OPENAI_API_KEY
-    current_api_key = OPENAI_API_KEY if OPENAI_API_KEY != "your_openai_api_key_here" else ""
+    api_key_configured = bool(OPENAI_API_KEY and OPENAI_API_KEY.startswith("sk-"))
     
-    api_key = st.text_input("OpenAI API Key", type="password", 
-                           value=current_api_key,
-                           help="Enter your OpenAI API key to enable OCR features")
+    if api_key_configured:
+        st.success("✅ API key configured via environment variable")
+        st.info("API key is securely stored in environment variables. To change, modify the `.env` file or set environment variables.")
+    else:
+        st.warning("⚠️ API key not configured")
+        st.error("Please follow these steps to configure the API key:")
+        st.markdown("""
+        1. Create a `.env` file in the project root directory
+        2. Add the following content: `OPENAI_API_KEY=your-api-key-here`
+        3. Restart the application
+        
+        Or set environment variable:
+        ```bash
+        export OPENAI_API_KEY="your-api-key-here"
+        ```
+        """)
     
-    # Validate API key
-    if st.button("Validate API Key"):
-        if api_key and api_key.startswith("sk-"):
+    # API key validation (for testing only)
+    if st.button("Test API Key Connection"):
+        if api_key_configured:
             try:
                 import openai
-                client = openai.OpenAI(api_key=api_key)
-                # Try calling API to validate key
+                client = openai.OpenAI(api_key=OPENAI_API_KEY)
+                # Try to call API to validate key
                 client.models.list()
-                st.success("✅ API key verified")
-                
-                # Save to config file
-                if st.button("Save API Key"):
-                    try:
-                        # Update config file
-                        with open('config.py', 'r', encoding='utf-8') as f:
-                            content = f.read()
-                        
-                        # Replace API key
-                        if 'OPENAI_API_KEY = "your_openai_api_key_here"' in content:
-                            content = content.replace('OPENAI_API_KEY = "your_openai_api_key_here"', f'OPENAI_API_KEY = "{api_key}"')
-                        elif 'OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")' in content:
-                            # If using env var, set fallback default
-                            content = content.replace('if not OPENAI_API_KEY:\n    OPENAI_API_KEY = "your_openai_api_key_here"', 
-                                                    f'if not OPENAI_API_KEY:\n    OPENAI_API_KEY = "{api_key}"')
-                        
-                        with open('config.py', 'w', encoding='utf-8') as f:
-                            f.write(content)
-                        
-                        st.success("✅ API key saved to config file")
-                        st.info("Please restart the app for changes to take effect.")
-                        
-                    except Exception as e:
-                        st.error(f"Error saving config: {str(e)}")
-                        
+                st.success("✅ API key validation successful!")
             except Exception as e:
                 error_msg = str(e)
                 if "invalid_api_key" in error_msg.lower() or "401" in error_msg:
-                    st.error("❌ API key invalid or expired")
+                    st.error("❌ API key is invalid or expired")
                 elif "quota" in error_msg.lower() or "billing" in error_msg.lower():
-                    st.error("❌ API quota exceeded or billing issue")
+                    st.error("❌ API quota exceeded or insufficient account balance")
                 else:
-                    st.error(f"❌ Failed to validate API key: {error_msg}")
+                    st.error(f"❌ API key validation failed: {error_msg}")
         else:
-            st.error("❌ Please enter a valid API key (starting with 'sk-')")
+            st.error("❌ Please configure API key first")
     
     # Display settings
     st.write("**Display Settings**")
     theme = st.selectbox("Theme", ["Light", "Dark"])
     language = st.selectbox("Language", ["English", "Chinese"])
     
-    # Current status
+    # Show current status
     st.write("**Current Status**")
-    if current_api_key and current_api_key.startswith("sk-"):
-        st.success("✅ API key configured")
+    if api_key_configured:
+        st.success("✅ API key configured, OCR functionality available")
     else:
-        st.warning("⚠️ API key not configured. OCR features will be unavailable")
+        st.warning("⚠️ API key not configured, OCR functionality will not be available")
 
 if __name__ == "__main__":
     main()
